@@ -3,13 +3,11 @@ title: About
 permalink: /about/
 ---
 
-# About
 
-## 정호일
 
 ### 만든 것
 
-웹 서비스 [아뭐듣지](아뭐듣지.com)
+웹 서비스 <a target="_blank" href= "http://아뭐듣지.com">아뭐듣지</a>
 - 세종대 강의 평가 및 시간표 작성 서비스
 - 역할 : 다함 — 2016.7월 ~ 9월
 - 기술 스택

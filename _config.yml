@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "monk"
+name:               "cook_slow"
 
 
 
@@ -52,8 +52,8 @@ nav:
     url:            "/archive"
   - name:           "Tags"
     url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/seaunseen"
+  # - name:           "Github"
+  #   url:            "https://github.com/seaunseen"
 
 
 
