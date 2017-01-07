@@ -57,7 +57,7 @@ div {
   }
 ```
 
-#### 언제 쓸까 ?
+### 언제 쓸까 ?
 
 + `rem`의 r은 root 즉, `<html>` element를 뜻한다 (not the parent element)
 
@@ -83,7 +83,7 @@ div {
 `vh`는 **높이값의 100분의 1단위**. 즉, **뷰포트의 너비와 높이값에 상대적인 영향을 받는다**.
 
 
-#### 언제쓸까??
+### 언제쓸까??
 
 최대 높이값이나 그의 유사한 높이값의 슬라이드 제작시 사용할 수 있는 아주 간단한 CSS다.
 
@@ -93,7 +93,7 @@ div {
 + 예를 들어, 브라우저 1100px X 700px일 때
 + `1vmin`은 7px이 되고 `1vmax`는 11px이 됨
 
-#### 언제쓸까?
+### 언제쓸까?
 
 양 변에 가득차는 정사각형 요소를 만들고 싶을 때
 
@@ -122,14 +122,15 @@ div {
 + 현재 폰트의 `x+높이` 값 (`x+높이값`은 소문자 x의 높이값이기도 한다)
 + 또는 em의 절반값
 
-#### 언제쓸까 ?
+### 언제쓸까 ?
 + **폰트의 중간 지점을 알아내기 위해 자주 사용하는 방법**
 + 타이포그래피에서 세밀한 조정을 할 때 많이 사용
 + 예를 들어 위첨자 태그인 sup에게 position을 relative로 하고 botoom 값을 1ex라고 하면 위로 올릴 수 있다.
 
 
-<iframe height='265' scrolling='no' title='Demo of vw Unit' src='//codepen.io/cooking/embed/LRjRAm/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cooking/pen/LRjRAm/'>Demo of vw Unit</a> by cooking (<a href='http://codepen.io/cooking'>@cooking</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p data+height="265" width="100%" data+theme+id="0" data+slug+hash="LRjRAm" data+default+tab="css,result" data+user="cooking" data+embed+version="2" class="codepen">See the Pen <a href="http://codepen.io/cooking/pen/LRjRAm/">Demo of vw Unit</a> by cooking (<a href="http://codepen.io/cooking">@cooking</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 
 
 
@@ -139,4 +140,4 @@ div {
 
 
 ## 참고
-[https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573](https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573)
+- https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573
