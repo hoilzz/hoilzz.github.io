@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "cook_slow"
+name:               "steady coding"
 
 
 
@@ -16,6 +16,10 @@ author:
   # medium:           your-id
   # tumblr:           your-id
   email:            qqwq9999@gmail.com
+
+# jekyll-seo-tag
+title: steady coding
+description: A blog dedicated to developer
 
 # Google-analytics
 google-analytics:
