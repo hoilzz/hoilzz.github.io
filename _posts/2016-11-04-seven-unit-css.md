@@ -15,55 +15,57 @@ date: 2016-11-04
 
 
 ## em
-+ `em`은 현재의 font+size
-
-```css
-body {
-  font+size: 14px;
-}
-div {
-  font+size: 1.2em; // calculated at 14px * 1.2, or 16.8px
-}
-```
+> `em`은 현재 엘리먼트의 부모 엘리먼트 font-size
 
 이 때, 폰트 사이즈를 각각의 자식에 선언하면..?
-부모의 폰트 사이즈를 상속받아 점점 커진다.
+
+부모의 폰트 사이즈를 상속받아 점점 커진다. 그래서 다음과 같이 관리하기 힘든 문제점이 발생한다.
 
 ```html
   <body>
       <div>
-          Test <!++ 14 * 1.2 = 16.8px ++>
+          Test <!-- 14 * 1.2 = 16.8px -->
           <div>
-              Test <!++ 16.8 * 1.2 = 20.16px ++>
+              Test <!-- 16.8 * 1.2 = 20.16px -->
               <div>
-                  Test <!++ 20.16 * 1.2 = 24.192px ++>
+                  Test <!-- 20.16 * 1.2 = 24.192px -->
               </div>
           </div>
       </div>
   </body>
 ```
 
+
+
 ## rem
 
-상속받아 자꾸 커지기도 하고, 기준을 정확히 한가지로 정하고 싶다. 이럴 땐 `rem`
-+ `rem` 은 *root em* 이라는 뜻으로, HTML 문서의 root 요소인 `<html>`을 가리킨다.
+`em`을 사용하면 위와 같은 문제가 발생한다.
+
+이럴 땐 기준을 정확히 한가지로 정할 수 있는 `rem` 을 사용하자.
+
+- `rem` 은 *root element* 이라는 뜻으로, HTML 문서의 root 요소인 `<html>`을 가리킨다.
+
 
 ```css
   html {
-      font+size: 14px;
+      font-size: 14px;
   }
   div {
-      font+size: 1.2rem;
+      font-size: 1.2rem;
   }
 ```
 
-### 언제 쓸까 ?
 
-+ `rem`의 r은 root 즉, `<html>` element를 뜻한다 (not the parent element)
+
+
+
+
+### 주로 언제 쓸까 ?
 
 + rem은 폰트에서만 사용하지 않는다.
-+ 그리드 시스템에서도 사용한다.
-  + `rem`을 이용한 기본 폰트 사이즈 기반으로 만든 UI 스타일, 그리고 `em`을 이용해 **특정 위치에 특별한 사이즈를 지정**
++ 그리드 시스템 에서도 사용한다.
+  + `rem`을 이용한 기본 폰트 사이즈 기반으로 만든 UI 스타일,
+  - 이 때 `em`을 이용해 **특정 위치에 특별한 사이즈를 지정** 하기도 한다.
 
 ```css
   .container {
@@ -71,27 +73,31 @@ div {
   }
 ```
 
-## NOTE
-호환성 체크 [caniuse.com](caniuse.com)
+
+
 
 ## vh와 vw
 + 반응형 웹 디자인은 상당히 `퍼센트`에 의존.
   + 하지만 CSS의 `퍼센트`가 모든 문제 해결하기엔 좋지 않음.
-+ **CSS의 너비 값은 가장 가까운 부모요소에 상대적인 영향을 받음**.
-+ 만약 너비와 높이를 `뷰포트`에 맞게 사용할 수 있다면..?
++ 또한, **CSS의 너비 값은 가장 가까운 부모요소에 상대적인 영향을 받음**.
++ 만약 너비와 높이를 가장 가까운 부모요소가 아닌 `뷰포트`에 맞게 사용할 수 있다면..?
 
 `vh`는 **높이값의 100분의 1단위**. 즉, **뷰포트의 너비와 높이값에 상대적인 영향을 받는다**.
 
 
-### 언제쓸까??
+
+### 언제쓸까 ?
 
 최대 높이값이나 그의 유사한 높이값의 슬라이드 제작시 사용할 수 있는 아주 간단한 CSS다.
+
 
 
 ## vmin과 vmax
 `vh`와 `vw`가 뷰포트의 너비값과 높이값에 상대적인 영향을 받는다면 `vmin`과 `vmax`는 너비값과 높이값에 따라 최대, 최소값을 지정할 수 있다.
 + 예를 들어, 브라우저 1100px X 700px일 때
 + `1vmin`은 7px이 되고 `1vmax`는 11px이 됨
+
+
 
 ### 언제쓸까?
 
@@ -104,7 +110,14 @@ div {
   }
 ```
 
-만약 커버처럼 뷰포트 화면에 보여야하는 (모든 네 변이 스크린에 꽉 차 있는) 경우 같은 값을 `vmax`로 적용
+만약 커버처럼 뷰포트 화면에 보여야하는 (모든 네 변이 스크린에 꽉 차 있는) 경우 같은 값을 `vmax`로 적용하였다. 해당 링크로 접속하여 브라우저 크기를 늘였다 줄였다 하면 폰트 크기가 변하는 것을 볼 수 있다.
+
+
+
+`vw`를 이용하여 `font-size`가 `vw`(viewport width) 비율에 따라 달라짐
+
+<iframe height='265' width = "100%" scrolling='no' title='Demo of vw Unit' src='//codepen.io/cooking/embed/LRjRAm/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cooking/pen/LRjRAm/'>Demo of vw Unit</a> by cooking (<a href='http://codepen.io/cooking'>@cooking</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 
 
@@ -128,8 +141,6 @@ div {
 + 예를 들어 위첨자 태그인 sup에게 position을 relative로 하고 botoom 값을 1ex라고 하면 위로 올릴 수 있다.
 
 
-<p data+height="265" width="100%" data+theme+id="0" data+slug+hash="LRjRAm" data+default+tab="css,result" data+user="cooking" data+embed+version="2" class="codepen">See the Pen <a href="http://codepen.io/cooking/pen/LRjRAm/">Demo of vw Unit</a> by cooking (<a href="http://codepen.io/cooking">@cooking</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
 
@@ -140,4 +151,5 @@ div {
 
 
 ## 참고
-- https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573
+- [https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573](https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22573)
+- 호환성 체크 [caniuse.com](caniuse.com)

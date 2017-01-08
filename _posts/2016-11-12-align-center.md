@@ -12,33 +12,43 @@
 
 [CSS 가운데(중앙)정렬](http://webdir.tistory.com/31)모던 브라우저 위주(IE8 이상)을 참고하여 작성하였습니다.
 
+<hr>
+
 ## 내용 정렬
-`<p>`와 같은 종결 `block`에서 가운데 정렬
+`<p>`와 같은 `block`에서 가운데 정렬
+
+```html
+<div style ="width : 100px; height: 100px; background:yellow">
+  <div style ="width : 50px; height:50px; background:blue;">
+  </div>
+</div>
+```
 
 ```html
 .align-center {
   text-align : center;
 }
-// 된다.
-<p class = "align-center"> stackedit </p>
+<!-- 된다. -->
+<p class ="align-center"> stackedit </p>
 
-//된다.
-<div class = "align-center">
+<!-- 된다. -->
+<div class ="align-center">
   <span>stack edit </span>
 </div>
 
-//된다.
-<div class = "align-center">
+<!-- 된다. -->
+<div class ="align-center">
   <div>stack edit</div>
 </div>
 
-// 안된다. 내용이 아닌 구조 블록요소다.
-<div style = "width : 100px; height: 100px; background:yellow" class = "align-center">
+<!-- 안된다. 내용이 아닌 구조 블록요소다. -->
+<div style ="width : 100px; height: 100px; background:yellow" class = "align-center">
 
-  <div style = "width : 50px; height:50px; background:blue;" class = "align-center"></div>
+  <div style ="width : 50px; height:50px; background:blue;" class = "align-center"></div>
 
 </div>
 ```
+
 - 1~3번째 예제와 같은 내용이 든 종결 블록요소는 적용이 된다.
 - 4번째 예제와 같이 `내용`이 아닌 `블록 요소`는 `test-align`으로 중앙 정렬 되지 않는다.
 
@@ -59,6 +69,7 @@ margin: auto; /* box is horizontally centered, 0 margin on top and bottom */
 
 margin: 1em auto;          /* 1em margin on top and bottom, box is horizontally centered */
 ```
+
 - `marging : auto` : horizontally centered, 0 margin on top and bottom
 - horizontal centering하기 위해 modern browser에서는 `display:flex` `justify-content:center;`를 사용해도 된다.
 

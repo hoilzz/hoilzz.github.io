@@ -11,8 +11,9 @@
 
 ## transform
 
-#### 요약
-CSS의 transform 속성을 사용함으로써, CSS의 시각적 서식 모델(visual formatting model)의 *좌표 공간을 변형* 시킬 수 있다. 해당 속성에 지정된 값에 따라 엘리먼트의
+> CSS의 transform 속성을 사용함으로써, CSS의 시각적 서식 모델(visual formatting model)의 *좌표 공간을 변형* 시킬 수 있다.
+
+지정된 값에 따라
 1. 이동 (translate)
 2. 회전 (rotate)
 3. 크기변경 (scale)

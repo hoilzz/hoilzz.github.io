@@ -10,8 +10,8 @@ html {
   font-weight: 300;
   line-height: 1.6;
 
-  @media (min-width: 38em) {
-    font-size: 18px;
+  @media (min-width: 624px) {
+    font-size: 16px;
   }
 }
 
@@ -128,6 +128,9 @@ body {
   }
 
   &-tag {
+    ul {
+      padding : 0
+    }
     margin-bottom: 1rem;
     .tag {
       display: inline-block;
@@ -137,6 +140,11 @@ body {
       background-color: $base-lighten-color;
       text-decoration: none;
 			border-radius: 3px;
+      -webkit-transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease
+    }
+    .tag:hover {
+      background-color: $channel-orange;
     }
     li {
       font-size: .75rem;
