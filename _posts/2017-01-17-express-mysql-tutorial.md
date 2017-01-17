@@ -85,6 +85,7 @@ var server = app.listen(port, function(){
 ```
 
 `app.use(bodyParser.json())`
+
 기본적으로 Express는 요청 바디에 대하여 무엇을 해야할지 모른다. 따라서 Content-Type이 `application/x-www-form-urlencoded`와 `applcation/json` 요청 바디를 파싱해줄 bodyParser 미들웨어를 추가하고 req.body에 파라미터를 배치해야 한다. 이제 `req.body.title`과 같이 접근 가능하다.
 
 
@@ -180,18 +181,15 @@ app.post('/api/books', function(req, res){
 });
 ```
 
-`connection.query(sqlString, callback)`
-
-가장 기본적인 쿼리 수행 방식이다.
+`connection.query(sqlString, callback)` 는 가장 기본적인 쿼리 수행 방식이다.
 
 
-`"SELECT * from users where id = ?", [req.body.userId]`
+`"SELECT * from users where id = ?", [req.body.userId]`에서
 
 첫번째 인자 `sqlString`은 SQL injection attack을 피하기 위해, 유저가 제공한 데이터를 escape해야만 한다. 그 [방식](https://github.com/mysqljs/mysql#performing-queries)은 다음과 같다.
 
 
-- 두번째 인자 `callback`함수는 `err`, `results`, `fields` 세가지를 인자로 받는다.
-  - `results`는 쿼리의 결과를 object 배열로 갖는다.
+두번째 인자 `callback`함수는 `err`, `results`, `fields` 세가지를 인자로 받는다. 이 함수의 두번째 인자 `results`는 쿼리의 결과를 object 배열로 갖는다.
 
 
 ### 6.2.1 RETRIEVE (GET /api/books)
