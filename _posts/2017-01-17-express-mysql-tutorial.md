@@ -12,7 +12,7 @@
 
 # express + mysqljs로 MySQL과 연동하여 RESTful API 만들기
 
-Velopert님의 (Express와 Mongoose를 통해 MongoDB와 연동하여 RESTful API 만들기)[https://velopert.com/594] 강좌를 참고하였습니다. 이 강좌에서 NoSQL을 사용하고 싶지 않아 MySQL로 바꿔서 적용한 튜토리얼입니다.
+Velopert님의 [Express와 Mongoose를 통해 MongoDB와 연동하여 RESTful API 만들기](https://velopert.com/594) 강좌를 참고하였습니다. 이 강좌에서 NoSQL을 사용하고 싶지 않아 MySQL로 바꿔서 적용한 튜토리얼입니다.
 
 ## 1. 프로젝트 생성 먼저 하자.
 
@@ -85,7 +85,7 @@ var server = app.listen(port, function(){
 ```
 
 `app.use(bodyParser.json())`
-: 기본적으로 Express는 요청 바디에 대하여 무엇을 해야할지 모른다. 따라서 Content-Type이 `application/x-www-form-urlencoded`와 `applcation/json` 요청 바디를 파싱해줄 bodyParser 미들웨어를 추가하고 req.body에 파라미터를 배치해야 한다. 이제 `req.body.title`과 같이 접근 가능하다.
+기본적으로 Express는 요청 바디에 대하여 무엇을 해야할지 모른다. 따라서 Content-Type이 `application/x-www-form-urlencoded`와 `applcation/json` 요청 바디를 파싱해줄 bodyParser 미들웨어를 추가하고 req.body에 파라미터를 배치해야 한다. 이제 `req.body.title`과 같이 접근 가능하다.
 
 
 ## 4 MySQL 연결
@@ -181,11 +181,13 @@ app.post('/api/books', function(req, res){
 ```
 
 `connection.query(sqlString, callback)`
-: 가장 기본적인 쿼리 수행 방식이다.
+
+가장 기본적인 쿼리 수행 방식이다.
 
 
 `"SELECT * from users where id = ?", [req.body.userId]`
-: 첫번째 인자 `sqlString`은 SQL injection attack을 피하기 위해, 유저가 제공한 데이터를 escape해야만 한다. 그 [방식](https://github.com/mysqljs/mysql#performing-queries)은 다음과 같다.
+
+첫번째 인자 `sqlString`은 SQL injection attack을 피하기 위해, 유저가 제공한 데이터를 escape해야만 한다. 그 [방식](https://github.com/mysqljs/mysql#performing-queries)은 다음과 같다.
 
 
 - 두번째 인자 `callback`함수는 `err`, `results`, `fields` 세가지를 인자로 받는다.
