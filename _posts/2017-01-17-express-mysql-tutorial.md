@@ -59,7 +59,6 @@ var app	= express();
 var bodyParser = require('body-parser');
 
 // [CONFIGURE ROUTER]
-
 connection.connect(function(err) {
   if (err) {
     console.error('error connecting: ' + err.stack);
@@ -68,15 +67,12 @@ connection.connect(function(err) {
   console.log('connected as id ' + connection.threadId);
 });
 
-
-
 // [CONFIGURE APP TO USE BodyParser]
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // [CONFIGURE SERVER PORT]
 var port = process.env.PORT || 3000;
-
 
 // [RUN SERVER]
 var server = app.listen(port, function(){
@@ -126,7 +122,7 @@ connection.connect(function(err) {
 
 Schema는 Document의 구조가 어떻게 생겼는지 알려주는 역할을 한다. Velopert님의 mongo DB 강의에서는 `models/book.js` 안에 Schema를 생성한다. 하지만 `mysqljs`로는 이러한 역할을 할 수 있는게 없어서 쿼리 문으로 직접 작성해보자.
 
-```mysql
+```sql
 create database book_store
 
 use book_store
@@ -139,6 +135,10 @@ create table books (
   primary key(book_id)
 );
 ```
+
+서점 DB를 만들기 위해 필요한 책 제목(title), 저자(author), 출간일(published_date), book_id를 생성해보자. 출간일은 편의상 현재시간으로, 기본키는 auto_increment 되도록 하였다.
+
+
 
 ## 6 CRUD
 
@@ -169,14 +169,19 @@ json 형태로 body에 담아 book을 생성하는 API다.
 // CREATE BOOK
 app.post('/api/books', function(req, res){
   var published_date = new Date(req.body.published_date);
-  var book = {title: req.body.title, author: req.body.author, published_date: published_date};
-  var query = connection.query("INSERT INTO books SET ?", book, function(err, result){
-    if(err){
-      console.log(err);
-      throw err;
-    }
-    res.status(200).send("success");
-  });
+
+  var book = {title: req.body.title,
+              author: req.body.author,
+              published_date: published_date};
+  var query = connection.query(
+              "INSERT INTO books SET ?", book,
+              function(err, result){
+                if(err){
+                  console.log(err);
+                  throw err;
+                }
+                res.status(200).send("success");
+              });
   console.log(query);
 });
 ```
@@ -200,8 +205,10 @@ app.post('/api/books', function(req, res){
 // GET ALL BOOKS
 app.get('/api/books', function(req, res){
   connection.query("select * from books", function(err, books){
+
     if(err) return res.status(500).send({error:"server error"})
     res.status(200).json(books);
+
   })
 });
 ```
@@ -215,15 +222,21 @@ DB에서 query parameter의 book_id로 book을 찾는다.
 ```javascript
 // GET SINGLE BOOK
 app.get('/api/books/:book_id', function(req, res){
-  connection.query("select * from books where book_id = ?", req.params.book_id, function(err, book){
-    if(err) return res.status(500).json({error: err});
-    if(Object.keys(book).length == 0) return res.status(404).json({error: "book not found"});
-    res.json(book);
-  })
+
+  connection.query("select * from books where book_id = ?",
+    req.params.book_id, function(err, book){
+
+      if(err) return res.status(500).json({error: err});
+      if(Object.keys(book).length == 0) return;
+
+      res.status(404).json({error: "book not found"});
+      res.json(book);
+    })
 })
 ```
 
-- `Object.keys(객체)`를 통해 배열의 길이를 구한다.
+book_id를 가진 책을 조회한다. 이 때, book_id를 가진 책이 없을 경우, return 종료한다.
+- `Object.keys(객체)`를 통해 배열의 길이로 book 존재 여부를 알 수 있다.
   - 만약 길이가 0이면 DB에 없는 id를 가진 book을 조회했으므로 404와 에러메시지로 응답한다.
 
 ### 6.3 UPDATE (PUT /api/books/:book_id)
@@ -233,21 +246,34 @@ book_id를 가진 book을 body에 담긴 정보를 기준으로 업데이트한�
 ```javascript
 // UPDATE THE BOOK
 app.put('/api/books/:book_id', function(req, res){
-  connection.query("select * from books where book_id = ?", req.params.book_id, function(err, books){
-    if(err) return res.status(500).json({error: 'database error'});
-    if(Object.keys(books).length == 0) return res.status(404).json({error: 'book not found'});
 
+  connection.query("select * from books where book_id = ?",
+   req.params.book_id,
+    function(err, books){
+
+    if(err)
+      return res.status(500).json({error: 'database error'});
+
+    if(Object.keys(books).length == 0)
+      return res.status(404).json({error: 'book not found'});
 
     if(req.body.title) books[0].title = req.body.title;
 
     if(req.body.author) books[0].author = req.body.author;
-    if(req.body.published_date) books[0].published_date = req.body.published_date;
 
-    var query = connection.query("update books set title = ?, author = ?, published_date = ? where book_id = ?", [books[0].title, books[0].author, books[0].published_date, books[0].book_id], function(err){
-      if(err) res.status(500).json({error: "failed to update"});
-      res.json({message: 'book updated'});
+    if(req.body.published_date)
+      books[0].published_date = req.body.published_date;
+
+    var query = connection.query(
+      "update books set title = ?, author = ?, published_date = ? where book_id = ?",
+      [books[0].title,
+      books[0].author,
+      books[0].published_date,
+      books[0].book_id], function(err){
+
+        if(err) res.status(500).json({error: "failed to update"});
+        res.json({message: 'book updated'});
     })
-    // console.log(query);
   })
 });
 ```
@@ -261,7 +287,9 @@ app.put('/api/books/:book_id', function(req, res){
 ```javascript
 // DELETE BOOK
 app.delete('/api/books/:book_id', function(req, res){
+
   connection.query("delete from books where book_id = ?", req.params.book_id, function(err, results){
+
     if(err) return res.status(500).json({error: 'database err'});
     res.status(204).end();
   })
