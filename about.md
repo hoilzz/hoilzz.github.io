@@ -15,13 +15,13 @@ permalink: /about/
   - HTML5, CSS3, Sass, javascript, jQuery
   - Ruby on Rails, Mysql, AWS(Ubuntu)
 
-2. 안드로이드 App [Weather Music](https://play.google.com/store/apps/details?id=com.fatdog.WeatherMusic)
+2 안드로이드 App [Weather Music](https://play.google.com/store/apps/details?id=com.fatdog.WeatherMusic)
 
 - 현재 날씨와 어울리는 음악추천
 - 역할 : 대표 - 2014.9월 ~ 12월
 - 2014년 기상청 청년창업지원사업 우수상 수상
 
-3. 안드로이드 App [오늘의 자외선](https://play.google.com/store/apps/details?id=fatdog.uv.logotest)
+3 안드로이드 App [오늘의 자외선](https://play.google.com/store/apps/details?id=fatdog.uv.logotest)
 
 - 현재 위치의 자외선 수치 및 선크림 SPF 추천
 - 역할 : 대표 - 2014.7월 ~ 8월
