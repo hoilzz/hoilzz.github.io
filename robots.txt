@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://seaunseen.github.io/sitemap.xml
