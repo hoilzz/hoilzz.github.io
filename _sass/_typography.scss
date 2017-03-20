@@ -82,11 +82,11 @@ ul, ol, dl {
 }
 
 dt {
-  float: left;
-  width: 180px;
+  // float: left;
+  // width: 180px;
   overflow: hidden;
-  clear: left;
-  text-align: right;
+  // clear: left;
+  // text-align: right;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-weight: bold;
@@ -94,7 +94,7 @@ dt {
 }
 
 dd {
-  margin-left: 200px;
+  // margin-left: 200px;
   margin-bottom: .5rem;
 }
 
