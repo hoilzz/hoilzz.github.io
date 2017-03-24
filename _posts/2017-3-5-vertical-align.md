@@ -1,7 +1,7 @@
 ---
   layout: post
-  title: IMAGE 수직 정렬 2가지 방법
-  description: img를 수직 정렬 해보자.
+  title: inline-block 요소 수직 정렬 2가지 방법
+  description: 예제로 img를 수직 정렬 해보자.
   tags:
     - html
     - css
