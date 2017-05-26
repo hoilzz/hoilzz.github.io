@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Namespace pattern"
+description: "Namespace pattern 예제와 함께 알아보자."
+tags:
+  - "javascript"
+  - "pattern"
+comments: true
+share: true
+date: 2017-5-26
+---
+
 # Namespace pattern
 
 > JS에서는 객체 리터럴이나 생성자 함수를 사용하여 쉽게 객체를 만들 수 있다. 객체를 생성하는 다른 패턴들을 살펴보자.

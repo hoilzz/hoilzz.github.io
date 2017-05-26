@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Strict Mode"
+description: "Strict Mode 왜쓰고, 헷갈렸던 부분에 대해 알아본다."
+tags:
+  - "javascript"
+  - "strict mode"
+comments: true
+share: true
+date: 2017-5-18
+---
+
 # strict mode
 
 JS가 묵인했던 에러들에 대해 에러를 발생시킨다.

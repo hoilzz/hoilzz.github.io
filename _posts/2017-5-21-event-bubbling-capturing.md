@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Event Bubbling"
+description: "Event bubbling에 대해 자세히 알아보자."
+tags:
+  - "javascript"
+  - "pattern"
+comments: true
+share: true
+date: 2017-5-21
+---
+
 # DOM Event Architecture
 
 급하면 2번 부터 보자.

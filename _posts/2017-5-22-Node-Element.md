@@ -1,3 +1,15 @@
+---
+layout: post
+title: "element와 node의 차이"
+description: "간단하게 알아보자-"
+tags:
+  - "javascript"
+  - "DOM"
+comments: true
+share: true
+date: 2017-5-22
+---
+
 # Node와 Element 차이
 
 Node는 DOM계층에서 가장 기본이 되는 데이터 타입이다.

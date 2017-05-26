@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Module pattern"
+description: "Module pattern 예제 코드와 함께 알아보자"
+tags:
+  - "javascript"
+  - "pattern"
+comments: true
+share: true
+date: 2017-5-26
+---
+
 # 모듈 패턴
 
 코드를 구조화하고 정리하는데 도움이 되기 때문에 널리 쓰이는 패턴이다.
