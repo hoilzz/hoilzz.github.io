@@ -75,7 +75,7 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 
 ### 세션 동작 과정
 
-![session](https://drive.google.com/open?id=0Byvxi2leg4PjamVINUhUMHBDcTA)
+![session](/images/cookie-session/session.png)
 
 1. 요청을 보낸다.
 2. 서버에서는 session을 시작하고, 메모리에 `id = yummy_cookie`를 저장한다. 그 값에 대한 `session_id`도 생성했다. 그리고, `set-cookie`에 `session_id`를 담아 응답을 보낸다.
