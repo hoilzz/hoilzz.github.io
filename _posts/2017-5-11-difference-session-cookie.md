@@ -34,7 +34,7 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 
 ### 쿠키 동작 과정
 
-![쿠키](https://drive.google.com/open?id=0Byvxi2leg4PjMF9wVzZzOTliY1k)
+![쿠키](/images/cookie-session/cookie.png)
 
 1. `example.org/boards`로 요청을 보낸다.
 2. 서버측에서 받은 요청에 헤더에 쿠키와 관련된 값이 없으므로 쿠키에 id를 생성하여 응답을 보낸다.
@@ -81,7 +81,7 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 2. 서버에서는 session을 시작하고, 메모리에 `id = yummy_cookie`를 저장한다. 그 값에 대한 `session_id`도 생성했다. 그리고, `set-cookie`에 `session_id`를 담아 응답을 보낸다.
 3. 클라이언트에서 `set-cookie`에 담긴 값을 저장한다.
 4. 다시 요청을 보낼 때 요청 url과 일치하는 domain을 가진 session_id를 cookie에 담아 전송한다.
-5. 서버에서는 수신한 `session_id`을 통해 클라의 세션을 찾는다. 즉, `session_id`를 통해 서버가 클라이언트를 구분할 수 있다. 
+5. 서버에서는 수신한 `session_id`을 통해 클라의 세션을 찾는다. 즉, `session_id`를 통해 서버가 클라이언트를 구분할 수 있다.
 
 ## Summary
 
