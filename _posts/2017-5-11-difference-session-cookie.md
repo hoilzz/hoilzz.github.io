@@ -53,11 +53,10 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 세션은 서버와 클라의 대화성 통신 또는 대화성 통신을 유지하는 정보를 말한다.
 무상태 프로토콜인 HTTP 기반에서 세션을 구현하기 위해
 
-	**서버에 `클라이언트의 상태 및 정보`를 저장**한다.
-	클라이언트에 `session_id`를 저장한다.
+**서버에 `클라이언트의 상태 및 정보`를 저장**한다.
+클라이언트에 `session_id`를 저장한다.
 
-세션을 쿠키에 사용하기도 하지만 이것은 세션 스펙에 맞지 않는 사용법이다.
-쿠키에 저장할 경우, 세션의 장점인 `보안`을 포기하게 된다.
+세션을 쿠키에 사용하기도 하지만 이것은 세션 스펙에 맞지 않는 사용법이다. 쿠키에 저장할 경우, 세션의 장점인 `보안`을 포기하게 된다.
 
 ### 세션 저장 방법
 
@@ -83,6 +82,14 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 4. 다시 요청을 보낼 때 요청 url과 일치하는 domain을 가진 session_id를 cookie에 담아 전송한다.
 5. 서버에서는 수신한 `session_id`을 통해 클라의 세션을 찾는다. 즉, `session_id`를 통해 서버가 클라이언트를 구분할 수 있다.
 
+> 보안과 httponly 쿠키
+보안 쿠키는 쵸엉이 SSL과 https 프로토콜을 사용해 만들어진 경우에만 전송된다.
+[XSS(Cross-site 스크립팅)](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85) 공격을 방지하기 위해 HTTP-only 쿠키는 `document.cookie` 프로퍼티, `XMLHttpRequest` 그리고 `Request` API를 통해 JS로 접근 불가하다. JS로 쿠키를 이용 할 필요가 없을 경우 이 플래그를 설정해야 한다. **특히, 세션 정의 용도로 쿠키를 사용한다면, JS내에서 쿠키를 사용할 필요가 없으므로 `http only`플래그를 설정하자**
+
+```
+Set-Cookie: id=a3fWa; Expires=Wed, 21 Oct 2015 07:28:00 GMT; Secure; HttpOnly
+```
+
 ## Summary
 
 쿠키는 방문자의 상태 및 정보를 클라이언트(브라우저)에 저장한다. 그러므로 보안 취약
@@ -91,4 +98,5 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 ## 참조
 
 [MDN에서 설명 하는 쿠키](https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies)
+
 [http cookie 번역](http://wiki-camp.appspot.com/%5B%EB%B2%88%EC%97%AD%5D_HTTP_Cookie_(Wikipedia)?rev=1)
