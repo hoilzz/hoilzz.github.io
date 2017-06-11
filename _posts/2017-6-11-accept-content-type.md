@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTTP Header : Accept VS Content-Type"
+title: "HTTP Header Accept VS Content-Type"
 description: "Accept와 Content-Type의 차이가 뭘까"
 tags:
   - "http"
@@ -43,8 +43,8 @@ HTTP client가 Accept header를 통해 클라이언트가 서버에게 말한다
 
 특히, POST 요청의 경우에 HTML form 제출 결과, 요청의 `Content-Type`은 standard form Content-Type 중 하나가 될 것이다. (`<form>`태그의 `enctype` attribute에 의해 명시된 것처럼)
 
-	- application/x-www-form-urlencoded : 파일 업로드 지원하지 않는다. 기본값이고, 간단한 ASCII text의 작은양에 대해 적은 오버헤드
-  - multipart-form-data : file upload를 지원한다. 큰 사이즈의 non-ASCII text나 binary data에 대해 효율적이다.
+- application/x-www-form-urlencoded : 파일 업로드 지원하지 않는다. 기본값이고, 간단한 ASCII text의 작은양에 대해 적은 오버헤드
+- multipart-form-data : file upload를 지원한다. 큰 사이즈의 non-ASCII text나 binary data에 대해 효율적이다.
 
 
 ## Summary
@@ -58,8 +58,8 @@ HTTP client가 Accept header를 통해 클라이언트가 서버에게 말한다
 
 [https://slipp.net/questions/224](https://slipp.net/questions/224)
 
-[https://webmasters.stackexchange.com/questions/31212/difference-between-the-accept-and-content-type-http-headers](https://webmasters.stackexchange.com/questions/31212/difference-between-the-accept-and-content-type-http-headers)
+[누가 물어봤는데 잘 정리된 답변](https://webmasters.stackexchange.com/questions/31212/difference-between-the-accept-and-content-type-http-headers)
 
-[RFC-Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1
+[RFC-Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1)
 
 [RFC-Content-Type](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17)
