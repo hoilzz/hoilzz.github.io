@@ -7,7 +7,7 @@ tags:
   - "http-header"
 comments: true
 share: true
-date: 2017-11
+date: 2017-6-11
 ---
 
 # Accept VS Content-Type
@@ -52,3 +52,14 @@ HTTP client가 Accept header를 통해 클라이언트가 서버에게 말한다
 `Accept`는 클라가 서버에게 특정 media type으로 달라고 요청하는 거다.
 
 `Content-Type`은 클라이언트가 request에 보내는 body(데이터)의 media type을 알려준다. 왜냐하면 서버는 이걸 보고 파싱 방법을 결정해야 하기 때문이다.
+
+
+## 참고
+
+[https://slipp.net/questions/224](https://slipp.net/questions/224)
+
+[https://webmasters.stackexchange.com/questions/31212/difference-between-the-accept-and-content-type-http-headers](https://webmasters.stackexchange.com/questions/31212/difference-between-the-accept-and-content-type-http-headers)
+
+[RFC-Accept](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.1
+
+[RFC-Content-Type](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.17)
