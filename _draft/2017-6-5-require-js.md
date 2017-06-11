@@ -460,3 +460,4 @@ define({
 	}
 </script>
 ```
+RequireJS는 호출하는 모듈의 위치를 찾을 때 baseUrl과 이름을 결합하여 찾는다. baseUrl이 `/js`고, 모듈이름이 `common/util`이라면 모듈의 취
