@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Execution Context에 대해서"
+description: "실행컨텍스트와 실행컨텍스트의 생성 과정에 대해 알아보자-"
+tags:
+  - "javascript"
+comments: true
+share: true
+date: 2017-6-12
+---
+
 # 실행 컨텍스트
 
 javascript가 실행될 때 생성되는 하나의 실행 단위인 `실행 컨텍스트`, `변수의 유효범위`에 대해 알아보자.
