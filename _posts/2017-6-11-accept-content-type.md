@@ -14,17 +14,17 @@ date: 2017-6-11
 
 일단 내가 대충 알고 있던 개념은..
 
-`Accept`는 클라가 서버에게 요청 보낼 때  "내가 허용하는 MIME-type은 이거야" 라고 말하는 것이다. (plain text, html, json, etc.)
+`Accept`는 클라가 서버에게 요청 보낼 때  "내가 허용하는 MIME-type은 이거야" 라고 말하는 것이다.
+(plain text, html, json, etc.)
 
 `Content-Type`은 서버가 response를 보낼 때 브라우저에게 "나는 이런 type 리턴할거야" 라고 말하는 것이다.
-
 라고 알고 있었는데, request에 `Content-Type`이 포함된 경우도 있다.
-
 뭐지?? 이번 기회에 제대로 정리해보자.
 
 ## Accept
 
 HTTP client가 Accept header를 통해 클라이언트가 서버에게 말한다.
+
 **"내(클라이언트)가 accept하는 content type의 종류는 이거야"**
 
 ## Content-Type
