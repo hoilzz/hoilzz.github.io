@@ -46,7 +46,7 @@ function test2(){
 test2();
 ```
 
-![concurrency model 2](/images/concurrency-model/concurrency_model_2.png)
+![concurrency model 2](/images/concurrency-model/concurrency_model_5.png)
 
 1. 먼저, 전역 환경에 대한 코드 블록이 먼저 스택에 쌓인다.
 - 전역 환경은 가상의 익명함수로 감싸져 있다고 생각하자.
