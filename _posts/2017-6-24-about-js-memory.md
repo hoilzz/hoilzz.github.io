@@ -26,7 +26,7 @@ JS 엔진은 JS로 작성한 코드를 해석하고 실행하는 인터프리터
 
 JS엔진은 3가지 영역을 가진다.
 
-![concurrency model 1](/images/conccurency-model/conccurency_model_1.png)
+![concurrency model 1](/images/concurrency-model/concurrency_model_1.png)
 
 ## Call Stack (a.k.a. run to completion)
 
@@ -46,9 +46,9 @@ function test2(){
 test2();
 ```
 
-![concurrency model 2](/images/conccurency-model/conccurency_model_2.png)
+![concurrency model 2](/images/concurrency-model/concurrency_model_2.png)
 
-![concurrency model 3](/images/conccurency-model/conccurency_model_3.png)
+![concurrency model 3](/images/concurrency-model/concurrency_model_3.png)
 
 1. 먼저, 전역 환경에 대한 코드 블록이 먼저 스택에 쌓인다.
 - 전역 환경은 가상의 익명함수로 감싸져 있다고 생각하자.
@@ -110,7 +110,7 @@ Call Stack에는 전역환경의 코드 순서대로 setTimeout - test2() 쌓인
 
 그림으로 다시 이해해보자.
 
-![concurrency model 4](/images/conccurency-model/conccurency_model_4.png)
+![concurrency model 4](/images/concurrency-model/concurrency_model_4.png)
 
 근데 여기서 궁금한 점은
 
