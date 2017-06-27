@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Function and Prototype Chaining(1)"
-description: ""
+title: "Function and Prototype Chaining(2)"
+description: "함수는 왜 1급 객체일까. 또, __proto__와 prototype 프로퍼티는 뭘까."
 tags:
   - "javascript"
 comments: true
