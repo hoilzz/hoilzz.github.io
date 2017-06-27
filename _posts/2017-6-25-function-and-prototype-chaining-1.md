@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Function and Prototype Chaining(1)"
+description: "함수는 객체이자 값이다."
+tags:
+  - "javascript"
+comments: true
+share: true
+date: 2017-6-25
+---
+
 # 자바스크립트의 함수 (1)
 
 일단, 자바스크립트 함수가 생성되는 3가지 방식을 알아보자.

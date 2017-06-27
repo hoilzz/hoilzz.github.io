@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Function and Prototype Chaining(1)"
+description: ""
+tags:
+  - "javascript"
+comments: true
+share: true
+date: 2017-6-25
+---
+
 # 함수도 객체다.
 
 - 일반 객체처럼 `property`들을 가질 수 있다.
@@ -56,13 +67,6 @@ add.__proto__ === Function.prototype  // true
 - `call(thisArg, [, arg1 [, arg2,]])`
 - `bind(thisArg, [arg1, [arg2]])`
 
-
-## prototype 프로퍼티
-
-모든 함수는 객체로서 prototype 프로퍼티를 갖는다.
-
-일단 prototype 프로퍼티와 내부 프로퍼티인 `__proto__`(`[[Prototype]]`)을 비교해보자.
-
 ### [[Prototype]]
 
 모든 객체가 가지고 있는 내부 프로퍼티다.
@@ -72,6 +76,8 @@ add.__proto__ === Function.prototype  // true
 ![function prototype chaining 1](/images/function-prototype-chaining/function-prototype-2-3.png)
 
 ### prototype 프로퍼티
+
+모든 함수는 객체로서 prototype 프로퍼티를 갖는다.
 
 `__proto__`와 동일한 점은 프로토타입 객체를 가리킨다는 점이다.
 
@@ -100,3 +106,17 @@ prototype과 constructor라는 프로퍼티로 서로를 참조한다.
 함수는 기본 프로퍼티를 갖는다.
 모든 함수의 부모 객체(`__proto__`)는 `Function.prototype`이다.
 prototype 체이닝을 통해 Function.prototype 객체의 프로퍼티 및 메서드를 사용할 수 있다.(bind, call, apply, toString 등..)
+
+---
+
+**__proto__**
+
+- 모든 객체가 가지고 있는 내부 프로퍼티다.
+- 객체 자신의 부모 역할을 하는 프로토타입 객체를 가리킨다.
+
+
+**prototype 프로퍼티**
+
+- 모든 함수는 객체로서 prototype 프로퍼티를 갖는다.
+	- 이 prototype 프로퍼티는 constructor 프로퍼티만을 갖는 객체를 가리킨다.
+- 생성자 함수에 의해 생성된 객체는 생성자 함수의 prototype이 가리키는 객체를 부모 객체로써 참조한다.
