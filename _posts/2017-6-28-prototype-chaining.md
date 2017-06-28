@@ -6,7 +6,7 @@ tags:
   - "javascript"
 comments: true
 share: true
-date: 2017-6-25
+date: 2017-6-28
 ---
 
 # Prototype Chaining
