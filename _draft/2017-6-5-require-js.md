@@ -46,7 +46,7 @@ b = 6;
 var a = 3;
 b = 4;
 exports.sum = function(c, d){
-	return a + b + c + d;
+  return a + b + c + d;
 }
 ```
 
@@ -80,7 +80,7 @@ JS가 **브라우저에서 동작할 때** 서버 사이드 JS와 달리 **파�
 // complex-number/plus-two.js
 var sum = require('./math').sum;
 exports.plusTwo = function(a){
-	return sum(a,2);
+  return sum(a,2);
 }
 ```
 
@@ -93,7 +93,7 @@ require.define({"complex-numbers/plus-two"}: function(require, exports){
 // 콜백 함수 안에 모듈을 정의한다.
 var sum = require('./complex-number').sum;
 exports.plusTwo = function(a){
-	return sum(a,2);
+  return sum(a,2);
 };
 }, ["complex-numbers/math"]);
 // 먼저 로드되어야 할 모듈을 기술한다.
@@ -116,8 +116,8 @@ Require js의 바탕이 되는 AMD(Asynchronous Module Definition)를 살펴보�
 `require()`, `exports` 형태의 모듈 정의 등을 통해 CommonJS와 닮은 것을 볼 수 있다.
 
 - `define()` 함수로 파일 스코프의 역할을 대신한다. (브라우저 환경의 JS는 파일 스코프가 따로 존재하지 않는다.)
-	- 즉, 일종의 네임스페이스 역할을 하여 모듈에서 사용하는 변수와 전역변수를 분리한다.
-	- 물론 `define()`은 전역함수다.
+  - 즉, 일종의 네임스페이스 역할을 하여 모듈에서 사용하는 변수와 전역변수를 분리한다.
+  - 물론 `define()`은 전역함수다.
 
 ### define()
 
@@ -165,18 +165,18 @@ CommonJS에서 사용하는
 ```javascript
 define('alpha', ['require', 'exports', 'beta'],
 
-	function(require, exports, beta){
-		exports.verb = function(){
+  function(require, exports, beta){
+    exports.verb = function(){
 
-			// 넘겨받은 인수를 사용해도 된다.
-			return beta.verb();
+      // 넘겨받은 인수를 사용해도 된다.
+      return beta.verb();
 
-			// 또는 require()를 이용하여
-			// 얻어 온 모듈을 사용해도 된다.
-			return require('beta').verb();
+      // 또는 require()를 이용하여
+      // 얻어 온 모듈을 사용해도 된다.
+      return require('beta').verb();
 
-		}
-	})
+    }
+  })
 ```
 
 alpha라는 모듈을 정의할 때, beta 모듈이 필요하다는 것을 나타낸다.
@@ -216,17 +216,17 @@ document.getElementsByTagName('head')[0].appendChild(scriptEl);
 
 ```javascript
 function loadScript(url, callback){
-	var scriptEl = document.createElement('script');
-	scriptEl.type = 'text/javascript';
-	scriptEl.onload = function(){
-		callback();
-	};
-	scriptEl.src = url;
-	document.getElementsByTagName('head')[0].appendChild(scriptEl);
+  var scriptEl = document.createElement('script');
+  scriptEl.type = 'text/javascript';
+  scriptEl.onload = function(){
+    callback();
+  };
+  scriptEl.src = url;
+  document.getElementsByTagName('head')[0].appendChild(scriptEl);
 }
 
 loadScript('example.js', function(){
-	// example.js 로딩 완료 후 실행
+  // example.js 로딩 완료 후 실행
 })
 ```
 
@@ -256,12 +256,12 @@ JS는 스크립트 간 의존성 파악이 힘들다. C처럼 `#include` 와 같
 
 ```javascript
 defineModule('util', {
-	trim: function(){
+  trim: function(){
 
-	},
-	extend: function(){
+  },
+  extend: function(){
 
-	}
+  }
 })
 
 ...
@@ -294,40 +294,40 @@ return으로 외부에서 접근할 변수와 함수만 골라서 노출할 수 
 
 // 모듈 정의
 define([ // 의존 모듈들을 나열한다. 모듈이 한 개라도 배열로 넘기자.
-	'js/util',
-	'js/Ajax',
-	'js/Event'
+  'js/util',
+  'js/Ajax',
+  'js/Event'
 ], function(util, Ajax, Event){ // 의존 모듈들은 순서대로 매개변수에 담긴다.
-	//의존 모듈 로딩이 완료되면 이 함수를 실행
+  //의존 모듈 로딩이 완료되면 이 함수를 실행
 
-	var i = 0;
+  var i = 0;
 
-	function increase(){
-		i++;
-	}
-	funtion get(){
-		return i;
-	}
+  function increase(){
+    i++;
+  }
+  funtion get(){
+    return i;
+  }
 
-	return {
-		increase: increase,
-		get: get
-	}
+  return {
+    increase: increase,
+    get: get
+  }
 });
 
 // js/main.js
 
 require([
-	'js/foo'
+  'js/foo'
 ], function(foo){
-	console.log(foo.get()); // 0
-	foo.increase();
-	console.log(foo.get()); // 1
+  console.log(foo.get()); // 0
+  foo.increase();
+  console.log(foo.get()); // 1
 });
 ```
 
 - 모듈 이름 명시적 정의 가능하지만 **이름 없는 모듈로 정의 하는 것 권장**
-	- 개발시 파일명, 위치는 자주 변경 되므로 유연한 상태로 두자
+  - 개발시 파일명, 위치는 자주 변경 되므로 유연한 상태로 두자
 
 - 배열로 의존 모듈을 나열하지만 로딩순서를 보장하진 않는다.
 - 순서에 상관 없이 병렬로 네트워크를 통해 다운로드 되거나 브라우저의 캐시에서 꺼내진다.
@@ -421,12 +421,12 @@ require([
 
 ```javascript
 define({
-	trim: function(){
+  trim: function(){
 
-	},
-	extend:function(){
+  },
+  extend:function(){
 
-	}
+  }
 })
 ```
 
@@ -436,17 +436,17 @@ define({
 
 ```html
 <script>
-	// RequireJS 설정 객체
-	// require.js가 로딩되면 이 객체를 자동으로 읽어 들여 반영한다.
-	var require = {
-		baseUrl: '/js/app',
+  // RequireJS 설정 객체
+  // require.js가 로딩되면 이 객체를 자동으로 읽어 들여 반영한다.
+  var require = {
+    baseUrl: '/js/app',
 
-		// 모듈의 단축 경로 지정 및 이름에 대한 별칭(alias)
-		paths:{
-			'lib': '../lib' // "/js/lib"와 동일
-		},
+    // 모듈의 단축 경로 지정 및 이름에 대한 별칭(alias)
+    paths:{
+      'lib': '../lib' // "/js/lib"와 동일
+    },
 
-		// AMD를 지원하지 않는 외부 라이브러리를 모듈로 사용할 수 있게 한다.
+    // AMD를 지원하지 않는 외부 라이브러리를 모듈로 사용할 수 있게 한다.
     shim: {
         'modernizr': { // Modernizr 라이브러리
             exports: 'Modernizr'
@@ -457,7 +457,8 @@ define({
     // 개발 환경에서는 브라우저 캐시를 회피하기 위해 사용할 수 있고,
     // 실제 서비스 환경이라면 ts값을 배포한 시간으로 설정하여 새로 캐시하게 할 수 있다.
     urlArgs : 'ts=' + (new Date()).getTime()
-	}
+  }
 </script>
 ```
+
 RequireJS는 호출하는 모듈의 위치를 찾을 때 baseUrl과 이름을 결합하여 찾는다. baseUrl이 `/js`고, 모듈이름이 `common/util`이라면 모듈의 취

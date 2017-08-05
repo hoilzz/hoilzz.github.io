@@ -10,7 +10,6 @@ REST는 아키텍처다. Resource Oriented Architecture다. API 설계 중심에
 - 행위(Verb) : http method
 - 표현(representations)
 
-
 ## REST의 특징
 
 - Uniform : URI로 지정한 리소스에 대한 조작을 통일되고 한정적인 인터페이스로 수행하는 아키텍처 스타일을 뜻한다.
