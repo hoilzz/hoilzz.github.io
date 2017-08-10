@@ -83,7 +83,7 @@ http 요청은 `stateless`하다. 만약 클라이언트(브라우저)가 서버
 5. 서버에서는 수신한 `session_id`을 통해 클라의 세션을 찾는다. 즉, `session_id`를 통해 서버가 클라이언트를 구분할 수 있다.
 
 > 보안과 httponly 쿠키
-보안 쿠키는 쵸엉이 SSL과 https 프로토콜을 사용해 만들어진 경우에만 전송된다.
+보안 쿠키는 SSL과 https 프로토콜을 사용해 만들어진 경우에만 전송된다.
 [XSS(Cross-site 스크립팅)](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85) 공격을 방지하기 위해 HTTP-only 쿠키는 `document.cookie` 프로퍼티, `XMLHttpRequest` 그리고 `Request` API를 통해 JS로 접근 불가하다. JS로 쿠키를 이용 할 필요가 없을 경우 이 플래그를 설정해야 한다. **특히, 세션 정의 용도로 쿠키를 사용한다면, JS내에서 쿠키를 사용할 필요가 없으므로 `http only`플래그를 설정하자**
 
 ```
