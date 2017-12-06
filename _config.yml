@@ -11,7 +11,7 @@ author:
   name:             ho-il
   facebook:         hackjumuck
   # twitter:          your-id
-  github:           seaunseen
+  github:           hoilzz
   # linkedin:         your-id
   # medium:           your-id
   # tumblr:           your-id
@@ -30,7 +30,7 @@ disqus:
   id:               "seaunseen"
 
 # URL
-url:                "https://seaunseen.github.io" # the base hostname & protocol for your site
+url:                "https://hoilzz.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
@@ -57,7 +57,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   # - name:           "Github"
-  #   url:            "https://github.com/seaunseen"
+  #   url:            "https://github.com/hoilzz"
 
 
 
