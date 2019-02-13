@@ -1,169 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by hzz]]></title><description><![CDATA[코딩 잘하고싶다.]]></description><link>https://hoilzz.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 30 Dec 2018 04:21:33 GMT</lastBuildDate><item><title><![CDATA[cs-test]]></title><description><![CDATA[This starter has been forked and upgraded to Gatsby v2]]></description><link>https://hoilzz.github.io/cs/cs-test/</link><guid isPermaLink="false">https://hoilzz.github.io/cs/cs-test/</guid><pubDate>Thu, 18 Oct 2018 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a Gatsby v2 compatible version of the
-&lt;a href=&quot;https://github.com/alxshelepenok/gatsby-starter-lumen&quot;&gt;lumen&lt;/a&gt; starter, started
-by the folks at &lt;a href=&quot;https://www.gatsbycentral.com/&quot;&gt;Gatsby Central&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here’s a little recommended reading for Gatsby v2.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;First, &lt;a href=&quot;https://www.gatsbycentral.com/whats-new-in-gatsby-v2&quot;&gt;what’s new in v2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Next, &lt;a href=&quot;https://www.gatsbycentral.com/when-should-i-upgrade-to-gatsby-v2&quot;&gt;when should I upgrade?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/&quot;&gt;The Gatsby v2 announcement blog post&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you &lt;strong&gt;do decide to upgrade&lt;/strong&gt;, these articles will help you do that.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/getting-started-with-gatsby-v2&quot;&gt;Getting started with Gatsby v2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/should-i-rebuild-my-site-for-gatsby-v2&quot;&gt;Should I rebuild my site for Gatsby v2?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/how-do-layouts-work-in-gatsby-v2&quot;&gt;How do layouts work in Gatsby v2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/staticquery-in-gatsby-v2&quot;&gt;StaticQuery in Gatsby v2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Finally, here’s a cheat sheet we prepared to help during the upgrade:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet&quot;&gt;Gatsby v2 refactoring cheat sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Upgraded to Gatsby v2]]></title><description><![CDATA[This starter has been forked and upgraded to Gatsby v2]]></description><link>https://hoilzz.github.io/posts/upgraded-to-gatsby-v2/</link><guid isPermaLink="false">https://hoilzz.github.io/posts/upgraded-to-gatsby-v2/</guid><pubDate>Thu, 18 Oct 2018 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;This is a Gatsby v2 compatible version of the
-&lt;a href=&quot;https://github.com/alxshelepenok/gatsby-starter-lumen&quot;&gt;lumen&lt;/a&gt; starter, started
-by the folks at &lt;a href=&quot;https://www.gatsbycentral.com/&quot;&gt;Gatsby Central&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here’s a little recommended reading for Gatsby v2.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;First, &lt;a href=&quot;https://www.gatsbycentral.com/whats-new-in-gatsby-v2&quot;&gt;what’s new in v2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Next, &lt;a href=&quot;https://www.gatsbycentral.com/when-should-i-upgrade-to-gatsby-v2&quot;&gt;when should I upgrade?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/&quot;&gt;The Gatsby v2 announcement blog post&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you &lt;strong&gt;do decide to upgrade&lt;/strong&gt;, these articles will help you do that.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/getting-started-with-gatsby-v2&quot;&gt;Getting started with Gatsby v2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/should-i-rebuild-my-site-for-gatsby-v2&quot;&gt;Should I rebuild my site for Gatsby v2?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/how-do-layouts-work-in-gatsby-v2&quot;&gt;How do layouts work in Gatsby v2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/staticquery-in-gatsby-v2&quot;&gt;StaticQuery in Gatsby v2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Finally, here’s a cheat sheet we prepared to help during the upgrade:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet&quot;&gt;Gatsby v2 refactoring cheat sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Humane Typography in the Digital Age]]></title><description><![CDATA[An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.]]></description><link>https://hoilzz.github.io/posts/humane-typography-in-the-digital-age/</link><guid isPermaLink="false">https://hoilzz.github.io/posts/humane-typography-in-the-digital-age/</guid><pubDate>Sat, 19 Aug 2017 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.&lt;/p&gt;
-&lt;p&gt;The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.&lt;/p&gt;
-&lt;p&gt;But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.&lt;/p&gt;
-&lt;h2&gt;The first transition&lt;/h2&gt;
-&lt;p&gt;A similar conflict emerged after the invention of the first printing press in Europe. Johannes Gutenberg invented movable type and used it to produce different compositions. His workshop could print up to 240 impressions per hour. Until then, the books were being copied by hand. All the books were handwritten and decorated with hand drawn ornaments and figures. A process of copying a book was long but each book, even a copy, was a work of art.&lt;/p&gt;
-&lt;p&gt;The first printed books were, at first, perceived as inferior to the handwritten ones. They were smaller and cheaper to produce. Movable type provided the printers with flexibility that allowed them to print books in languages other than Latin. Gill describes the transition to industrialism as something that people needed and wanted. Something similar happened after the first printed books emerged. People wanted books in a language they understood and they wanted books they could take with them. They were hungry for knowledge and printed books satisfied this hunger.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Feb 2019 14:13:21 GMT</lastBuildDate><item><title><![CDATA[Welcome Bee starter]]></title><description><![CDATA[Welcome, Gatsby! This starter is full-package for your new blog! 1. Support Three frontmatter title date category 2. Code highlighting With…]]></description><link>/development/hello/</link><guid isPermaLink="false">/development/hello/</guid><pubDate>Wed, 06 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
+    href=&quot;/static/31955aadfaea1bcef76bb662347d1af4/6a1e8/hello.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
+    &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 466px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 68.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABvbVGo5jf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIBEhARMf/aAAgBAQABBQLhdiL42osM0f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEUECEHH/2gAIAQEABj8CWqFJZKzhcP/EABsQAQACAwEBAAAAAAAAAAAAAAEAETFBUSFh/9oACAEBAAE/IWxVd4gBVvhEjFdWyikMcY8eJ8CgpP/aAAwDAQACAAMAAAAQKM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8QrH//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAGhABAQADAQEAAAAAAAAAAAAAAREAIUFRMf/aAAgBAQABPxBRJVIvuRSQtfbjhE6LUnde3AkS1hAkddHuFEtpWk19z//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+      style=&quot;padding-bottom: 95.70815450643778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAADJElEQVQ4y21UaU9TQRR9v0LjEvclxn1fvhhjokYTg6DirmyiaCIawAUlmKgJllpAkFVFqoIsBhCjgKgYWQRUEKtgRAwim+wUSkvb47sX3+O92ptM3nQ6c+ace89cAf/CbrfzkOY2qw02mx2OYR0ZW1eekUJQAlLQZuWm4SEL+ruHYOw1qdbpQiUBGVB5C22Sorr4J6L9n8F/QzK8FsfCd0U8LrmmISuqHJ0t/aNANvt/oIIjGLGJOPkUOydpGUjnl4c0TQmSQ18h2CUVuyZr4bMsDsWZBqepEiSZFAM9JmZBhzJ0ZSyzq3UADZ/a0FTficH+YfyobceF7Q/hOiEcz+5+VMlnQOUN0aefM7PSvHqYBi2IDSxgqQdmR+HwvGgEbEpBSU4dE9D6PsG+mZH4Uv5LpVCQJl/fNTMz/dU3sJitCNysx97pESzPd2UCA3ssvIU903TIjCzH7YtFcJ+qQ5hHtkq6DJgUXMQHSHZsQD6D+a1NwtHl8fIg0OOrE3Fkfgw8F93CsVUJ8Fkah0ZDh+wQQfJW6O50PtDVNoDXGQYcnHtzFEhcI5Y09xYPH5gTxf/ROLIghr+0X8JhQEr2uW0P+FbKE/0uzvrCuZOYeS+JxYl1SUg4/4IrfifkJSJFN+yfFYm8xPdqQLNphIHCPLPZZ35rEjE0YJZBCdBLBDyz8R7qKn+zRGPfMFd+74wIFOhrxgAly1DViAFFmuYt52/IaGY5ElMaJJ+KV5H/HSW5dTz/XNokV1ogVAo6SN6S8pFypZgvIFCZqVhtYnTt0GN+JSFuj3Bq/V0MixaTjS15kBbJKlTF9qZeXtOLoMdF+YOiPHoZBBbmmcO2orztGK+RzW39Z25BaUpD2S+uGuXq24cWXsuOqeD89nQY8ae5jw2fG1cJt4nh0PjkqjqP07dc9aKB7UGv4KbYHKoKG3DZPQNnt95H4f0a/rqMuw7tsSdcOOXTVUmmjwTa2tiD+KBCbg67p9xgI+8Xc0gvI2iLHkWptao2pmLo2M+ULay73Yjq1414lf6ZK0pNYsRiHdvrpNEKzjo2bXTWreWu7dBclYT+AlgR5WSr8vZzAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;42-line-bible.jpg&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;hello&quot;
         title=&quot;&quot;
-        src=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
-        srcset=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-6a66e.jpg 240w,
-/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-bc76f.jpg 480w,
-/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg 800w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        src=&quot;/static/31955aadfaea1bcef76bb662347d1af4/6a1e8/hello.png&quot;
+        srcset=&quot;/static/31955aadfaea1bcef76bb662347d1af4/0a969/hello.png 148w,
+/static/31955aadfaea1bcef76bb662347d1af4/35659/hello.png 295w,
+/static/31955aadfaea1bcef76bb662347d1af4/6a1e8/hello.png 466w&quot;
+        sizes=&quot;(max-width: 466px) 100vw, 466px&quot;
       /&gt;
-    &lt;/span&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The 42–Line Bible, printed by Gutenberg.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;But, through this transition, the book lost a large part of its humanity. The machine took over most of the process but craftsmanship was still a part of it. The typefaces were cut manually by the first punch cutters. The paper was made by hand. The illustrations and ornaments were still being hand drawn. These were the remains of the craftsmanship that went almost extinct in the times of Eric Gill.&lt;/p&gt;
-&lt;h2&gt;The digital age&lt;/h2&gt;
-&lt;p&gt;The first transition took away a large part of humanity from written communication. Industrialisation, the second transition described by Eric Gill, took away most of what was left. But it’s the third transition that stripped it naked. Typefaces are faceless these days. They’re just fonts on our computers. Hardly anyone knows their stories. Hardly anyone cares. Flicking through thousands of typefaces and finding the “right one” is a matter of minutes.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the new computer age the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest.&lt;/p&gt;
-&lt;p&gt;— Massimo Vignelli&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Typography is not about typefaces. It’s not about what looks best, it’s about what feels right. What communicates the message best. Typography, in its essence, is about the message. “Typographical design should perform optically what the speaker creates through voice and gesture of his thoughts.”, as El Lissitzky, a famous Russian typographer, put it.&lt;/p&gt;
-&lt;h2&gt;Loss of humanity through transitions&lt;/h2&gt;
-&lt;p&gt;Each transition took away a part of humanity from written language. Handwritten books being the most humane form and the digital typefaces being the least. Overuse of Helvetica is a good example. Messages are being told in a typeface just because it’s a safe option. It’s always there. Everyone knows it but yet, nobody knows it. Stop someone on the street and ask him what Helvetica is? Ask a designer the same question. Ask him where it came from, when, why and who designed it. Most of them will fail to answer these questions. Most of them used it in their precious projects but they still don’t spot it in the street.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;Knowledge of the quality of a typeface is of the greatest importance for the functional, aesthetic and psychological effect.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;— Josef Mueller-Brockmann&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;p&gt;Typefaces don’t look handmade these days. And that’s all right. They don’t have to. Industrialism took that away from them and we’re fine with it. We’ve traded that part of humanity for a process that produces more books that are easier to read. That can’t be bad. And it isn’t.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Humane typography will often be comparatively rough and even uncouth; but while a certain uncouthness does not seriously matter in humane works, uncouthness has no excuse whatever in the productions of the machine.&lt;/p&gt;
-&lt;p&gt;— Eric Gill&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;We’ve come close to “perfection” in the last five centuries. The letters are crisp and without rough edges. We print our compositions with high–precision printers on a high quality, machine made paper.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 20%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABrqJaRR//xAAXEAEAAwAAAAAAAAAAAAAAAAABAAIQ/9oACAEBAAEFAhlc/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABYQAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAQAGPwIc/8QAGRAAAQUAAAAAAAAAAAAAAAAAAQAQESFx/9oACAEBAAE/ITCVU6b/2gAMAwEAAgADAAAAEIgP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/EJP/xAAaEAEAAgMBAAAAAAAAAAAAAAABESEAEEFh/9oACAEBAAE/EAFK31cnbX06/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;type-through-time.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg&quot;
-        srcset=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-865fd.jpg 240w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d40a0.jpg 480w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg 960w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg 1250w&quot;
-        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Type through 5 centuries.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We lost a part of ourselves because of this chase after perfection. We forgot about the craftsmanship along the way. And the worst part is that we don’t care. The transition to the digital age made that clear. We choose typefaces like clueless zombies. There’s no meaning in our work. Type sizes, leading, margins… It’s all just a few clicks or lines of code. The message isn’t important anymore. There’s no more “why” behind the “what”.&lt;/p&gt;
-&lt;h2&gt;Chasing perfection&lt;/h2&gt;
-&lt;p&gt;Human beings aren’t perfect. Perfection is something that will always elude us. There will always be a small part of humanity in everything we do. No matter how small that part, we should make sure that it transcends the limits of the medium. We have to think about the message first. What typeface should we use and why? Does the typeface match the message and what we want to communicate with it? What will be the leading and why? Will there be more typefaces in our design? On what ground will they be combined? What makes our design unique and why? This is the part of humanity that is left in typography. It might be the last part. Are we really going to give it up?&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Originally published by &lt;a href=&quot;http://matejlatin.co.uk/&quot;&gt;Matej Latin&lt;/a&gt; on &lt;a href=&quot;https://medium.com/design-notes/humane-typography-in-the-digital-age-9bd5c16199bd?ref=webdesignernews.com#.lygo82z0x&quot;&gt;Medium&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[algorithm test]]></title><description><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.]]></description><link>https://hoilzz.github.io/algorithm/the-origins-of-social-stationery-lettering</link><guid isPermaLink="false">https://hoilzz.github.io/algorithm/the-origins-of-social-stationery-lettering</guid><pubDate>Thu, 01 Dec 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Pellentesque habitant morbi tristique&lt;/strong&gt; senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. &lt;em&gt;Aenean ultricies mi vitae est.&lt;/em&gt; Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&lt;/p&gt;
-&lt;p&gt;Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. &lt;a href=&quot;#&quot;&gt;Donec non enim&lt;/a&gt; in turpis pulvinar facilisis.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./1.jpg&quot; alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;Header Level 2&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;— Aliquam tincidunt mauris eu risus.&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;h3&gt;Header Level 3&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#header h1 a&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 300px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token property&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 80px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Welcome, Gatsby! This starter is full-package for your new blog!&lt;/p&gt;
+&lt;h2 id=&quot;1-support-three-frontmatter&quot;&gt;&lt;a href=&quot;#1-support-three-frontmatter&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Support Three frontmatter&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
+title: &amp;#39;Welcome Bee starter&amp;#39;
+date: 2019-2-6 16:21:13
+category: &amp;#39;development&amp;#39;
+---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;title&lt;/li&gt;
+&lt;li&gt;date&lt;/li&gt;
+&lt;li&gt;category&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;2-code-highlighting&quot;&gt;&lt;a href=&quot;#2-code-highlighting&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Code highlighting&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;With &lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;Fira Code&lt;/a&gt; font&lt;/li&gt;
+&lt;li&gt;Support highlighting with &lt;a href=&quot;https://github.com/PrismJS/prism&quot;&gt;prism&lt;/a&gt;
+2-1. Use inline highlighting&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight has-highlighted-lines&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;
+
+&lt;span class=&quot;gatsby-highlight-code-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;TEMPLATE&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;gatsby-starter-bee&apos;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Foo&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;handleClick&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; val &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;val &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;bar&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;val &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;zoo&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`clicked`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Welcome&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Gatsby&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;TEMPLATE&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;em&gt;code&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/14a95f9ea1a2560a874efa82ad7db24f/8d889/code_example.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 104.97131931166348%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAAC4UlEQVQ4y52UbU/TUBiG91cQ2Lq163t72vVlZWPjxRBjYvwNSqK/ARL9ZmIUEzXKhwEjgEGDBgyIyO/ah90+z+lwQwcRPtw97cnp1ft5a+Hw+0nv5PSsd3p23vvx89ctdd47JgazCodHx/iwvoEXL99i7dV7rK2R3txMr1+/w8f1DgiIwt7ng/6D9v3+w8jsG023ryhuv1IklVjOH5WL46XS+ekJoz/bWOrvf/naL2x2dzBbX4RRMqEZAsq0LVWSq0OrI1eCggD/iD6M6Tsm6skctrZ3UOhsdjGTLcA1QkTuDKKgDVuPENg12FWBwBSwNV+CGaCMgFiq4qE4aSKN59DZ3GbgNhr1BfjkzjVrCMUsBIFdowaLQKEVwNUFTNWHQTJVD3rZuwT9C9hFM1uEo3nwrAhx2EZNtGBWCag6qNkBBLkMLQ/C8BDRs6eLQRrGAnOHgtxFfgue3UTkJEhFgkRkSPyYQk/hGPRRYx5aOZJhM6h8FZATaqox6uE9gt5F7LURUg5baRuxG0GvBAQKUSVxzvICuVc7zNJ5TE3osKo+2kmGTMRwqCBu1ZN50wiiKqPVZXfD4owFcukdnVxFGVU7hqB8unoIW3UJ7MuiqYrIQx0pyLVAQwtkqNxC1bIPldtCtoabuxoBXVPlITAL6mjUUvhWSuE3yaGP2All61RKw1b5L4fFSQvCjlBzItnQefJzh5VrxO7HVHkelaINUxMytNJg5EqXRjBfuWVKU7YUjyifn5oYAW7QJaW20ahqS40W6hS2zxNDuYyoZUJy7eiBdO6bIU1PgLpISQmNJ40opcOqOONCtqGr+YixOGwGsQzad42A9vJ73rt45nPVkn159LJ0QYbAOVEGf5dLKg7/Onw/+hfKQzaQRO1ByFs0ejTLnNiLQoyVclVRPDJjSlPMKuzu7WNl9TmWl5/i0eMntxK/u7L6DDvEKhx8O8Lup31J72x0wSm4kegdfpcZzPoN0agnefU0/LsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;code example&quot;
+        title=&quot;&quot;
+        src=&quot;/static/14a95f9ea1a2560a874efa82ad7db24f/40fad/code_example.png&quot;
+        srcset=&quot;/static/14a95f9ea1a2560a874efa82ad7db24f/707e9/code_example.png 148w,
+/static/14a95f9ea1a2560a874efa82ad7db24f/649e0/code_example.png 295w,
+/static/14a95f9ea1a2560a874efa82ad7db24f/40fad/code_example.png 590w,
+/static/14a95f9ea1a2560a874efa82ad7db24f/b3fef/code_example.png 885w,
+/static/14a95f9ea1a2560a874efa82ad7db24f/8d889/code_example.png 1046w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-support-markdown-h2&quot;&gt;&lt;a href=&quot;#3-support-markdown-h2&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Support Markdown (h2)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;With &lt;a href=&quot;https://fonts.google.com/specimen/Noto+Sans&quot;&gt;Noto Sans&lt;/a&gt; font&lt;/li&gt;
+&lt;li&gt;Support header anchoring&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;h3&quot;&gt;&lt;a href=&quot;#h3&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;h3&lt;/h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;&lt;a href=&quot;#h4&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;h4&lt;/h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;&lt;a href=&quot;#h5&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;h5&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;quote!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt; &lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-support-emoji-&quot;&gt;&lt;a href=&quot;#4-support-emoji-&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Support emoji 🚀&lt;/h2&gt;
+&lt;p&gt;Based on &lt;a href=&quot;https://github.com/emojione/emojione&quot;&gt;emojione&lt;/a&gt; 🙏&lt;/p&gt;
+&lt;h2 id=&quot;5-support-lightdark-mode&quot;&gt;&lt;a href=&quot;#5-support-lightdark-mode&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Support light/dark mode&lt;/h2&gt;
+&lt;h2 id=&quot;6-support-social-sharing-feature&quot;&gt;&lt;a href=&quot;#6-support-social-sharing-feature&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Support social sharing feature&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Facebook&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;bonus-code-classlanguage-textbuy-me-a-coffeecode-button&quot;&gt;&lt;a href=&quot;#bonus-code-classlanguage-textbuy-me-a-coffeecode-button&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bonus, &lt;code class=&quot;language-text&quot;&gt;Buy me a coffee&lt;/code&gt; button&lt;/h3&gt;
+&lt;p&gt;Set, &lt;code class=&quot;language-text&quot;&gt;buyMeACoffeeId&lt;/code&gt; of &lt;code class=&quot;language-text&quot;&gt;gatsby-meta-config.js&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;7-comments-feature&quot;&gt;&lt;a href=&quot;#7-comments-feature&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;7. Comments feature&lt;/h2&gt;
+&lt;p&gt;You can add comments feature by selecting one of them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Disqus&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; utterances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;8-other-features-of-this-template&quot;&gt;&lt;a href=&quot;#8-other-features-of-this-template&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;8. Other features of this template&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You can add resume to &lt;code class=&quot;language-text&quot;&gt;/about&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Lazy rendering&lt;/li&gt;
+&lt;li&gt;Scroll restoration&lt;/li&gt;
+&lt;li&gt;Categorize posts&lt;/li&gt;
+&lt;li&gt;Offline caching with service worker (based gatsby)&lt;/li&gt;
+&lt;li&gt;Support GA(Google Analytics)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let’s Start! &lt;a href=&quot;https://github.com/JaeYeopHan/gatsby-starter-bee&quot;&gt;Go&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Second Post]]></title><description><![CDATA[Second Post]]></description><link>/development/second/</link><guid isPermaLink="false">/development/second/</guid><pubDate>Sun, 03 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Second Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Third Post]]></title><description><![CDATA[Third Post]]></description><link>/development/third/</link><guid isPermaLink="false">/development/third/</guid><pubDate>Fri, 01 Feb 2019 16:21:13 GMT</pubDate><content:encoded>&lt;p&gt;Third Post&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>/resume-en/</link><guid isPermaLink="false">/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;p&gt;&lt;em&gt;Thank you for reading my resume. If you want to contact me, Please send me an email.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>
