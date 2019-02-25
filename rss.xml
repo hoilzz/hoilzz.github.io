@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Feb 2019 15:09:35 GMT</lastBuildDate><item><title><![CDATA[[나만의 웹팩 만들기] 11. eslint, prettier로 편안해지기]]></title><description><![CDATA[코드를 보려면  이동 이건 꼭 쓰세요. velopert님이 너무너무 잘  정리 해주셔서 꼭 쓰세요. 두 번 쓰세요. 대신 위에 없는 내용만 다뤄보겠습니다. 위 방식대로 하면 dynamic import에서 eslint…]]></description><link>/webpack/11-eslint-prettier/</link><guid isPermaLink="false">/webpack/11-eslint-prettier/</guid><pubDate>Tue, 12 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Feb 2019 15:13:44 GMT</lastBuildDate><item><title><![CDATA[[나만의 웹팩 만들기] 11. eslint, prettier로 편안해지기]]></title><description><![CDATA[코드를 보려면  이동 이건 꼭 쓰세요. velopert님이 너무너무 잘  정리 해주셔서 꼭 쓰세요. 두 번 쓰세요. 대신 위에 없는 내용만 다뤄보겠습니다. 위 방식대로 하면 dynamic import에서 eslint…]]></description><link>/webpack/11-eslint-prettier/</link><guid isPermaLink="false">/webpack/11-eslint-prettier/</guid><pubDate>Tue, 12 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;코드를 보려면 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz/tree/master&quot;&gt;이동&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;이건 꼭 쓰세요. velopert님이 너무너무 잘 &lt;a href=&quot;https://velog.io/@velopert/eslint-and-prettier-in-react&quot;&gt;정리&lt;/a&gt;해주셔서 꼭 쓰세요. 두 번 쓰세요.&lt;/p&gt;
@@ -778,7 +778,316 @@ entry point(시작점)에서 시작하여, 웹팩은 재귀적으로 앱에 필�
 &lt;p&gt;&lt;em&gt;hoilzz&lt;/em&gt;
 &lt;em&gt;hoilzz&lt;/em&gt;
 &lt;em&gt;hoilzz&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 5. 오리타입으로 비용 줄이기]]></title><description><![CDATA[5. 오리타입으로 비용 줄이기 OOD…]]></description><link>/book/ch5-오리타입으로-비용줄이기/</link><guid isPermaLink="false">/book/ch5-오리타입으로-비용줄이기/</guid><pubDate>Sat, 06 Jan 2018 22:20:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;5-오리타입으로-비용-줄이기&quot;&gt;&lt;a href=&quot;#5-%EC%98%A4%EB%A6%AC%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C-%EB%B9%84%EC%9A%A9-%EC%A4%84%EC%9D%B4%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 오리타입으로 비용 줄이기&lt;/h1&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[concurrency model and event loop]]></title><description><![CDATA[Javascript는 싱글 스레드로 동작한다. node.js는 이벤트 루프 기반 싱글 스레드다 등등 이런 말을 많이 들었다. 싱글 스레드는 동시에 하나의 작업만 처리 가능하다.
+하지만 js…]]></description><link>/javascript/concurrency-model-and-event-loop/</link><guid isPermaLink="false">/javascript/concurrency-model-and-event-loop/</guid><pubDate>Tue, 01 Aug 2017 22:20:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Javascript는 싱글 스레드로 동작한다.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;node.js는 이벤트 루프 기반 싱글 스레드다&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;등등 이런 말을 많이 들었다.&lt;/p&gt;
+&lt;p&gt;싱글 스레드는 동시에 하나의 작업만 처리 가능하다.
+하지만 js가 실행되는 환경에서는 많은 작업이 동시에 처리되고 있다.&lt;/p&gt;
+&lt;p&gt;정답은 동시성(Concurrency) 모델과 이벤트 루프에 있다.
+JS는 이벤트 루프를 통해 비동기 방식으로 동시성을 지원한다.&lt;/p&gt;
+&lt;p&gt;사실 무슨말인지 이해하기 힘들다. 먼저, JS가 동작하는 환경과 엔진을 살펴보자.&lt;/p&gt;
+&lt;p&gt;JS 엔진은 JS로 작성한 코드를 해석하고 실행하는 인터프리터다. 주로 웹 브라우저에서 이용된다.&lt;/p&gt;
+&lt;p&gt;JS엔진은 3가지 영역을 가진다.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6be049966a74b4e1f13cc072f6d5e072/2b75f/concurrency_model_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.76532399299475%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACOElEQVQoz42T208TURCH9w/1XfFBExJ9MDHKRZFLUNpSEK2Fre1CW0BTKHeKQGmhxiBYSltotEjbiDGQAL3sdj8OBxrB8OAkX2b2nMlvZ2ZnFb2qU6lWBDV/BUOnrBs3UhGYpsm5nftarIxl53mTHMKZ8uNI+nBs+3iX9OPc8aJ+maM7EKN7PIotEKV77AKriNX5dXSjein4V1QZyozTsfEWW/I99l2PxJJQebXlwBYJ8Exb4oV/iY6Pq7R/iNI+GqFJCwnhVdGBIQWNSy8r9GaCWLYHaJ7v4oG3gXr3Y1pXerCnVeyRMdr9UZ44A9xptFL/UuWhVaPFt0hPcE1WaFar5HI5Dg8Prws2znRyf+CRpHXFfkUwQqNrgrpmG7cbLNQ12WjxL9IbXBWCBpubG8TjcVKpFIVCAWVQtNy24cCacmPPDEq6tlx0xsXZyjjN7mWe+8Ki3c+SttE1GjyfxEzXKFd0wuEwmqZJ8vk8ysTeNM60CzXtYUCI9otZunZFQnYQ99cgfZNL9E0v8HoyJOmbWqBHeG1RzFDXZbuJRIJYLCbbVgqlED9OvWRPhwV+fpZGSP/RWN9zyufvxz5x7ydbrDEs8/eLQUwM+YUPDg44Ojq6mOF+cYKdEyeZExe7xyrZiofIThdPO2/RO3QPi3qX0LcOsmW3vJd5J/3iZSNUTZ1/TfldjpErTpEvzUpyxVkK5TkZ75/OSM7P5H2xljPNr9KyqE6sy5UdlHvITWby32ZiXvtTzgDrafPhSG0QvwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;concurrency model 1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6be049966a74b4e1f13cc072f6d5e072/40fad/concurrency_model_1.png&quot;
+        srcset=&quot;/static/6be049966a74b4e1f13cc072f6d5e072/707e9/concurrency_model_1.png 148w,
+/static/6be049966a74b4e1f13cc072f6d5e072/649e0/concurrency_model_1.png 295w,
+/static/6be049966a74b4e1f13cc072f6d5e072/40fad/concurrency_model_1.png 590w,
+/static/6be049966a74b4e1f13cc072f6d5e072/b3fef/concurrency_model_1.png 885w,
+/static/6be049966a74b4e1f13cc072f6d5e072/2b75f/concurrency_model_1.png 1142w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;call-stack-aka-run-to-completion&quot;&gt;&lt;a href=&quot;#call-stack-aka-run-to-completion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Call Stack (a.k.a. run to completion)&lt;/h2&gt;
+&lt;p&gt;JS는 단 하나의 호출 stack을 사용한다. (그래서 Run To Completion)
+1개 함수가 실행되면 call stack에 push되어 다른 함수는 실행되지 못한다.
+실행이 끝나면 pop이 되고 다음 함수가 실행된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/45bd2c7eb46ad9a488b6f32ebb214163/c9681/concurrency_model_5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 72.07285342584562%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACoklEQVQ4y5VSyVITURTNl2rBRlBEIeDAIJKAQhIhZWVAQFgQQBlUQKoMpsmc7s5AhwykYKGkkzCEQROIbqSO9z1IXFiWxducW+ede+55t1vj3pfQF7fCnJ7kGDiIInS4wevh1CT64zZ498MQi0pNp1Ms8B1EEC5uQk+1mXTPNu34lPdB4ycDU3Ic9sw0R9Yok7DKvSAMHsYQOUrUOENilA+NHaeoHuPcUGoCQiHEDCMwJsdgyzj4pUhCuRiHkWrrloNj8CCGMBlWdYOJV3wIM2Q149hgVyH4b0NTapxzDFnz9QwTVcNRMlQgHcYxoIzAkp7iyPZ6LUPD1fOYoXSkIJiPovltN1odT9A81w13VkTkOMnvmW5w8z+G7FkjOzMcuWEhhvsLPdBO96Bl8Sk8ZBg9SV7qtmdgSI1dfpSj5N+GblXEg4/96F4xoG1FD38+gtBeDNoPOnQR1/quF96cDHFfqelal3Wci52kMEBpWWpT1XA9G0LTbCcabW1onHoEXy7MDe9Md6DR3o7bjsfwqBJClLppphMNpGuYekipJWycpGFIjsK+Tb9NegKuPTL05CR0CUYM+G0cA4UIpdlAp8uI58Qx9OXDkChhl2Diug6XgXPRYgI68SWGoq/RL1uxpvqhEXaDqLff45Pr7M3wqjLfYZ3tiiN074o8YR3p2EtuWu/yhFJBwQ1LE25ZtKgn3eqOQIbZIN+d3mmGdol2k5cpZRRty3ronMMc2Z7ZGljNdC1LvWAvY6m1tE/9mhntK31Y/bIOzfnFDwQyEt44F+BJBnH2q4IKcaHtMGad83An/GCac+IDGRnzwnsIcS/nKhc/4d8SMfd5kXoDKF9UoAGd8mkJ6tcszr6XUT3lb2XkdlWU6O4PV+Icw+op8V611vsb9o133zhXE1gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;concurrency model 2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/45bd2c7eb46ad9a488b6f32ebb214163/40fad/concurrency_model_5.png&quot;
+        srcset=&quot;/static/45bd2c7eb46ad9a488b6f32ebb214163/707e9/concurrency_model_5.png 148w,
+/static/45bd2c7eb46ad9a488b6f32ebb214163/649e0/concurrency_model_5.png 295w,
+/static/45bd2c7eb46ad9a488b6f32ebb214163/40fad/concurrency_model_5.png 590w,
+/static/45bd2c7eb46ad9a488b6f32ebb214163/b3fef/concurrency_model_5.png 885w,
+/static/45bd2c7eb46ad9a488b6f32ebb214163/c9681/concurrency_model_5.png 1153w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;먼저, 전역 환경에 대한 코드 블록이 먼저 스택에 쌓인다.&lt;/li&gt;
+&lt;li&gt;전역 환경은 가상의 익명함수로 감싸져 있다고 생각하자.&lt;/li&gt;
+&lt;li&gt;그래서, 마지막 라인까지 실행되어야 스택에서 제거 된다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;test2()&lt;/code&gt;라인을 만나고 &lt;code class=&quot;language-text&quot;&gt;test2&lt;/code&gt; 함수에 대한 코드 블록이 쌓인다.&lt;/li&gt;
+&lt;li&gt;그 다음에는 &lt;code class=&quot;language-text&quot;&gt;test1()&lt;/code&gt;에 대한 코드 블록이 형성된다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;test1()&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;test1&amp;quot;&lt;/code&gt;을 출력 후 함수 종료와 함께 스택에서 제거된다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;test2()&lt;/code&gt;로 돌아와서 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;test2&amp;quot;&lt;/code&gt;를 출력 후 함수 종료와 함께 스택에서 제거된다.&lt;/li&gt;
+&lt;li&gt;모든 전역환경에 대한 코드를 수행하였으므로 익명 함수도 제거된다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;heap&quot;&gt;&lt;a href=&quot;#heap&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Heap&lt;/h2&gt;
+&lt;p&gt;인스턴스와 같은 동적으로 생성된 객체가 Heap에 할당된다.&lt;/p&gt;
+&lt;h2 id=&quot;task-queue&quot;&gt;&lt;a href=&quot;#task-queue&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Task Queue&lt;/h2&gt;
+&lt;p&gt;Queue는 JS 런타임 환경에서 처리해야 하는 Task들을 임시 저장한다.
+저장된 Task들은 &lt;code class=&quot;language-text&quot;&gt;Call Stack&lt;/code&gt;이 비었을 때 Queue의 Task를 순서대로 수행한다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;누가 Queue의 task들을 Call Stack에 추가할까?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Event Loop&lt;/code&gt;가 큐에 대기 중인 첫번째 태스크를 추가한다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;그럼 어떤 task가 저장될까?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;비동기로 호출되는 함수들은 Task Queue에 쌓인다. 예륻 들어 이벤트에 의해 실행되는 함수(handler)들이 비동기로 실행된다. 또한, JS 엔진이 나닌 Web API영역에 따로 정의되어 있는 함수들(ajax, timer, DOM Events)의 콜백 함수들이 비동기로 실행된다.&lt;/p&gt;
+&lt;p&gt;위 예제에 몇가지를 더 추가해보자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;asyncFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;asyncFunc&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;asyncFunc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Call Stack에는 전역환경의 코드 순서대로 setTimeout - test2() 쌓인다.
+하지만 출력 순서는 위와 같지 않다. 즉, &lt;code class=&quot;language-text&quot;&gt;asyncFunc&lt;/code&gt;가 백만번 도는 for문보다 먼저 실행되지 않는다. 즉, 10ms가 지나도 &lt;code class=&quot;language-text&quot;&gt;test2&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;test1&lt;/code&gt;을 실행하기 전까지는 &lt;code class=&quot;language-text&quot;&gt;asyncFunc&lt;/code&gt;가 절대 실행되지 않는다.&lt;/p&gt;
+&lt;p&gt;그러므로 위 예제는 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;asyncFunc&amp;quot;&lt;/code&gt;가 가장 마지막에 출력된다.&lt;/p&gt;
+&lt;p&gt;그림으로 다시 이해해보자.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6f2f338e95f1c303f66499bbe823c675/434dd/concurrency_model_4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 71.29391602399315%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAC0klEQVQ4y5WT60+SYRiH+Udt+sVlptkkNUtLK8VUXjVE4ywgB1ERAY/TeZqKmBoIiIiaeehD64u15VZePe8zDx9qbX5gvLu4f9f9e553aJLfsgwdTBA5miX0aZqJ4wUWv8QJHk4RFmxEsJmTZebOYvL5ms2frTF1vCgzKlPnN76m0MyervDmoxFl205r0owx0483H6YlYRLMxtuEGWt2AOdeUDzfMvfeCL07HplRmS7xnvHP82gWxKa2pEWI3HSl+rCIcOBgnA6xoDvtpjPlwJkL4stH6EjdMv9+FNtuQGa6RVaVTp8soVGrq1sMaZcIODBn/QwcjKEXA4a0Uzbvyw3L1opkLrnMtx+RzdWMyvTbVnkF/xQGhLAjLdpkXHSmHfK4njsJE+abQVXoz0fRxXtQNm20xHux7wzi3b9jw+6rhpbdAfozISp89dzv0VLufk7vRj++w+itMPVfYUw2VC9WCkVDz84oNeEmakM6qkebMG158B1E0CetGMQ1KEmbuFMhFC/lL+HcySqPAvVovQ1UeOpQVq34cmGeBF9TFXiFdrAR00cvju1BtEONaP0NVInfnOlhbLmAPL4h5aQ9eS08jVHirKbUVE1xbyX6ZbMQRqgU4VJLDRXe+hvhY/8LydQlqtC+N0hXpg9jth9FvMSpk6uG1WPNNEwqPIu20LXukMKacDMvJ/U8Fd/mhI++1NANq43qcO+MYNx0UTfZJlnddBsTRwvin3K8QmFPOUX6hxS0l6Cb68aTDVH4roxCwe4ppRg/uLBs+ijQl1CklFFkKJcN25dMgj2Qc8VWLWOHc2iWztZpXTPRsyVqr1mxbg8wvD+JErcK5kYfs+DOjuDPRemI225YID+OPS2OvG6X2bY1MzPHy2h+c8nu0R7BsRDTizOcX3xHZYlsEn8owMrGKj8vL+RnZTPGUCTIRnqLX2Lq/OIH87FFhqNBUvmMSMEfD1RZ8r+4H5AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;concurrency model 4&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6f2f338e95f1c303f66499bbe823c675/40fad/concurrency_model_4.png&quot;
+        srcset=&quot;/static/6f2f338e95f1c303f66499bbe823c675/707e9/concurrency_model_4.png 148w,
+/static/6f2f338e95f1c303f66499bbe823c675/649e0/concurrency_model_4.png 295w,
+/static/6f2f338e95f1c303f66499bbe823c675/40fad/concurrency_model_4.png 590w,
+/static/6f2f338e95f1c303f66499bbe823c675/b3fef/concurrency_model_4.png 885w,
+/static/6f2f338e95f1c303f66499bbe823c675/434dd/concurrency_model_4.png 1167w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;근데 여기서 궁금한 점은&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이벤트 루프가 현재 실행 중인 태스크가 있는지 없는지 어떻게 &lt;strong&gt;실시간으로&lt;/strong&gt; 확인하는가?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MDN의 이벤트 루프에 관한 글에 첨부된 가상의 코드를 보자.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;queue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;waitForMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	queue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;processNextMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;waitForMessage()&lt;/code&gt; 는 큐가 비어있을 때 태스크가 큐에 추가될 때까지 대기한다.
+while문을 통해 태스크가 추가될 때까지 계속 반복한다.&lt;/p&gt;
+&lt;p&gt;이 때, 비동기 API들의 작업이 완료 되어 태스크가 추가되면
+이벤트 루프는 콜 스택이 비었을 때, 태스크 큐의 첫번째 태스크를 Call Stack으로 가져와 가져와 실행한다. (이 때, 이벤트 큐에 대기하는 이벤트들은 &lt;strong&gt;한 번에 하나씩&lt;/strong&gt; Call Stack으로 호출되어 처리된다.)&lt;/p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;&lt;a href=&quot;#summary&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JS 엔진이 단일 Call Stack을 사용한다는 점에서 &lt;code class=&quot;language-text&quot;&gt;싱글 스레드&lt;/code&gt;로 동작한다는 말은 맞다.&lt;/li&gt;
+&lt;li&gt;하지만 &lt;code class=&quot;language-text&quot;&gt;Event Loop&lt;/code&gt;를 이용하여 비동기 방식으로 동시성(Concurrency)을 지원한다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web API의 timer, ajax, DOM Events 등이 가진 콜백 함수들은 비동기로 실행된다. 태스크 큐는 콜백 함수들이 대기하는 큐다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이 때, Event Loop는 Call Stack이 비워질 때 큐에서 콜백 함수를 FIFO로 꺼내와서 Call Stack에서 처리한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;참고&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://meetup.toast.com/posts/89&quot;&gt;자바스크립트와 이벤트 루프 nhn ent.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/JavaScript/Memory_Management&quot;&gt;Concurrency model and Event Loop from mdn&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[mvc를 이용하여 todolist 만들어보기]]></title><description><![CDATA[Javascript 기초 이론 공부 후, 잘 배웠나 테스트 하기 위해 TodoList(based on MVC with vanilla JS)를 만들어보았다. 전체 구조 를 통해 todolist MVC…]]></description><link>/javascript/todolist-with-mvc/</link><guid isPermaLink="false">/javascript/todolist-with-mvc/</guid><pubDate>Thu, 22 Jun 2017 23:02:44 GMT</pubDate><content:encoded>&lt;p&gt;Javascript 기초 이론 공부 후, 잘 배웠나 테스트 하기 위해 TodoList(based on MVC with vanilla JS)를 만들어보았다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g http-server
+http-server -a 0.0.0.0 -p 3000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;전체-구조&quot;&gt;&lt;a href=&quot;#%EC%A0%84%EC%B2%B4-%EA%B5%AC%EC%A1%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;전체 구조&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;app.js&lt;/code&gt;를 통해 todolist MVC 구조를 나타내는 코드를 통해 구조를 알 수 있다.
+DB는 영구 저장되는 localStorage를 이용하였다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;app.js&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&apos;use strict&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;storage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Storage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test9&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;model   &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Model&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;storage&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;template &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Template&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;view &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;View&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;template&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;controller &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Controller&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;model&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;view&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; todoListApp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;day1&quot;&gt;&lt;a href=&quot;#day1&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day1&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day1&quot;&gt;item list에 추가하기&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;day2&quot;&gt;&lt;a href=&quot;#day2&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day2&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day2&quot;&gt;X버튼 누르면 할 일 삭제하기&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;day3&quot;&gt;&lt;a href=&quot;#day3&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day3&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day3&quot;&gt;item 완료 체크 toggle&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;day4&quot;&gt;&lt;a href=&quot;#day4&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day4&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day4&quot;&gt;item 내용 수정하기&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;day5&quot;&gt;&lt;a href=&quot;#day5&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day5&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day5&quot;&gt;완료된 todo 삭제하기&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Event Bubbling]]></title><description><![CDATA[급하면 2번 부터 보자. 1. Event dispatch and DOM event flow 과  에 대해 알아보자. Application은  를 통해 이벤트 objects를 전파한다. 그리고 event object는 DOM event flow…]]></description><link>/javascript/event-bubbling/</link><guid isPermaLink="false">/javascript/event-bubbling/</guid><pubDate>Sun, 21 May 2017 12:05:23 GMT</pubDate><content:encoded>&lt;p&gt;급하면 2번 부터 보자.&lt;/p&gt;
+&lt;h2 id=&quot;1-event-dispatch-and-dom-event-flow&quot;&gt;&lt;a href=&quot;#1-event-dispatch-and-dom-event-flow&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Event dispatch and DOM event flow&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;event 전파 과정&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;DOM tree를 통한 이벤트 propagate 방식&lt;/code&gt;에 대해 알아보자. Application은 &lt;code class=&quot;language-text&quot;&gt;dispatchEvent()&lt;/code&gt;를 통해 이벤트 objects를 전파한다. 그리고 event object는 DOM event flow로 결정된 DOM tree를 통해 propogate한다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg&quot; alt=&quot;W3C 이벤트 전파 과정&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Event objects는 &lt;code class=&quot;language-text&quot;&gt;event target&lt;/code&gt;으로 전파된다. 하지만 전파되기 전에, event object의 &lt;code class=&quot;language-text&quot;&gt;propagation path&lt;/code&gt;가 먼저 결정되어야 한다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;propogation path&lt;/code&gt;는 이벤트가 통과하는 현재 이벤트 타겟들의 ordered list다. propagation path는 document의 계층 트리 구조의 영향을 받는다.(위 그림처럼) 리스트의 마지막 item은 &lt;code class=&quot;language-text&quot;&gt;event target&lt;/code&gt;이다. 그리고 리스트의 이전 아이템들은 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;의 조상을 가리킨다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;propagation path&lt;/code&gt;가 결정되면, &lt;strong&gt;이벤트 오브젝트는 1개 이상의 event 경로를 통과&lt;/strong&gt;한다. 3가지 이벤트 경로가 있다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;capture phase&lt;/li&gt;
+&lt;li&gt;target phase&lt;/li&gt;
+&lt;li&gt;bubble phase&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;이벤트 객체는 이 경로를 다음 설명처럼 완료한다. 만약 경로를 지원하지 않는다거나, 이벤트 객체 propagation이 멈추면 skip한다. 예를 들어 &lt;code class=&quot;language-text&quot;&gt;bubble&lt;/code&gt; attribute가 false라면, bubble phase는 skip된다. 만약 &lt;code class=&quot;language-text&quot;&gt;stopPropagation()&lt;/code&gt;이 &lt;code class=&quot;language-text&quot;&gt;dispatch&lt;/code&gt;보다 앞에 호출된다면, 모든 phases는 skip된다.&lt;/p&gt;
+&lt;p&gt;capture phase
+: event object는 window 에서 target’ parent로 target의 조상을 통해 propogate한다. (event는 엘리먼트로 내려간다.)&lt;/p&gt;
+&lt;p&gt;target phase
+: event 객체는 event 객체의 target에 도착한다. event가 버블링 false로 명시하면, 이벤트 객체는 phase 완료 후 중지한다. (이벤트가 타겟 엘리먼트에 도착했다.)&lt;/p&gt;
+&lt;p&gt;bubble phase
+: event 객체는 target의 조상을 통해 (capture와)반대로 propagate한다. target의 부모에서 시작하여 Window에서 끝이 난다. (이벤트는 위로 버블링 up 한다.)&lt;/p&gt;
+&lt;h2 id=&quot;2-capture-and-bubble&quot;&gt;&lt;a href=&quot;#2-capture-and-bubble&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Capture and Bubble&lt;/h2&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;cooking&quot; data-slug-hash=&quot;wdQbJq&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;wdQbJq&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/cooking/pen/wdQbJq/&quot;&gt;
+  wdQbJq&lt;/a&gt; by cooking (&lt;a href=&quot;https://codepen.io/cooking&quot;&gt;@cooking&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;&lt;/code&gt; 안의 내용을 클릭했는데 어떻게 div가 실행될까?&lt;/p&gt;
+&lt;h3 id=&quot;bubbling&quot;&gt;&lt;a href=&quot;#bubbling&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bubbling&lt;/h3&gt;
+&lt;p&gt;Bubbling은&lt;/p&gt;
+&lt;p&gt;이벤트가 엘리먼트에서 일어났을 때, 먼저 이벤트가 일어난곳의 핸들러를 실행한다. 그 다음엔 해당 엘리먼트의 부모, 그 부모의 부모.. 조상까지 DOM 트리를 타고 올라간다.&lt;/p&gt;
+&lt;p&gt;각각 클릭 이벤트가 바인딩 된 중첩된 엘리먼트 &lt;code class=&quot;language-text&quot;&gt;form &amp;gt; div &amp;gt; p&lt;/code&gt;를 보자.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;cooking&quot; data-slug-hash=&quot;wdQbJq&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;wdQbJq&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/cooking/pen/wdQbJq/&quot;&gt;
+  wdQbJq&lt;/a&gt; by cooking (&lt;a href=&quot;https://codepen.io/cooking&quot;&gt;@cooking&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt;를 클릭하면 다음 순서대로 실행된다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;document&lt;/code&gt; object까지 쭉 올라간다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;그래서 p,div,form 순으로 alert 메시지를 볼 수 있다. 그 이외의 부모 엘리먼트에 대한 alert가 안보이는 이유는 이벤트에 대한 핸들러가 없기 때문이다.&lt;/p&gt;
+&lt;p&gt;이와 같이 내부 엘리먼트(이벤트 타겟)에서 부모를 통해 DOM tree를 올라가는 과정을 &lt;code class=&quot;language-text&quot;&gt;bubbling&lt;/code&gt;이라고 한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;거의 모든 이벤트는 버블링한다.
+&lt;code class=&quot;language-text&quot;&gt;blur&lt;/code&gt;이벤트는 버블링 안하는데 걍 문서 참고하면서 사용하자.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;eventtarget&quot;&gt;&lt;a href=&quot;#eventtarget&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;event.target&lt;/h3&gt;
+&lt;p&gt;부모 엘리먼트의 핸들러에서 이벤트가 실제로 일어난 곳에 대한 정보를 얻을 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;이벤트를 발생시킨 깊게 중첩된 엘리먼트는 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt; element라고 한다. 이것은 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;으로 접근가능하다&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;은 이벤트를 이니셜라이징한 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;이고 그것은 버블링 과정동안 &lt;code class=&quot;language-text&quot;&gt;불변&lt;/code&gt;한다.&lt;/p&gt;
+&lt;p&gt;event handler에서 &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;current&lt;/code&gt; element다. 즉, 현재 핸들러를 실행하는 엘릴먼트다.&lt;/p&gt;
+&lt;p&gt;다음 코드는 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt;를 알려주는 예제다.&lt;/p&gt;
+&lt;p&gt;가장 바깥쪽의 &lt;code class=&quot;language-text&quot;&gt;form&lt;/code&gt; 에 click event에 대한 핸들러를 바인딩 했다.&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;cooking&quot; data-slug-hash=&quot;wdQbJq&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;wdQbJq&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/cooking/pen/wdQbJq/&quot;&gt;
+  wdQbJq&lt;/a&gt; by cooking (&lt;a href=&quot;https://codepen.io/cooking&quot;&gt;@cooking&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;h3 id=&quot;stop-bubbling&quot;&gt;&lt;a href=&quot;#stop-bubbling&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;stop bubbling&lt;/h3&gt;
+&lt;p&gt;bubbling event는 target element에서 부모의 부모로 계속 올라간다.
+일반적으로 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;html&amp;gt;&lt;/code&gt; 위쪽 까지 올라가고, 그리고나서 &lt;code class=&quot;language-text&quot;&gt;document&lt;/code&gt; object로 이동하고 일부 이벤트는 &lt;code class=&quot;language-text&quot;&gt;window&lt;/code&gt;까지 도달하여 모든 핸들러를 호출한다.&lt;/p&gt;
+&lt;p&gt;이 때, &lt;code class=&quot;language-text&quot;&gt;event.stopPropagation()&lt;/code&gt;을 통해 버블링을 중지할 수 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;필요한게 아니면 bubbling stop 하지말자.
+버블링은 편리하다. 가끔 &lt;code class=&quot;language-text&quot;&gt;stopPropogation()&lt;/code&gt; 은 숨겨진 문제를 만든다.
+예를 들어:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;중첩 메뉴 만들었다. 각 서브메뉴는 메뉴 아이템마다 클릭을 처리해야한다 그리고 &lt;code class=&quot;language-text&quot;&gt;stopPropogation&lt;/code&gt;을 호출해서 outer part에 trigger되지 않도록 한다.&lt;/li&gt;
+&lt;li&gt;나중에 유저의 행위를 추적하기 위해 전체 윈도우 내부의 클릭 이벤트를 잡기로 결정했다. 가끔 counter만들 때 이렇게 만든다. &lt;code class=&quot;language-text&quot;&gt;document.addEventListener(&amp;#39;click&amp;#39;..)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;counter는 &lt;code class=&quot;language-text&quot;&gt;stopPropogation&lt;/code&gt;이 멈춘 지역에선 작동하지 않는다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Capture&lt;/code&gt;는&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;이벤트 발생시, 해당 이벤트를 Capture하기 위해 이벤트가 발생한 요소를 포함하는 &lt;strong&gt;부모 HTML로부터 이벤트의 근원지인 자식 요소까지&lt;/strong&gt; 이벤트를 검사한다.&lt;/li&gt;
+&lt;li&gt;이 때, &lt;strong&gt;capture 속성의 이벤트 핸들러가 있다면 실행 시키면서 이벤트 요소로 접근&lt;/strong&gt;한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg&quot; alt=&quot;W3C 이벤트 전파 과정&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;td&lt;/code&gt; 클릭하며 이벤트는 조상을 통해 엘리먼트로 내려간다(capturing). 그러다가 target에 도착하고 다시 올라간다(bubbling).&lt;/p&gt;
+&lt;p&gt;capturing은 거의 사용되지 않는다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;보통 기본 이벤트 핸들러는 버블 속성이며 W3C 표준에서 이벤트를 묶을 때 캡처 핸들러인지 버블 핸들러인지 지정할 수 있다. 하지만 IE는 캡처 이벤트를 지원하지 않는다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;EventTarget&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; listner&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; userCapture&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;type : event type을 나타내는 문자열&lt;/li&gt;
+&lt;li&gt;listener : 특정 타입의 이벤트가 발생시 알림을 받을 객체.&lt;/li&gt;
+&lt;li&gt;useCapture
+만약 true라면, capture 사용. capture를 초기화 한 후, 모든 지정된 타입의 이벤트는 DOM tree에서 하위의 어떤 EventTarget에 전달되기 전에 등록된 리스너에게 먼저 전달된다. tree의 상위로 버블링된 이벤트는 capture를 사용하기 위해 지정된 리스너를 동작 시키지 않는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;참고&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.quirksmode.org/js/events_order.html#link4&quot;&gt;quirkmode.org/events_order&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/DOM-Level-3-Events/#event-flow&quot;&gt;W3C event flow&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 5. 오리타입으로 비용 줄이기]]></title><description><![CDATA[5. 오리타입으로 비용 줄이기 OOD…]]></description><link>/book/ch5-오리타입으로-비용줄이기/</link><guid isPermaLink="false">/book/ch5-오리타입으로-비용줄이기/</guid><pubDate>Sat, 06 Jan 2018 22:20:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;5-오리타입으로-비용-줄이기&quot;&gt;&lt;a href=&quot;#5-%EC%98%A4%EB%A6%AC%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C-%EB%B9%84%EC%9A%A9-%EC%A4%84%EC%9D%B4%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 오리타입으로 비용 줄이기&lt;/h2&gt;
 &lt;p&gt;OOD 의 목표는 코드 수정 비용 줄이기
 어플리케이션 디자인의 핵심은 메시지
 그래서 엄격하게 정의된 &lt;code class=&quot;language-text&quot;&gt;public interface&lt;/code&gt;를 구축하는 과정이 중요&lt;/p&gt;
@@ -1048,7 +1357,7 @@ suitable_trips 메서드는 이 객체의 퍼블릭 인터페이스의 한 부�
 이 메세지들은 퍼블릭 인터페이스를 타고 흐름&lt;/p&gt;
 &lt;p&gt;메시지에 집중하면, 예전에는 미처 파악하지 못한 객체를 찾을 수 있음
 메시지가 ‘수신자가 어떻게 행동해야 하는지’를 알려주기보다
-수신자를 믿고 전송자가 원하는 것(무엇)을 말한다면, 객체는 자연스럽게 퍼블릭 인터페이스를 발전시키기 됨121221&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기(2)]]></title><description><![CDATA[4.3.…]]></description><link>/book/ch4-2-유연한-인터페이스-만들기/</link><guid isPermaLink="false">/book/ch4-2-유연한-인터페이스-만들기/</guid><pubDate>Tue, 12 Dec 2017 22:20:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;434-어떻게-해야하는지-말해주지-말고-어떤-것을-달라고-요구하기&quot;&gt;&lt;a href=&quot;#434-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94%EC%A7%80-%EB%A7%90%ED%95%B4%EC%A3%BC%EC%A7%80-%EB%A7%90%EA%B3%A0-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EB%8B%AC%EB%9D%BC%EA%B3%A0-%EC%9A%94%EA%B5%AC%ED%95%98%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.3.4 어떻게 해야하는지 말해주지 말고 어떤 것을 달라고 요구하기&lt;/h3&gt;
+수신자를 믿고 전송자가 원하는 것(무엇)을 말한다면, 객체는 자연스럽게 퍼블릭 인터페이스를 발전시키기 됨121221&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기(2)]]></title><description><![CDATA[4.3.…]]></description><link>/book/ch4-2-유연한-인터페이스-만들기/</link><guid isPermaLink="false">/book/ch4-2-유연한-인터페이스-만들기/</guid><pubDate>Tue, 12 Dec 2017 22:20:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;434-어떻게해야하는지-말해주지-말고-어떤-것을-달라고-요구하기&quot;&gt;&lt;a href=&quot;#434-%EC%96%B4%EB%96%BB%EA%B2%8C%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94%EC%A7%80-%EB%A7%90%ED%95%B4%EC%A3%BC%EC%A7%80-%EB%A7%90%EA%B3%A0-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EB%8B%AC%EB%9D%BC%EA%B3%A0-%EC%9A%94%EA%B5%AC%ED%95%98%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4.3.4 어떻게해야하는지 말해주지 말고 어떤 것을 달라고 요구하기&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;송신자가 원하는 것을 요구하는 메시지&lt;/li&gt;
 &lt;li&gt;수신자가 어떻게 해야하는지 알려주는 메시지&lt;/li&gt;
@@ -1354,7 +1663,7 @@ suitable_trips 메서드는 이 객체의 퍼블릭 인터페이스의 한 부�
 &lt;li&gt;이 방법 중 하나는 &lt;strong&gt;의존성 주입하기&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기]]></title><description><![CDATA[…]]></description><link>/book/ch4-1-유연한-인터페이스-만들기/</link><guid isPermaLink="false">/book/ch4-1-유연한-인터페이스-만들기/</guid><pubDate>Sat, 02 Dec 2017 22:20:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;4-유연한-인터페이스-만들기&quot;&gt;&lt;a href=&quot;#4-%EC%9C%A0%EC%97%B0%ED%95%9C-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 유연한 인터페이스 만들기&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기]]></title><description><![CDATA[…]]></description><link>/book/ch4-1-유연한-인터페이스-만들기/</link><guid isPermaLink="false">/book/ch4-1-유연한-인터페이스-만들기/</guid><pubDate>Sat, 02 Dec 2017 22:20:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;4-유연한-인터페이스-만들기&quot;&gt;&lt;a href=&quot;#4-%EC%9C%A0%EC%97%B0%ED%95%9C-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 유연한 인터페이스 만들기&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;애플리케이션은 클래스로 구성되지만 메시지를 통해 정의됨&lt;/li&gt;
 &lt;li&gt;애플리케이션의 움직임을 반영하는 것은 메시지&lt;/li&gt;
@@ -1613,8 +1922,7 @@ suitable_trips 메서드는 이 객체의 퍼블릭 인터페이스의 한 부�
 &lt;li&gt;이 클래스는 무엇을 해야하지? 보다는 메시지를 전송하면 누구한테 전송하지? 라는 올바른 질문 가능&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 3. 의존성 관리하기]]></title><description><![CDATA[3. 의존성 관리하기 객체간 서로 협업하려면 서로에 대해 지식이 있어야함.  이 지식은 의존성을 만듬 3.1 의존성 이해하기 3.1.1 의존성 있다는 거 알기 객체는 다음과 같은 내용을 알고 있을 때 의존성을 가짐 다른 클래스의 이름 Gear…]]></description><link>/book/ch3-의존성-관리하기/</link><guid isPermaLink="false">/book/ch3-의존성-관리하기/</guid><pubDate>Tue, 21 Nov 2017 22:20:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;3-의존성-관리하기&quot;&gt;&lt;a href=&quot;#3-%EC%9D%98%EC%A1%B4%EC%84%B1-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 의존성 관리하기&lt;/h1&gt;
-&lt;p&gt;객체간 서로 협업하려면 서로에 대해 지식이 있어야함. &lt;strong&gt;이 지식은 의존성을 만듬&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 3. 의존성 관리하기]]></title><description><![CDATA[객체간 서로 협업하려면 서로에 대해 지식이 있어야함.  이 지식은 의존성을 만듬 3.1 의존성 이해하기 3.1.1 의존성 있다는 거 알기 객체는 다음과 같은 내용을 알고 있을 때 의존성을 가짐 다른 클래스의 이름 Gear 는 Wheel…]]></description><link>/book/ch3-의존성-관리하기/</link><guid isPermaLink="false">/book/ch3-의존성-관리하기/</guid><pubDate>Tue, 21 Nov 2017 22:20:00 GMT</pubDate><content:encoded>&lt;p&gt;객체간 서로 협업하려면 서로에 대해 지식이 있어야함. &lt;strong&gt;이 지식은 의존성을 만듬&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;31-의존성-이해하기&quot;&gt;&lt;a href=&quot;#31-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3.1 의존성 이해하기&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Gear&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   readonly cog&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -2086,8 +2394,7 @@ Wheel&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;li&gt;구체 클래스는 추상 클래스보다 수정횟수가 빈번&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 2. 단일 책임 원칙]]></title><description><![CDATA[…]]></description><link>/book/ch2-단일-책임-원칙을-따르는-클래스-디자인/</link><guid isPermaLink="false">/book/ch2-단일-책임-원칙을-따르는-클래스-디자인/</guid><pubDate>Sun, 05 Nov 2017 21:32:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;2-단일-책임-원칙을-따르는-클래스-디자인하기&quot;&gt;&lt;a href=&quot;#2-%EB%8B%A8%EC%9D%BC-%EC%B1%85%EC%9E%84-%EC%9B%90%EC%B9%99%EC%9D%84-%EB%94%B0%EB%A5%B4%EB%8A%94-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%98%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 단일 책임 원칙을 따르는 클래스 디자인하기&lt;/h1&gt;
-&lt;p&gt;디자인의 핵심인 메시지, 하지만 가장 명시적으로 드러나는 것은 클래스.
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[루비로 배우는 객체지향 디자인] 2. 단일 책임 원칙]]></title><description><![CDATA[…]]></description><link>/book/ch2-단일-책임-원칙을-따르는-클래스-디자인/</link><guid isPermaLink="false">/book/ch2-단일-책임-원칙을-따르는-클래스-디자인/</guid><pubDate>Sun, 05 Nov 2017 21:32:00 GMT</pubDate><content:encoded>&lt;p&gt;디자인의 핵심인 메시지, 하지만 가장 명시적으로 드러나는 것은 클래스.
 이번에 집중할 것&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;무엇이 클래스에 속하는지&lt;/strong&gt;&lt;/li&gt;
@@ -2552,313 +2859,4 @@ Wheel&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;li&gt;너무 많은 책임을 지고 있는 클래스가 있으면, 다른 클래스로 분리&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[concurrency model and event loop]]></title><description><![CDATA[Javascript는 싱글 스레드로 동작한다. node.js는 이벤트 루프 기반 싱글 스레드다 등등 이런 말을 많이 들었다. 싱글 스레드는 동시에 하나의 작업만 처리 가능하다.
-하지만 js…]]></description><link>/javascript/concurrency-model-and-event-loop/</link><guid isPermaLink="false">/javascript/concurrency-model-and-event-loop/</guid><pubDate>Tue, 01 Aug 2017 22:20:00 GMT</pubDate><content:encoded>&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Javascript는 싱글 스레드로 동작한다.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;node.js는 이벤트 루프 기반 싱글 스레드다&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;등등 이런 말을 많이 들었다.&lt;/p&gt;
-&lt;p&gt;싱글 스레드는 동시에 하나의 작업만 처리 가능하다.
-하지만 js가 실행되는 환경에서는 많은 작업이 동시에 처리되고 있다.&lt;/p&gt;
-&lt;p&gt;정답은 동시성(Concurrency) 모델과 이벤트 루프에 있다.
-JS는 이벤트 루프를 통해 비동기 방식으로 동시성을 지원한다.&lt;/p&gt;
-&lt;p&gt;사실 무슨말인지 이해하기 힘들다. 먼저, JS가 동작하는 환경과 엔진을 살펴보자.&lt;/p&gt;
-&lt;p&gt;JS 엔진은 JS로 작성한 코드를 해석하고 실행하는 인터프리터다. 주로 웹 브라우저에서 이용된다.&lt;/p&gt;
-&lt;p&gt;JS엔진은 3가지 영역을 가진다.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6be049966a74b4e1f13cc072f6d5e072/2b75f/concurrency_model_1.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 53.76532399299475%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACOElEQVQoz42T208TURCH9w/1XfFBExJ9MDHKRZFLUNpSEK2Fre1CW0BTKHeKQGmhxiBYSltotEjbiDGQAL3sdj8OBxrB8OAkX2b2nMlvZ2ZnFb2qU6lWBDV/BUOnrBs3UhGYpsm5nftarIxl53mTHMKZ8uNI+nBs+3iX9OPc8aJ+maM7EKN7PIotEKV77AKriNX5dXSjein4V1QZyozTsfEWW/I99l2PxJJQebXlwBYJ8Exb4oV/iY6Pq7R/iNI+GqFJCwnhVdGBIQWNSy8r9GaCWLYHaJ7v4oG3gXr3Y1pXerCnVeyRMdr9UZ44A9xptFL/UuWhVaPFt0hPcE1WaFar5HI5Dg8Prws2znRyf+CRpHXFfkUwQqNrgrpmG7cbLNQ12WjxL9IbXBWCBpubG8TjcVKpFIVCAWVQtNy24cCacmPPDEq6tlx0xsXZyjjN7mWe+8Ki3c+SttE1GjyfxEzXKFd0wuEwmqZJ8vk8ysTeNM60CzXtYUCI9otZunZFQnYQ99cgfZNL9E0v8HoyJOmbWqBHeG1RzFDXZbuJRIJYLCbbVgqlED9OvWRPhwV+fpZGSP/RWN9zyufvxz5x7ydbrDEs8/eLQUwM+YUPDg44Ojq6mOF+cYKdEyeZExe7xyrZiofIThdPO2/RO3QPi3qX0LcOsmW3vJd5J/3iZSNUTZ1/TfldjpErTpEvzUpyxVkK5TkZ75/OSM7P5H2xljPNr9KyqE6sy5UdlHvITWby32ZiXvtTzgDrafPhSG0QvwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;concurrency model 1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/6be049966a74b4e1f13cc072f6d5e072/40fad/concurrency_model_1.png&quot;
-        srcset=&quot;/static/6be049966a74b4e1f13cc072f6d5e072/707e9/concurrency_model_1.png 148w,
-/static/6be049966a74b4e1f13cc072f6d5e072/649e0/concurrency_model_1.png 295w,
-/static/6be049966a74b4e1f13cc072f6d5e072/40fad/concurrency_model_1.png 590w,
-/static/6be049966a74b4e1f13cc072f6d5e072/b3fef/concurrency_model_1.png 885w,
-/static/6be049966a74b4e1f13cc072f6d5e072/2b75f/concurrency_model_1.png 1142w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;call-stack-aka-run-to-completion&quot;&gt;&lt;a href=&quot;#call-stack-aka-run-to-completion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Call Stack (a.k.a. run to completion)&lt;/h2&gt;
-&lt;p&gt;JS는 단 하나의 호출 stack을 사용한다. (그래서 Run To Completion)
-1개 함수가 실행되면 call stack에 push되어 다른 함수는 실행되지 못한다.
-실행이 끝나면 pop이 되고 다음 함수가 실행된다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/45bd2c7eb46ad9a488b6f32ebb214163/c9681/concurrency_model_5.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 72.07285342584562%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACoklEQVQ4y5VSyVITURTNl2rBRlBEIeDAIJKAQhIhZWVAQFgQQBlUQKoMpsmc7s5AhwykYKGkkzCEQROIbqSO9z1IXFiWxducW+ede+55t1vj3pfQF7fCnJ7kGDiIInS4wevh1CT64zZ498MQi0pNp1Ms8B1EEC5uQk+1mXTPNu34lPdB4ycDU3Ic9sw0R9Yok7DKvSAMHsYQOUrUOENilA+NHaeoHuPcUGoCQiHEDCMwJsdgyzj4pUhCuRiHkWrrloNj8CCGMBlWdYOJV3wIM2Q149hgVyH4b0NTapxzDFnz9QwTVcNRMlQgHcYxoIzAkp7iyPZ6LUPD1fOYoXSkIJiPovltN1odT9A81w13VkTkOMnvmW5w8z+G7FkjOzMcuWEhhvsLPdBO96Bl8Sk8ZBg9SV7qtmdgSI1dfpSj5N+GblXEg4/96F4xoG1FD38+gtBeDNoPOnQR1/quF96cDHFfqelal3Wci52kMEBpWWpT1XA9G0LTbCcabW1onHoEXy7MDe9Md6DR3o7bjsfwqBJClLppphMNpGuYekipJWycpGFIjsK+Tb9NegKuPTL05CR0CUYM+G0cA4UIpdlAp8uI58Qx9OXDkChhl2Diug6XgXPRYgI68SWGoq/RL1uxpvqhEXaDqLff45Pr7M3wqjLfYZ3tiiN074o8YR3p2EtuWu/yhFJBwQ1LE25ZtKgn3eqOQIbZIN+d3mmGdol2k5cpZRRty3ronMMc2Z7ZGljNdC1LvWAvY6m1tE/9mhntK31Y/bIOzfnFDwQyEt44F+BJBnH2q4IKcaHtMGad83An/GCac+IDGRnzwnsIcS/nKhc/4d8SMfd5kXoDKF9UoAGd8mkJ6tcszr6XUT3lb2XkdlWU6O4PV+Icw+op8V611vsb9o133zhXE1gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;concurrency model 2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/45bd2c7eb46ad9a488b6f32ebb214163/40fad/concurrency_model_5.png&quot;
-        srcset=&quot;/static/45bd2c7eb46ad9a488b6f32ebb214163/707e9/concurrency_model_5.png 148w,
-/static/45bd2c7eb46ad9a488b6f32ebb214163/649e0/concurrency_model_5.png 295w,
-/static/45bd2c7eb46ad9a488b6f32ebb214163/40fad/concurrency_model_5.png 590w,
-/static/45bd2c7eb46ad9a488b6f32ebb214163/b3fef/concurrency_model_5.png 885w,
-/static/45bd2c7eb46ad9a488b6f32ebb214163/c9681/concurrency_model_5.png 1153w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;먼저, 전역 환경에 대한 코드 블록이 먼저 스택에 쌓인다.&lt;/li&gt;
-&lt;li&gt;전역 환경은 가상의 익명함수로 감싸져 있다고 생각하자.&lt;/li&gt;
-&lt;li&gt;그래서, 마지막 라인까지 실행되어야 스택에서 제거 된다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;test2()&lt;/code&gt;라인을 만나고 &lt;code class=&quot;language-text&quot;&gt;test2&lt;/code&gt; 함수에 대한 코드 블록이 쌓인다.&lt;/li&gt;
-&lt;li&gt;그 다음에는 &lt;code class=&quot;language-text&quot;&gt;test1()&lt;/code&gt;에 대한 코드 블록이 형성된다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;test1()&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;test1&amp;quot;&lt;/code&gt;을 출력 후 함수 종료와 함께 스택에서 제거된다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;test2()&lt;/code&gt;로 돌아와서 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;test2&amp;quot;&lt;/code&gt;를 출력 후 함수 종료와 함께 스택에서 제거된다.&lt;/li&gt;
-&lt;li&gt;모든 전역환경에 대한 코드를 수행하였으므로 익명 함수도 제거된다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;heap&quot;&gt;&lt;a href=&quot;#heap&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Heap&lt;/h2&gt;
-&lt;p&gt;인스턴스와 같은 동적으로 생성된 객체가 Heap에 할당된다.&lt;/p&gt;
-&lt;h2 id=&quot;task-queue&quot;&gt;&lt;a href=&quot;#task-queue&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Task Queue&lt;/h2&gt;
-&lt;p&gt;Queue는 JS 런타임 환경에서 처리해야 하는 Task들을 임시 저장한다.
-저장된 Task들은 &lt;code class=&quot;language-text&quot;&gt;Call Stack&lt;/code&gt;이 비었을 때 Queue의 Task를 순서대로 수행한다.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;누가 Queue의 task들을 Call Stack에 추가할까?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Event Loop&lt;/code&gt;가 큐에 대기 중인 첫번째 태스크를 추가한다.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;그럼 어떤 task가 저장될까?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;비동기로 호출되는 함수들은 Task Queue에 쌓인다. 예륻 들어 이벤트에 의해 실행되는 함수(handler)들이 비동기로 실행된다. 또한, JS 엔진이 나닌 Web API영역에 따로 정의되어 있는 함수들(ajax, timer, DOM Events)의 콜백 함수들이 비동기로 실행된다.&lt;/p&gt;
-&lt;p&gt;위 예제에 몇가지를 더 추가해보자.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;token function&quot;&gt;test1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1000000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;asyncFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;asyncFunc&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;asyncFunc&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;test2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Call Stack에는 전역환경의 코드 순서대로 setTimeout - test2() 쌓인다.
-하지만 출력 순서는 위와 같지 않다. 즉, &lt;code class=&quot;language-text&quot;&gt;asyncFunc&lt;/code&gt;가 백만번 도는 for문보다 먼저 실행되지 않는다. 즉, 10ms가 지나도 &lt;code class=&quot;language-text&quot;&gt;test2&lt;/code&gt;에서 &lt;code class=&quot;language-text&quot;&gt;test1&lt;/code&gt;을 실행하기 전까지는 &lt;code class=&quot;language-text&quot;&gt;asyncFunc&lt;/code&gt;가 절대 실행되지 않는다.&lt;/p&gt;
-&lt;p&gt;그러므로 위 예제는 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;asyncFunc&amp;quot;&lt;/code&gt;가 가장 마지막에 출력된다.&lt;/p&gt;
-&lt;p&gt;그림으로 다시 이해해보자.&lt;/p&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6f2f338e95f1c303f66499bbe823c675/434dd/concurrency_model_4.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 71.29391602399315%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAC0klEQVQ4y5WT60+SYRiH+Udt+sVlptkkNUtLK8VUXjVE4ywgB1ERAY/TeZqKmBoIiIiaeehD64u15VZePe8zDx9qbX5gvLu4f9f9e553aJLfsgwdTBA5miX0aZqJ4wUWv8QJHk4RFmxEsJmTZebOYvL5ms2frTF1vCgzKlPnN76m0MyervDmoxFl205r0owx0483H6YlYRLMxtuEGWt2AOdeUDzfMvfeCL07HplRmS7xnvHP82gWxKa2pEWI3HSl+rCIcOBgnA6xoDvtpjPlwJkL4stH6EjdMv9+FNtuQGa6RVaVTp8soVGrq1sMaZcIODBn/QwcjKEXA4a0Uzbvyw3L1opkLrnMtx+RzdWMyvTbVnkF/xQGhLAjLdpkXHSmHfK4njsJE+abQVXoz0fRxXtQNm20xHux7wzi3b9jw+6rhpbdAfozISp89dzv0VLufk7vRj++w+itMPVfYUw2VC9WCkVDz84oNeEmakM6qkebMG158B1E0CetGMQ1KEmbuFMhFC/lL+HcySqPAvVovQ1UeOpQVq34cmGeBF9TFXiFdrAR00cvju1BtEONaP0NVInfnOlhbLmAPL4h5aQ9eS08jVHirKbUVE1xbyX6ZbMQRqgU4VJLDRXe+hvhY/8LydQlqtC+N0hXpg9jth9FvMSpk6uG1WPNNEwqPIu20LXukMKacDMvJ/U8Fd/mhI++1NANq43qcO+MYNx0UTfZJlnddBsTRwvin3K8QmFPOUX6hxS0l6Cb68aTDVH4roxCwe4ppRg/uLBs+ijQl1CklFFkKJcN25dMgj2Qc8VWLWOHc2iWztZpXTPRsyVqr1mxbg8wvD+JErcK5kYfs+DOjuDPRemI225YID+OPS2OvG6X2bY1MzPHy2h+c8nu0R7BsRDTizOcX3xHZYlsEn8owMrGKj8vL+RnZTPGUCTIRnqLX2Lq/OIH87FFhqNBUvmMSMEfD1RZ8r+4H5AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;concurrency model 4&quot;
-        title=&quot;&quot;
-        src=&quot;/static/6f2f338e95f1c303f66499bbe823c675/40fad/concurrency_model_4.png&quot;
-        srcset=&quot;/static/6f2f338e95f1c303f66499bbe823c675/707e9/concurrency_model_4.png 148w,
-/static/6f2f338e95f1c303f66499bbe823c675/649e0/concurrency_model_4.png 295w,
-/static/6f2f338e95f1c303f66499bbe823c675/40fad/concurrency_model_4.png 590w,
-/static/6f2f338e95f1c303f66499bbe823c675/b3fef/concurrency_model_4.png 885w,
-/static/6f2f338e95f1c303f66499bbe823c675/434dd/concurrency_model_4.png 1167w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;근데 여기서 궁금한 점은&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;이벤트 루프가 현재 실행 중인 태스크가 있는지 없는지 어떻게 &lt;strong&gt;실시간으로&lt;/strong&gt; 확인하는가?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;MDN의 이벤트 루프에 관한 글에 첨부된 가상의 코드를 보자.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;queue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;waitForMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	queue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;processNextMessage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;waitForMessage()&lt;/code&gt; 는 큐가 비어있을 때 태스크가 큐에 추가될 때까지 대기한다.
-while문을 통해 태스크가 추가될 때까지 계속 반복한다.&lt;/p&gt;
-&lt;p&gt;이 때, 비동기 API들의 작업이 완료 되어 태스크가 추가되면
-이벤트 루프는 콜 스택이 비었을 때, 태스크 큐의 첫번째 태스크를 Call Stack으로 가져와 가져와 실행한다. (이 때, 이벤트 큐에 대기하는 이벤트들은 &lt;strong&gt;한 번에 하나씩&lt;/strong&gt; Call Stack으로 호출되어 처리된다.)&lt;/p&gt;
-&lt;h2 id=&quot;summary&quot;&gt;&lt;a href=&quot;#summary&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Summary&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;JS 엔진이 단일 Call Stack을 사용한다는 점에서 &lt;code class=&quot;language-text&quot;&gt;싱글 스레드&lt;/code&gt;로 동작한다는 말은 맞다.&lt;/li&gt;
-&lt;li&gt;하지만 &lt;code class=&quot;language-text&quot;&gt;Event Loop&lt;/code&gt;를 이용하여 비동기 방식으로 동시성(Concurrency)을 지원한다.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Web API의 timer, ajax, DOM Events 등이 가진 콜백 함수들은 비동기로 실행된다. 태스크 큐는 콜백 함수들이 대기하는 큐다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;이 때, Event Loop는 Call Stack이 비워질 때 큐에서 콜백 함수를 FIFO로 꺼내와서 Call Stack에서 처리한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;참고&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://meetup.toast.com/posts/89&quot;&gt;자바스크립트와 이벤트 루프 nhn ent.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/JavaScript/Memory_Management&quot;&gt;Concurrency model and Event Loop from mdn&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[mvc를 이용하여 todolist 만들어보기]]></title><description><![CDATA[Javascript 기초 이론 공부 후, 잘 배웠나 테스트 하기 위해 TodoList(based on MVC with vanilla JS)를 만들어보았다. 전체 구조 를 통해 todolist MVC…]]></description><link>/javascript/todolist-with-mvc/</link><guid isPermaLink="false">/javascript/todolist-with-mvc/</guid><pubDate>Thu, 22 Jun 2017 23:02:44 GMT</pubDate><content:encoded>&lt;p&gt;Javascript 기초 이론 공부 후, 잘 배웠나 테스트 하기 위해 TodoList(based on MVC with vanilla JS)를 만들어보았다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g http-server
-http-server -a 0.0.0.0 -p 3000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;전체-구조&quot;&gt;&lt;a href=&quot;#%EC%A0%84%EC%B2%B4-%EA%B5%AC%EC%A1%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;전체 구조&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;app.js&lt;/code&gt;를 통해 todolist MVC 구조를 나타내는 코드를 통해 구조를 알 수 있다.
-DB는 영구 저장되는 localStorage를 이용하였다.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;app.js&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&apos;use strict&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;storage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Storage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test9&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;model   &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Model&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;storage&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;template &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Template&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;view &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;View&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;template&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;controller &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Controller&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;model&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;view&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; todoListApp &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=&quot;day1&quot;&gt;&lt;a href=&quot;#day1&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day1&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day1&quot;&gt;item list에 추가하기&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;day2&quot;&gt;&lt;a href=&quot;#day2&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day2&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day2&quot;&gt;X버튼 누르면 할 일 삭제하기&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;day3&quot;&gt;&lt;a href=&quot;#day3&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day3&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day3&quot;&gt;item 완료 체크 toggle&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;day4&quot;&gt;&lt;a href=&quot;#day4&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day4&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day4&quot;&gt;item 내용 수정하기&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;day5&quot;&gt;&lt;a href=&quot;#day5&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;day5&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/seaunseen/todolist_mvc_vanila/tree/master/day5&quot;&gt;완료된 todo 삭제하기&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Event Bubbling]]></title><description><![CDATA[급하면 2번 부터 보자. 1. Event dispatch and DOM event flow 과  에 대해 알아보자. Application은  를 통해 이벤트 objects를 전파한다. 그리고 event object는 DOM event flow…]]></description><link>/javascript/event-bubbling/</link><guid isPermaLink="false">/javascript/event-bubbling/</guid><pubDate>Sun, 21 May 2017 12:05:23 GMT</pubDate><content:encoded>&lt;p&gt;급하면 2번 부터 보자.&lt;/p&gt;
-&lt;h2 id=&quot;1-event-dispatch-and-dom-event-flow&quot;&gt;&lt;a href=&quot;#1-event-dispatch-and-dom-event-flow&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Event dispatch and DOM event flow&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;event 전파 과정&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;DOM tree를 통한 이벤트 propagate 방식&lt;/code&gt;에 대해 알아보자. Application은 &lt;code class=&quot;language-text&quot;&gt;dispatchEvent()&lt;/code&gt;를 통해 이벤트 objects를 전파한다. 그리고 event object는 DOM event flow로 결정된 DOM tree를 통해 propogate한다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg&quot; alt=&quot;W3C 이벤트 전파 과정&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Event objects는 &lt;code class=&quot;language-text&quot;&gt;event target&lt;/code&gt;으로 전파된다. 하지만 전파되기 전에, event object의 &lt;code class=&quot;language-text&quot;&gt;propagation path&lt;/code&gt;가 먼저 결정되어야 한다.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;propogation path&lt;/code&gt;는 이벤트가 통과하는 현재 이벤트 타겟들의 ordered list다. propagation path는 document의 계층 트리 구조의 영향을 받는다.(위 그림처럼) 리스트의 마지막 item은 &lt;code class=&quot;language-text&quot;&gt;event target&lt;/code&gt;이다. 그리고 리스트의 이전 아이템들은 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;의 조상을 가리킨다.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;propagation path&lt;/code&gt;가 결정되면, &lt;strong&gt;이벤트 오브젝트는 1개 이상의 event 경로를 통과&lt;/strong&gt;한다. 3가지 이벤트 경로가 있다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;capture phase&lt;/li&gt;
-&lt;li&gt;target phase&lt;/li&gt;
-&lt;li&gt;bubble phase&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;이벤트 객체는 이 경로를 다음 설명처럼 완료한다. 만약 경로를 지원하지 않는다거나, 이벤트 객체 propagation이 멈추면 skip한다. 예를 들어 &lt;code class=&quot;language-text&quot;&gt;bubble&lt;/code&gt; attribute가 false라면, bubble phase는 skip된다. 만약 &lt;code class=&quot;language-text&quot;&gt;stopPropagation()&lt;/code&gt;이 &lt;code class=&quot;language-text&quot;&gt;dispatch&lt;/code&gt;보다 앞에 호출된다면, 모든 phases는 skip된다.&lt;/p&gt;
-&lt;p&gt;capture phase
-: event object는 window 에서 target’ parent로 target의 조상을 통해 propogate한다. (event는 엘리먼트로 내려간다.)&lt;/p&gt;
-&lt;p&gt;target phase
-: event 객체는 event 객체의 target에 도착한다. event가 버블링 false로 명시하면, 이벤트 객체는 phase 완료 후 중지한다. (이벤트가 타겟 엘리먼트에 도착했다.)&lt;/p&gt;
-&lt;p&gt;bubble phase
-: event 객체는 target의 조상을 통해 (capture와)반대로 propagate한다. target의 부모에서 시작하여 Window에서 끝이 난다. (이벤트는 위로 버블링 up 한다.)&lt;/p&gt;
-&lt;h2 id=&quot;2-capture-and-bubble&quot;&gt;&lt;a href=&quot;#2-capture-and-bubble&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Capture and Bubble&lt;/h2&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;cooking&quot; data-slug-hash=&quot;wdQbJq&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;wdQbJq&quot;&gt;
-  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/cooking/pen/wdQbJq/&quot;&gt;
-  wdQbJq&lt;/a&gt; by cooking (&lt;a href=&quot;https://codepen.io/cooking&quot;&gt;@cooking&lt;/a&gt;)
-  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
-&lt;/p&gt;
-&lt;script async src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;em&amp;gt;&amp;lt;/em&amp;gt;&lt;/code&gt; 안의 내용을 클릭했는데 어떻게 div가 실행될까?&lt;/p&gt;
-&lt;h3 id=&quot;bubbling&quot;&gt;&lt;a href=&quot;#bubbling&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bubbling&lt;/h3&gt;
-&lt;p&gt;Bubbling은&lt;/p&gt;
-&lt;p&gt;이벤트가 엘리먼트에서 일어났을 때, 먼저 이벤트가 일어난곳의 핸들러를 실행한다. 그 다음엔 해당 엘리먼트의 부모, 그 부모의 부모.. 조상까지 DOM 트리를 타고 올라간다.&lt;/p&gt;
-&lt;p&gt;각각 클릭 이벤트가 바인딩 된 중첩된 엘리먼트 &lt;code class=&quot;language-text&quot;&gt;form &amp;gt; div &amp;gt; p&lt;/code&gt;를 보자.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;cooking&quot; data-slug-hash=&quot;wdQbJq&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;wdQbJq&quot;&gt;
-  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/cooking/pen/wdQbJq/&quot;&gt;
-  wdQbJq&lt;/a&gt; by cooking (&lt;a href=&quot;https://codepen.io/cooking&quot;&gt;@cooking&lt;/a&gt;)
-  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
-&lt;/p&gt;
-&lt;script async src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt;를 클릭하면 다음 순서대로 실행된다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;p&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;document&lt;/code&gt; object까지 쭉 올라간다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;그래서 p,div,form 순으로 alert 메시지를 볼 수 있다. 그 이외의 부모 엘리먼트에 대한 alert가 안보이는 이유는 이벤트에 대한 핸들러가 없기 때문이다.&lt;/p&gt;
-&lt;p&gt;이와 같이 내부 엘리먼트(이벤트 타겟)에서 부모를 통해 DOM tree를 올라가는 과정을 &lt;code class=&quot;language-text&quot;&gt;bubbling&lt;/code&gt;이라고 한다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;거의 모든 이벤트는 버블링한다.
-&lt;code class=&quot;language-text&quot;&gt;blur&lt;/code&gt;이벤트는 버블링 안하는데 걍 문서 참고하면서 사용하자.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&quot;eventtarget&quot;&gt;&lt;a href=&quot;#eventtarget&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;event.target&lt;/h3&gt;
-&lt;p&gt;부모 엘리먼트의 핸들러에서 이벤트가 실제로 일어난 곳에 대한 정보를 얻을 수 있다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;이벤트를 발생시킨 깊게 중첩된 엘리먼트는 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt; element라고 한다. 이것은 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;으로 접근가능하다&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;은 이벤트를 이니셜라이징한 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;이고 그것은 버블링 과정동안 &lt;code class=&quot;language-text&quot;&gt;불변&lt;/code&gt;한다.&lt;/p&gt;
-&lt;p&gt;event handler에서 &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt;는 &lt;code class=&quot;language-text&quot;&gt;current&lt;/code&gt; element다. 즉, 현재 핸들러를 실행하는 엘릴먼트다.&lt;/p&gt;
-&lt;p&gt;다음 코드는 &lt;code class=&quot;language-text&quot;&gt;event.target&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;this&lt;/code&gt;를 알려주는 예제다.&lt;/p&gt;
-&lt;p&gt;가장 바깥쪽의 &lt;code class=&quot;language-text&quot;&gt;form&lt;/code&gt; 에 click event에 대한 핸들러를 바인딩 했다.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;cooking&quot; data-slug-hash=&quot;wdQbJq&quot; style=&quot;height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;wdQbJq&quot;&gt;
-  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/cooking/pen/wdQbJq/&quot;&gt;
-  wdQbJq&lt;/a&gt; by cooking (&lt;a href=&quot;https://codepen.io/cooking&quot;&gt;@cooking&lt;/a&gt;)
-  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
-&lt;/p&gt;
-&lt;script async src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-&lt;h3 id=&quot;stop-bubbling&quot;&gt;&lt;a href=&quot;#stop-bubbling&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;stop bubbling&lt;/h3&gt;
-&lt;p&gt;bubbling event는 target element에서 부모의 부모로 계속 올라간다.
-일반적으로 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;html&amp;gt;&lt;/code&gt; 위쪽 까지 올라가고, 그리고나서 &lt;code class=&quot;language-text&quot;&gt;document&lt;/code&gt; object로 이동하고 일부 이벤트는 &lt;code class=&quot;language-text&quot;&gt;window&lt;/code&gt;까지 도달하여 모든 핸들러를 호출한다.&lt;/p&gt;
-&lt;p&gt;이 때, &lt;code class=&quot;language-text&quot;&gt;event.stopPropagation()&lt;/code&gt;을 통해 버블링을 중지할 수 있다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;필요한게 아니면 bubbling stop 하지말자.
-버블링은 편리하다. 가끔 &lt;code class=&quot;language-text&quot;&gt;stopPropogation()&lt;/code&gt; 은 숨겨진 문제를 만든다.
-예를 들어:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;중첩 메뉴 만들었다. 각 서브메뉴는 메뉴 아이템마다 클릭을 처리해야한다 그리고 &lt;code class=&quot;language-text&quot;&gt;stopPropogation&lt;/code&gt;을 호출해서 outer part에 trigger되지 않도록 한다.&lt;/li&gt;
-&lt;li&gt;나중에 유저의 행위를 추적하기 위해 전체 윈도우 내부의 클릭 이벤트를 잡기로 결정했다. 가끔 counter만들 때 이렇게 만든다. &lt;code class=&quot;language-text&quot;&gt;document.addEventListener(&amp;#39;click&amp;#39;..)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;counter는 &lt;code class=&quot;language-text&quot;&gt;stopPropogation&lt;/code&gt;이 멈춘 지역에선 작동하지 않는다.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Capture&lt;/code&gt;는&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;이벤트 발생시, 해당 이벤트를 Capture하기 위해 이벤트가 발생한 요소를 포함하는 &lt;strong&gt;부모 HTML로부터 이벤트의 근원지인 자식 요소까지&lt;/strong&gt; 이벤트를 검사한다.&lt;/li&gt;
-&lt;li&gt;이 때, &lt;strong&gt;capture 속성의 이벤트 핸들러가 있다면 실행 시키면서 이벤트 요소로 접근&lt;/strong&gt;한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg&quot; alt=&quot;W3C 이벤트 전파 과정&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;td&lt;/code&gt; 클릭하며 이벤트는 조상을 통해 엘리먼트로 내려간다(capturing). 그러다가 target에 도착하고 다시 올라간다(bubbling).&lt;/p&gt;
-&lt;p&gt;capturing은 거의 사용되지 않는다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;보통 기본 이벤트 핸들러는 버블 속성이며 W3C 표준에서 이벤트를 묶을 때 캡처 핸들러인지 버블 핸들러인지 지정할 수 있다. 하지만 IE는 캡처 이벤트를 지원하지 않는다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;EventTarget&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; listner&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; userCapture&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;type : event type을 나타내는 문자열&lt;/li&gt;
-&lt;li&gt;listener : 특정 타입의 이벤트가 발생시 알림을 받을 객체.&lt;/li&gt;
-&lt;li&gt;useCapture
-만약 true라면, capture 사용. capture를 초기화 한 후, 모든 지정된 타입의 이벤트는 DOM tree에서 하위의 어떤 EventTarget에 전달되기 전에 등록된 리스너에게 먼저 전달된다. tree의 상위로 버블링된 이벤트는 capture를 사용하기 위해 지정된 리스너를 동작 시키지 않는다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;참고&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.quirksmode.org/js/events_order.html#link4&quot;&gt;quirkmode.org/events_order&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/DOM-Level-3-Events/#event-flow&quot;&gt;W3C event flow&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item></channel></rss>
