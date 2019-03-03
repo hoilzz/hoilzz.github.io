@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Fri, 01 Mar 2019 12:16:01 GMT</lastBuildDate><item><title><![CDATA[[나만의 웹팩 만들기] 11. eslint, prettier로 편안해지기]]></title><description><![CDATA[코드를 보려면  이동 이건 꼭 쓰세요. velopert님이 너무너무 잘  정리 해주셔서 꼭 쓰세요. 두 번 쓰세요. 대신 위에 없는 내용만 다뤄보겠습니다. 위 방식대로 하면 dynamic import에서 eslint…]]></description><link>/webpack/11-eslint-prettier/</link><guid isPermaLink="false">/webpack/11-eslint-prettier/</guid><pubDate>Tue, 12 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;코드를 보려면 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz/tree/master&quot;&gt;이동&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;이건 꼭 쓰세요. velopert님이 너무너무 잘 &lt;a href=&quot;https://velog.io/@velopert/eslint-and-prettier-in-react&quot;&gt;정리&lt;/a&gt;해주셔서 꼭 쓰세요. 두 번 쓰세요.&lt;/p&gt;
-&lt;p&gt;대신 위에 없는 내용만 다뤄보겠습니다.&lt;/p&gt;
-&lt;p&gt;위 방식대로 하면 dynamic import에서 eslint가 다음과 같은 에러를 발생시킵니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Parsing error: Unexpected token import&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/eslint/eslint#what-about-experimental-features&quot;&gt;Eslint README의 What about experimental features?&lt;/a&gt;를 보면 이유를 알 수 있습니다.&lt;/p&gt;
-&lt;p&gt;요약하자면 EsLint’s parser는 공식적으로 최신 ES 표준만 지원합니다. experimental 이거나 비표준(ts) 은 지원하지 않습니다. experimental, non-standard에 대해서는 babel-eslint parser와 eslint-plugin-babel을 사용하세요. ES 표준 으로 (TC39 process에 따라 stage 4) 채택되면, 그 때 core rule에 추가할거에요. 여튼 이외에 것들은 다른 parser를 이용하세요&lt;/p&gt;
-&lt;h2 id=&quot;babel-eslint&quot;&gt;&lt;a href=&quot;#babel-eslint&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;babel-eslint&lt;/h2&gt;
-&lt;p&gt;babel-eslint를 이용하면 eslint가 이해할 수 있도록 babel parser가 먼저 파싱을 진행한다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm i -D eslint babel-eslint&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// .eslintrc.js&lt;/span&gt;
-module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token comment&quot;&gt;//...&lt;/span&gt;
-  parser&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;babel-eslint&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이케하면 끝난다~&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 10. react 환경 구축하기]]></title><description><![CDATA[코드를 보려면  이동 바벨 설정 jsx syntax, react 관련 syntax를 transform 할 preset을 추가하자. babel-loader의 include 설정이 잘못되어서 transpile…]]></description><link>/webpack/10-react/</link><guid isPermaLink="false">/webpack/10-react/</guid><pubDate>Mon, 11 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sun, 03 Mar 2019 11:47:15 GMT</lastBuildDate><item><title><![CDATA[[나만의 웹팩 만들기] 10. react 환경 구축하기]]></title><description><![CDATA[코드를 보려면  이동 바벨 설정 jsx syntax, react 관련 syntax를 transform 할 preset을 추가하자. babel-loader의 include 설정이 잘못되어서 transpile…]]></description><link>/webpack/10-react/</link><guid isPermaLink="false">/webpack/10-react/</guid><pubDate>Mon, 11 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;코드를 보려면 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz/tree/10-react&quot;&gt;이동&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm i react react-dom react-prop-types&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -752,26 +735,7 @@ plugin은 바벨이 컴파일시 transformation에 이용된다.
 &lt;li&gt;이 때 변경 규칙은, preset, plugin이 존재하면 이것을 따른다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 1. basic build]]></title><description><![CDATA[코드를 보려면  이동 웹팩에 대해 간단히 알아보기 위해  concepts 를 요약 번역해보겠습니다. webpack…]]></description><link>/webpack/1-basic-build/</link><guid isPermaLink="false">/webpack/1-basic-build/</guid><pubDate>Sat, 02 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;코드를 보려면 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz/tree/1-basic-build&quot;&gt;이동&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;웹팩에 대해 간단히 알아보기 위해 &lt;a href=&quot;https://webpack.js.org/concepts/&quot;&gt;concepts&lt;/a&gt;를 요약 번역해보겠습니다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;webpack&lt;/strong&gt; 은 모던 자바스크립트 앱을 위한 &lt;strong&gt;정적 모듈 번들러&lt;/strong&gt; 다. 웹팩이 앱을 처리할 때, 내부적으로 프로젝트에 필요한 모든 모듈을 mapping하는 &lt;a href=&quot;https://webpack.js.org/concepts/dependency-graph/&quot;&gt;의존성 그래프&lt;/a&gt;를 만들고 1게 이상의 번들을 생성한다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dependency Graph
-한 파일이 다른 파일에 의존할 때마다, webpack은 이것을 &lt;em&gt;dependency&lt;/em&gt;로 생각한다. 이렇게 하면, 웹팩은 non-code 자원(image, web fonts와 같은 것)을 가지고 application의 &lt;em&gt;dependency&lt;/em&gt; 로 제공할 수 있다.
-entry point(시작점)에서 시작하여, 웹팩은 재귀적으로 앱에 필요한 모든 모듈을 포함하는 의존성 그래프를 빌드한다.
-그리고 나서 모든 모듈을 여러개의 작은 번들(대부분 1개)로 만든다.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 0. webpack 개념]]></title><description><![CDATA[회사에 fe 환경 구축 cli가 있어서 편하고 사용하고 있었다. 이 cli는 웹팩 v3 환경으로 세팅해주었다. 해당 cli…]]></description><link>/webpack/0-webpack/</link><guid isPermaLink="false">/webpack/0-webpack/</guid><pubDate>Fri, 01 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;p&gt;회사에 fe 환경 구축 cli가 있어서 편하고 사용하고 있었다. 이 cli는 웹팩 v3 환경으로 세팅해주었다. 해당 cli 관련하여 전부 세팅해준 사수님은 이직하고.. 내가 이 업무를 어쩌다 맡게되었다. 하고싶은 업무를 하게 되어서 좋았지만 굉장히 어려웠다. 이 업무에 관련하여 공부하기 위해 나만의 웹팩 환경을 구축할 수 있는 cli를 만들었는데, 이것과 관련된 포스트를 작성하려한다.&lt;/p&gt;
-&lt;p&gt;설명이 이해하기 어려우신 분은 한번 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz&quot;&gt;사용&lt;/a&gt;해보세요(제발)&lt;/p&gt;
-&lt;p&gt;일단 웹팩에 대해 간단히 알아보기 위해 &lt;a href=&quot;https://webpack.js.org/concepts/&quot;&gt;concepts&lt;/a&gt;를 요약 번역해보겠습니다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;webpack&lt;/strong&gt; 은 모던 자바스크립트 앱을 위한 &lt;strong&gt;정적 모듈 번들러&lt;/strong&gt; 다. 웹팩이 앱을 처리할 때, 내부적으로 프로젝트에 필요한 모든 모듈을 mapping하는 &lt;a href=&quot;https://webpack.js.org/concepts/dependency-graph/&quot;&gt;의존성 그래프&lt;/a&gt;를 만들고 1게 이상의 번들을 생성한다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Dependency Graph
-한 파일이 다른 파일에 의존할 때마다, webpack은 이것을 &lt;em&gt;dependency&lt;/em&gt;로 생각한다. 이렇게 하면, 웹팩은 non-code 자원(image, web fonts와 같은 것)을 가지고 application의 &lt;em&gt;dependency&lt;/em&gt; 로 제공할 수 있다.
-entry point(시작점)에서 시작하여, 웹팩은 재귀적으로 앱에 필요한 모든 모듈을 포함하는 의존성 그래프를 빌드한다.
-그리고 나서 모든 모듈을 여러개의 작은 번들(대부분 1개)로 만든다.&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name hoilzz 
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name hoilzz 
  hoilzz 
  hoilzz]]></description><link>/resume-en/</link><guid isPermaLink="false">/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
 &lt;div align=&quot;center&quot;&gt;
@@ -3579,4 +3543,39 @@ DB는 영구 저장되는 localStorage를 이용하였다.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;참고&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.quirksmode.org/js/events_order.html#link4&quot;&gt;quirkmode.org/events_order&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/DOM-Level-3-Events/#event-flow&quot;&gt;W3C event flow&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/DOM-Level-3-Events/#event-flow&quot;&gt;W3C event flow&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 11. eslint, prettier로 편안해지기]]></title><description><![CDATA[코드를 보려면  이동 velopert님이 굉장히 잘  정리 해주셔서 링크 참고 부탁드립니다. 위 방식대로 하면 dynamic import에서 eslint가 다음과 같은 에러를 발생시킵니다. Eslint README의 What about…]]></description><link>/webpack/11-eslint-prettier/</link><guid isPermaLink="false">/webpack/11-eslint-prettier/</guid><pubDate>Tue, 12 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;코드를 보려면 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz/tree/master&quot;&gt;이동&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;velopert님이 굉장히 잘 &lt;a href=&quot;https://velog.io/@velopert/eslint-and-prettier-in-react&quot;&gt;정리&lt;/a&gt;해주셔서 링크 참고 부탁드립니다.&lt;/p&gt;
+&lt;p&gt;위 방식대로 하면 dynamic import에서 eslint가 다음과 같은 에러를 발생시킵니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Parsing error: Unexpected token import&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/eslint/eslint#what-about-experimental-features&quot;&gt;Eslint README의 What about experimental features?&lt;/a&gt;를 보면 이유를 알 수 있습니다.&lt;/p&gt;
+&lt;p&gt;요약하자면 EsLint’s parser는 공식적으로 최신 ES 표준만 지원합니다. experimental 이거나 비표준(ts) 은 지원하지 않습니다. experimental, non-standard에 대해서는 babel-eslint parser와 eslint-plugin-babel을 사용하세요. ES 표준 으로 (TC39 process에 따라 stage 4) 채택되면, 그 때 core rule에 추가합니다. 여튼 이외에 것들은 다른 parser를 이용하면 됩니다.&lt;/p&gt;
+&lt;h2 id=&quot;babel-eslint&quot;&gt;&lt;a href=&quot;#babel-eslint&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;babel-eslint&lt;/h2&gt;
+&lt;p&gt;babel-eslint를 이용하면 eslint가 이해할 수 있도록 babel parser가 먼저 파싱을 진행합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm i -D eslint babel-eslint&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// .eslintrc.js&lt;/span&gt;
+module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;//...&lt;/span&gt;
+  parser&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;babel-eslint&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이케하면 끝납니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 1. basic build]]></title><description><![CDATA[코드를 보려면  이동 웹팩에 대해 간단히 알아보기 위해  concepts 를 요약 번역해보겠습니다. webpack…]]></description><link>/webpack/1-basic-build/</link><guid isPermaLink="false">/webpack/1-basic-build/</guid><pubDate>Sat, 02 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;코드를 보려면 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz/tree/1-basic-build&quot;&gt;이동&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;웹팩에 대해 간단히 알아보기 위해 &lt;a href=&quot;https://webpack.js.org/concepts/&quot;&gt;concepts&lt;/a&gt;를 요약 번역해보겠습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;webpack&lt;/strong&gt; 은 모던 자바스크립트 앱을 위한 &lt;strong&gt;정적 모듈 번들러&lt;/strong&gt; 다. 웹팩이 앱을 처리할 때, 내부적으로 프로젝트에 필요한 모든 모듈을 mapping하는 &lt;a href=&quot;https://webpack.js.org/concepts/dependency-graph/&quot;&gt;의존성 그래프&lt;/a&gt;를 만들고 1게 이상의 번들을 생성합니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dependency Graph
+한 파일이 다른 파일에 의존할 때마다, webpack은 이것을 &lt;em&gt;dependency&lt;/em&gt;로 생각한다. 이렇게 하면, 웹팩은 non-code 자원(image, web fonts와 같은 것)을 가지고 application의 &lt;em&gt;dependency&lt;/em&gt; 로 제공할 수 있다.
+entry point(시작점)에서 시작하여, 웹팩은 재귀적으로 앱에 필요한 모든 모듈을 포함하는 의존성 그래프를 빌드한다.
+그리고 나서 모든 모듈을 여러개의 작은 번들(대부분 1개)로 만든다.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 0. webpack 개념]]></title><description><![CDATA[회사에 fe 환경 구축 cli가 있어서 편하고 사용하고 있었습니다. 이 cli는 웹팩 v3 환경으로 세팅해주었다. 해당 cli…]]></description><link>/webpack/0-webpack/</link><guid isPermaLink="false">/webpack/0-webpack/</guid><pubDate>Fri, 01 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;p&gt;회사에 fe 환경 구축 cli가 있어서 편하고 사용하고 있었습니다. 이 cli는 웹팩 v3 환경으로 세팅해주었다. 해당 cli 관련하여 전부 세팅해준 사수님은 이직하고.. 내가 이 업무를 어쩌다 맡게되었습니다. 하고싶은 업무를 하게 되어서 좋았지만 굉장히 어려웠습니다. 이 업무에 관련하여 공부하기 위해 나만의 웹팩 환경을 구축할 수 있는 cli를 만들었는데, 이것과 관련된 포스트를 작성하려합니다.&lt;/p&gt;
+&lt;p&gt;설명이 이해하기 어려우신 분은 한번 &lt;a href=&quot;https://github.com/hoilzz/create-react-packzz&quot;&gt;사용&lt;/a&gt;해보세요(제발)&lt;/p&gt;
+&lt;p&gt;일단 웹팩에 대해 간단히 알아보기 위해 &lt;a href=&quot;https://webpack.js.org/concepts/&quot;&gt;concepts&lt;/a&gt;를 요약 번역해보겠습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;webpack&lt;/strong&gt; 은 모던 자바스크립트 앱을 위한 &lt;strong&gt;정적 모듈 번들러&lt;/strong&gt; 다. 웹팩이 앱을 처리할 때, 내부적으로 프로젝트에 필요한 모든 모듈을 mapping하는 &lt;a href=&quot;https://webpack.js.org/concepts/dependency-graph/&quot;&gt;의존성 그래프&lt;/a&gt;를 만들고 1게 이상의 번들을 생성합니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dependency Graph
+한 파일이 다른 파일에 의존할 때마다, webpack은 이것을 &lt;em&gt;dependency&lt;/em&gt;로 생각한다. 이렇게 하면, 웹팩은 non-code 자원(image, web fonts와 같은 것)을 가지고 application의 &lt;em&gt;dependency&lt;/em&gt; 로 제공할 수 있습니다.
+entry point(시작점)에서 시작하여, 웹팩은 재귀적으로 앱에 필요한 모든 모듈을 포함하는 의존성 그래프를 빌드합니다.
+그리고 나서 모든 모듈을 여러개의 작은 번들(대부분 1개)로 만듭니다.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item></channel></rss>
