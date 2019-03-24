@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://hoilzz.github.io/sitemap.xml
+Host: https://hoilzz.github.io
