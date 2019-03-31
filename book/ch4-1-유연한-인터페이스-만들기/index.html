@@ -1,0 +1,326 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2"/><style data-href="/app.2614055ca54359dc7972.css">@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:100;src:local("Noto Sans KR Thin "),local("Noto Sans KR-Thin"),url(/static/noto-sans-kr-latin-100-2de137ca3e12ea146ee47485a97f1e78.woff2) format("woff2"),url(/static/noto-sans-kr-latin-100-b965647685dd9fc531d1f8a1cc25e024.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:300;src:local("Noto Sans KR Light "),local("Noto Sans KR-Light"),url(/static/noto-sans-kr-latin-300-4f773a0fce88aa857d70b56c5b0a1d26.woff2) format("woff2"),url(/static/noto-sans-kr-latin-300-ee87751dac814562bac316d848e35748.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:400;src:local("Noto Sans KR Regular "),local("Noto Sans KR-Regular"),url(/static/noto-sans-kr-latin-400-be09f2ced7ff9fa6eda5f0416e2fc840.woff2) format("woff2"),url(/static/noto-sans-kr-latin-400-4c50be0fe5b21a153b8e40a392c2d3fe.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:500;src:local("Noto Sans KR Medium "),local("Noto Sans KR-Medium"),url(/static/noto-sans-kr-latin-500-416698c2fc4b3951f8d63d3d2ae23900.woff2) format("woff2"),url(/static/noto-sans-kr-latin-500-28601458e118110e494903a1fcd6dcf5.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:700;src:local("Noto Sans KR Bold "),local("Noto Sans KR-Bold"),url(/static/noto-sans-kr-latin-700-04e782e08729f3725ae5a9c95da0c8ba.woff2) format("woff2"),url(/static/noto-sans-kr-latin-700-b9e989a96027f839a9569d2d011e0b71.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:900;src:local("Noto Sans KR Black "),local("Noto Sans KR-Black"),url(/static/noto-sans-kr-latin-900-c41f1395489a117ca36d550142a1695f.woff2) format("woff2"),url(/static/noto-sans-kr-latin-900-589f5fbf84d9dc9984a969bae969fd60.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:100;src:local("Catamaran Thin "),local("Catamaran-Thin"),url(/static/catamaran-latin-100-3570195a7b5f619dd9b2419d8fa3f089.woff2) format("woff2"),url(/static/catamaran-latin-100-e82908f57f6d2f23eb9876b2d6868195.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:200;src:local("Catamaran Extra Light "),local("Catamaran-Extra Light"),url(/static/catamaran-latin-200-987ea210308405ac77ba2f36430a70c9.woff2) format("woff2"),url(/static/catamaran-latin-200-bb5993d2f001b739bb9ab7c3ed9725c3.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:300;src:local("Catamaran Light "),local("Catamaran-Light"),url(/static/catamaran-latin-300-2b8a4bd13e9d5ba755f010f8732b0bb6.woff2) format("woff2"),url(/static/catamaran-latin-300-c2696c65c33dcf37871b72bad51ee1ce.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:400;src:local("Catamaran Regular "),local("Catamaran-Regular"),url(/static/catamaran-latin-400-640947b787a38ec35d097129637d9130.woff2) format("woff2"),url(/static/catamaran-latin-400-97e5bc807a3e915e3fbf40ce5fcb1128.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:500;src:local("Catamaran Medium "),local("Catamaran-Medium"),url(/static/catamaran-latin-500-884483dd213f37ae3b5c98f73dd190a5.woff2) format("woff2"),url(/static/catamaran-latin-500-412cf386e31213e3601cb2132b9c4c2d.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:600;src:local("Catamaran SemiBold "),local("Catamaran-SemiBold"),url(/static/catamaran-latin-600-eb6ebda25331e50d3f42c45a41f613bb.woff2) format("woff2"),url(/static/catamaran-latin-600-215c58c6114e0556cb1c332c0fda463a.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:700;src:local("Catamaran Bold "),local("Catamaran-Bold"),url(/static/catamaran-latin-700-3196f49881b324fa5a5f937875cc380f.woff2) format("woff2"),url(/static/catamaran-latin-700-05f6e51c518dd3b521b258e5c05d0e72.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:800;src:local("Catamaran ExtraBold "),local("Catamaran-ExtraBold"),url(/static/catamaran-latin-800-601b1d0f1b78fd65c3205b2c004bbe60.woff2) format("woff2"),url(/static/catamaran-latin-800-3b1675e4ede7e86ec79fa84c1203908e.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:900;src:local("Catamaran Black "),local("Catamaran-Black"),url(/static/catamaran-latin-900-6bb5f96614acb7754020b922e1a63d24.woff2) format("woff2"),url(/static/catamaran-latin-900-79292dba48851cc3a212863c860d8f09.woff) format("woff")}</style><style data-href="/component---src-templates-blog-post-js.16e0e2398b425383f792.css">@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);.custom-hr{margin:64px;background:linear-gradient(72deg,#291e95,#cc007a);border:none;height:2px}.github{float:right;padding:14px;opacity:.6}.top{position:relative;width:100%;height:60px;background:#282c35}.top .link{display:inline-block;font-size:28px;padding-top:8px;color:#fff;opacity:.7;margin-left:20px;font-family:Catamaran;font-weight:800}.home-header{margin-top:0;border-bottom:none;font-weight:900;font-size:48px;letter-spacing:-2px}.link{box-shadow:none;text-decoration:none;color:inherit}.switch-container{text-align:right}.switch-container .icon{text-align:center;color:#222;font-size:14px;font-weight:900}.footer{padding-top:52px;text-align:center;font-size:12px}.footer a{text-decoration:none!important}body.light{background-color:#fff;text-shadow:0 0 .1px rgba(0,0,0,.3)}body.light .home-header{color:#333}body.light .bio .author-name-content{background-color:#ecf0f2}body.light .bio .author-introduction{color:#7d7d7d}body.light .bio a{color:navy}body.light .category-container{border-color:#ecf0f2;border-style:solid;border-width:1px 6px;background-color:#f4f7f8}body.light .category-container .item{border:1px solid #ecf0f2;background-color:#fff;box-shadow:0 1px 1px rgba(0,0,0,.1)}body.light .category-container .item a{color:#666}body.light .category-container .item[aria-selected=true]{border:2px solid #909da1;font-weight:bolder}body.light .category-container .item[aria-selected=true] a{color:#636c6e}body.light .thumbnail h3{color:#333}body.light .thumbnail p{color:#7d7d7d}body.light .thumbnail:hover{text-shadow:0 0 6px rgba(0,0,0,.2)}body.light .footer{color:#aaa}body.light .footer a{color:#333}body.light .navigator a{background-color:#fceff7;color:#cc007a}body.dark{background-color:#282c35;text-shadow:0 0 .1px hsla(0,0%,100%,.3)}body.dark,body.dark .home-header{color:#eee}body.dark .bio .author-name-content{background-color:#383636}body.dark .bio .author-introduction{color:#d8d7d7}body.dark .bio a{color:#bb72ec}body.dark .category-container{border-color:#383636;border-style:solid;border-width:1px 6px;background-color:#24272c}body.dark .category-container .item{border:1px solid #383636;background-color:#282c35;box-shadow:0 1px 1px hsla(0,0%,100%,.1)}body.dark .category-container .item a{color:#d8d7d7}body.dark .category-container .item[aria-selected=true]{border:2px solid #666;font-weight:bolder}body.dark .category-container .item[aria-selected=true] a{color:#fff}body.dark .thumbnail h3{color:#eee}body.dark .thumbnail p{color:#d8d7d7}body.dark .thumbnail:hover{text-shadow:0 0 6px hsla(0,0%,100%,.2)}body.dark .footer{color:#d8d7d7}body.dark .footer a{color:#fff}body.dark blockquote{border-left:4px solid hsla(0,0%,100%,.822)}body.dark h1,body.dark h2{border-bottom-color:hsla(0,0%,100%,.3)}body.dark .navigator a{background-color:#fceff7;color:#cc007a}body{font-family:Noto Sans KR,sans-serif;background-color:#fff;-webkit-text-size-adjust:antialiased;-moz-osx-font-smoothing:grayscale;transition:background-color .3s,color .3s}.sponsor-button{text-align:right;margin:4px}.sponsor-button .bmc-button{display:inline-block;padding:0 7px;width:133px;height:33px;text-decoration:none;background-color:#bb5794;color:#fff;border:1px solid transparent;border-radius:6px;letter-spacing:-.08px;box-sizing:border-box;font-size:12px;line-height:30px;text-align:left}.sponsor-button .bmc-button:active,.sponsor-button .bmc-button:hover{background-color:#a0457d}.sponsor-button .bmc-button img{width:20px;margin-bottom:1px;box-shadow:none;border:none;vertical-align:middle}.sponsor-button .bmc-button span{margin-left:6px}.bio{margin-bottom:24px}.bio .author-description{display:flex}.bio .author-image{margin-top:12px;margin-right:12px;margin-bottom:0;min-width:72px}.bio .author-name-prefix{font-size:90%;margin-right:4px}.bio .author-name-content{display:inline-block;font-size:95%;padding:2px 6px;font-weight:bolder;border-radius:8px;-webkit-transform-origin:center;transform-origin:center;-webkit-animation:flutter 2s linear infinite;animation:flutter 2s linear infinite}.bio .author-introduction{margin-top:4px;font-size:80%;line-height:1.4}.bio .author-socials{margin-top:4px}.bio a{margin-right:8px;font-size:80%}.bio a.visited{text-decoration:none}@-webkit-keyframes flutter{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}35%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}40%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}65%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes flutter{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}35%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}40%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}65%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.navigator{margin:40px 0;display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0}.navigator li{margin-bottom:12px}.navigator a{padding:7px 16px 8px;border-radius:6px;font-size:12px;opacity:.8}.gatsby-highlight-code-line{background-color:#022a4b;display:block;margin-right:-1.2em;margin-left:-1.2em;padding-right:1em;padding-left:.75em;border-left:.35em solid #0687f0}blockquote{color:#999}code[class*=language-],pre[class*=language-]{color:#e0e0e0;background:none;font-family:Fira Code,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.6;font-size:13px;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;-ms-overflow-style:none;overflow:-moz-scrollbars-none}pre[class*=language-]::-webkit-scrollbar{display:none}pre[class*=language-]{padding:1.2em;margin:1.5em 0;overflow:auto;border-radius:.6em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#212121}:not(pre)>code[class*=language-]{padding:.1em .6em;border-radius:.2em;white-space:normal;background:#ece5f1;color:#4b2043}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#616161}.token.punctuation{color:#e0e0e0}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#ff9100}.token.class-name,.token.constant,.token.property,.token.symbol{color:#ff0}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#b388ff}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#00e676}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style><meta name="generator" content="Gatsby 2.0.116"/><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.625 -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}h1{margin-left:0;margin-right:0;margin-top:2.4375rem;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.21875rem;color:inherit;font-family:Catamaran;font-weight:800;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.2;border-bottom:1px solid hsla(0,0%,0%,0.07);}h2{margin-left:0;margin-right:0;margin-top:56px;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:20px;color:inherit;font-family:Catamaran;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.2;border-bottom:1px solid hsla(0,0%,0%,0.07);}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:hsla(0,0%,0%,0.53);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}ul{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:6px;list-style-position:outside;list-style-image:none;}ol{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:0.85rem;line-height:1.625rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:1rem;line-height:1.625rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}blockquote{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:calc(0.8125rem - 1px);padding-right:0;padding-top:0;margin-bottom:0.8125rem;border-left:4px solid hsla(0,0%,0%,0.13);color:hsla(0,0%,0%,0.53);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(0.8125rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}b{font-weight:600;}strong{font-weight:600;}dt{font-weight:600;}th{font-weight:600;}li{margin-bottom:2px;}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}li > ul{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(0.8125rem / 2);}code{font-size:0.85rem;line-height:1.625rem;}kbd{font-size:0.85rem;line-height:1.625rem;}samp{font-size:0.85rem;line-height:1.625rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.08333rem;padding-right:1.08333rem;padding-top:0.8125rem;padding-bottom:calc(0.8125rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}h3,h4,h5,h6{margin-bottom:0.8125rem;margin-top:1.625rem;}ol,ul{margin-left:2.03125rem;}li>ol,li>ul{margin-left:2.03125rem;}a{color:#0687f0;text-decoration:none;box-shadow:none;}a:hover,a:active{text-decoration:underline;}a.gatsby-resp-image-link{box-shadow:none;text-decoration:none;}a:hover{text-decoration:none;}</style><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기 | hoilzz</title><meta data-react-helmet="true" name="description" content="4. 유연한 인터페이스 만들기 애플리케이션은 클래스로 구성되지만 메시지를 통해 정의됨 애플리케이션의 움직임을 반영하는 것은 메시지 객체가 무엇을 아는지(객체의 책임), 누구를 알고 있는지(객체의 의존성) 뿐만 아니라
+ 서로 어떻게 소통하는지  알아야 함 객체 사이의 ㅍ소통은 인터페이스를 통해 이뤄짐 
+애플리케이션이 자라나고 변형될 수 있도록 해주는 유연한 인터페이스에 대해 알아보자 4.…"/><meta data-react-helmet="true" property="og:title" content="[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기"/><meta data-react-helmet="true" property="og:description" content="4. 유연한 인터페이스 만들기 애플리케이션은 클래스로 구성되지만 메시지를 통해 정의됨 애플리케이션의 움직임을 반영하는 것은 메시지 객체가 무엇을 아는지(객체의 책임), 누구를 알고 있는지(객체의 의존성) 뿐만 아니라
+ 서로 어떻게 소통하는지  알아야 함 객체 사이의 ㅍ소통은 인터페이스를 통해 이뤄짐 
+애플리케이션이 자라나고 변형될 수 있도록 해주는 유연한 인터페이스에 대해 알아보자 4.…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="hoilzz"/><meta data-react-helmet="true" name="twitter:title" content="[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기"/><meta data-react-helmet="true" name="twitter:description" content="4. 유연한 인터페이스 만들기 애플리케이션은 클래스로 구성되지만 메시지를 통해 정의됨 애플리케이션의 움직임을 반영하는 것은 메시지 객체가 무엇을 아는지(객체의 책임), 누구를 알고 있는지(객체의 의존성) 뿐만 아니라
+ 서로 어떻게 소통하는지  알아야 함 객체 사이의 ㅍ소통은 인터페이스를 통해 이뤄짐 
+애플리케이션이 자라나고 변형될 수 있도록 해주는 유연한 인터페이스에 대해 알아보자 4.…"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-3824afa675ea8a695745.js"/><link as="script" rel="preload" href="/app-21f84ebe1b089822e996.js"/><link as="script" rel="preload" href="/11-b76506ca78c3fcff1d10.js"/><link as="script" rel="preload" href="/1-a40809d9e8818f0dbb16.js"/><link as="script" rel="preload" href="/0-7fa42fbc2c9c0a2f8ec6.js"/><link as="script" rel="preload" href="/webpack-runtime-e84ddb3ef70cba7c3b8b.js"/><link as="fetch" rel="preload" href="/static/d/337/path---book-ch-4-1-유연한-인터페이스-만들기-739-a96-pQenky2qsZPIVN9fuXikabF7f2g.json" crossOrigin="use-credentials"/><meta name="google-site-verification" content="oNBk5rPBIqfpVeDsfVhiUV3VLmYkRjrySs_8slxHOF0"/></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="top"><a class="link" href="/">hoilzz</a></div><div style="margin-left:auto;margin-right:auto;max-width:39rem;padding:2.4375rem 1.21875rem"><div class="switch-container"><label for="normal-switch"><div style="position:relative;display:inline-block;text-align:left;opacity:1;border-radius:12px;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s;touch-action:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none"><div class="react-switch-bg" style="height:24px;width:48px;margin:0;position:relative;background:#d9dfe2;border-radius:12px;cursor:pointer;-webkit-transition:background 0.25s;-moz-transition:background 0.25s;transition:background 0.25s"><div style="height:24px;width:26px;position:relative;opacity:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon checkedIcon">D</div></div><div style="height:24px;width:26px;position:absolute;opacity:1;right:0;top:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon uncheckedIcon">L</div></div></div><div class="react-switch-handle" style="height:22px;width:22px;background:#ffffff;display:inline-block;cursor:pointer;border-radius:50%;position:absolute;transform:translateX(1px);top:1px;outline:0;border:0;-webkit-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;-moz-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s"></div><input type="checkbox" role="switch" id="normal-switch" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px"/></div></label></div><h1>[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기</h1><div><h2 id="4-유연한-인터페이스-만들기"><a href="#4-%EC%9C%A0%EC%97%B0%ED%95%9C-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. 유연한 인터페이스 만들기</h2>
+<ul>
+<li>애플리케이션은 클래스로 구성되지만 메시지를 통해 정의됨</li>
+<li>애플리케이션의 움직임을 반영하는 것은 메시지</li>
+</ul>
+<p>객체가 무엇을 아는지(객체의 책임), 누구를 알고 있는지(객체의 의존성) 뿐만 아니라
+<strong>서로 어떻게 소통하는지</strong> 알아야 함</p>
+<p><strong>객체 사이의 ㅍ소통은 인터페이스를 통해 이뤄짐</strong>
+애플리케이션이 자라나고 변형될 수 있도록 해주는 유연한 인터페이스에 대해 알아보자</p>
+<h2 id="41-인터페이스-이해하기"><a href="#41-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.1 인터페이스 이해하기</h2>
+<p><a
+    class="gatsby-resp-image-link"
+    href="/static/afc6c04308cb708d732cc0631c5bbff5/a58ed/ch4-1.jpeg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 39.8923904688701%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB26FB/8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQABBQJ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAEP/aAAgBAQAGPwJ//8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/9oACAEBAAE/IZuqj//aAAwDAQACAAMAAAAQcA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAACAwEAAAAAAAAAAAAAAAABEQAhMUH/2gAIAQEAAT8QZdwjgG9jIUp//9k='); background-size: cover; display: block;"
+    ></span>
+    <img
+        class="gatsby-resp-image-image"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
+        alt="img"
+        title=""
+        src="/static/afc6c04308cb708d732cc0631c5bbff5/f8fb9/ch4-1.jpeg"
+        srcset="/static/afc6c04308cb708d732cc0631c5bbff5/e8976/ch4-1.jpeg 148w,
+/static/afc6c04308cb708d732cc0631c5bbff5/63df2/ch4-1.jpeg 295w,
+/static/afc6c04308cb708d732cc0631c5bbff5/f8fb9/ch4-1.jpeg 590w,
+/static/afc6c04308cb708d732cc0631c5bbff5/85e3d/ch4-1.jpeg 885w,
+/static/afc6c04308cb708d732cc0631c5bbff5/d1924/ch4-1.jpeg 1180w,
+/static/afc6c04308cb708d732cc0631c5bbff5/a58ed/ch4-1.jpeg 1301w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </span>
+  </a></p>
+<p>첫번쨰 애플리케이션 객체는 재사용하기 어려움</p>
+<ul>
+<li>자기 자신을 너무 많이 드러냄</li>
+<li>주변 객체에 대해 너무 많이 알고 있음</li>
+<li>독립적으로 존재하는 객체 없음</li>
+<li>하나를 재사용하려면 전체를 사용해야함</li>
+<li>하나 수정시 전체 수정</li>
+</ul>
+<p>위 문제의 핵심은 클래스가 <strong>무엇을 하는지</strong> 가 아닌 <strong>무엇을 드러내는지</strong> 임</p>
+<ul>
+<li>클래스의 모든 메서드는 다른 객체가 언제든 호출하기 쉬운 대상</li>
+</ul>
+<p>두 번쨰 어플리케이션 객체는 어떤 메시지를 주고받을지에 대한 합의가 있음</p>
+<ul>
+<li>각 객체는 다른 객체가 사용해도 되는 메서드 묶음을 잘 정리함</li>
+<li>밖으로 노출된 메서드가 클래스의 <strong>public interface</strong> 를 구성</li>
+</ul>
+<h3 id="인터페이스란"><a href="#%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%9E%80" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>인터페이스란</h3>
+<p>여러가지 의미를 가짐</p>
+<ol>
+<li>
+<p>위 예제에서는 클래스 안에 있는 인터페이스 지칭</p>
+</li>
+<li>
+<p>클래스는 메서드를 구현</p>
+</li>
+<li>
+<p>하나의 클래스로부터 독립되어 있고 여러 클래스 사이를 돌아다니는 인터페이스</p>
+</li>
+<li>
+<p>메시지의 묶음</p>
+</li>
+<li>
+<p>메세지들 자체가 인터페이스를 정의</p>
+</li>
+<li>
+<p>마치 인터페이스가 가상의 클래스를 정의하는 것과 같음</p>
+</li>
+</ol>
+<h2 id="42-인터페이스-정의하기"><a href="#42-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%A0%95%EC%9D%98%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.2 인터페이스 정의하기</h2>
+<p>레스토랑의 부엌을 예로 들자.</p>
+<p>식당에는 손님이 사용할 수 있는 public interface, 즉 메뉴판
+부엌안에서는 많은 일이 오가지만 private 하기에 손님에게 보이지 않음</p>
+<p>퍼블릭과 프라이빗의 구분은 일을 가장 효율적으로 처리하기 위함</p>
+<ul>
+<li>손님이 직접 요리 과정을 감독하면, 식재료가 부족하여 다른 요리 추천해야 할 때마다 손님을 새로 교육 시켜야함</li>
+<li>메뉴판을 이용하기 때문에 손님은 부엌에서 어떻게 요리하는지 모르면서 주문 가능</li>
+</ul>
+<p>클래스는 마치 이런 부엌과 같음</p>
+<ul>
+<li>1개의 책임을 제대로 수행하기위해 존재하며</li>
+<li>수많은 메서드를 구현</li>
+</ul>
+<p>어떤 메서드는</p>
+<ul>
+<li>우리 클래스의 메뉴판과 같은 역할이므로 퍼블릭 메서드</li>
+<li>자잘한 내부 구현에 관여하기 때문에 프라이빗 메서드</li>
+</ul>
+<h3 id="421-퍼블릭-인터페이스"><a href="#421-%ED%8D%BC%EB%B8%94%EB%A6%AD-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.2.1 퍼블릭 인터페이스</h3>
+<ul>
+<li>클래스의 핵심 책임을 드러냄</li>
+<li>다른 객체에 의해 호출됨</li>
+<li>쉽게 변경 안됨</li>
+<li>다른 객체가 안정적 의존 가능</li>
+<li>테스트를 통해 문서화됨</li>
+</ul>
+<h3 id="422-프라이빗-인터페이스"><a href="#422-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.2.2 프라이빗 인터페이스</h3>
+<ul>
+<li>세부 구현 담당</li>
+<li>다른 객체에 의해 호출 안됨</li>
+<li>필요에 따라 언제든 변경 가능</li>
+<li>다른 객체가 의존하기에 위험</li>
+<li>테스트에서 다루지 않을 수도 있음</li>
+</ul>
+<h3 id="423-책임-의존성-그리고-인터페이스"><a href="#423-%EC%B1%85%EC%9E%84-%EC%9D%98%EC%A1%B4%EC%84%B1-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.2.3 책임, 의존성 그리고 인터페이스</h3>
+<p>클래스의 퍼블릭 인터페이스는 클래스의 구체적인 책임을 표현한 문장과 상응(책임을 명시한 계약서)</p>
+<h2 id="43-퍼블릭-인터페이스-찾기"><a href="#43-%ED%8D%BC%EB%B8%94%EB%A6%AD-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EC%B0%BE%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.3 퍼블릭 인터페이스 찾기</h2>
+<p>디자인의 목표는 당장의 요구사항을 처리하기에 충분하면서 나중에 수정할 여지 남기는 것</p>
+<h3 id="431-예시-자전거-여행-회사"><a href="#431-%EC%98%88%EC%8B%9C-%EC%9E%90%EC%A0%84%EA%B1%B0-%EC%97%AC%ED%96%89-%ED%9A%8C%EC%82%AC" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.3.1 예시: 자전거 여행 회사</h3>
+<p>여행회사가 여행객에게 자전거 여행길 추천,
+자전거는 회사꺼가 부족할 시 지역 점포들과 공유</p>
+<p>애플리케이션의 <strong>명사, 정보, 행동</strong> 을 기반으로 클래스를 떠올려보면</p>
+<ul>
+<li>여행객</li>
+<li>여행</li>
+<li>여행길</li>
+<li>자전거</li>
+<li>정비공</li>
+</ul>
+<p>이를 <strong>도메인 객체</strong> 라고 부름</p>
+<p>도메인 객체에만 집착하면 행동들을 객체 속에 넣어버림
+도메인 객체들이 주고 받는 <strong>메시지</strong> 에 주목해야함
+이 메세지들은 새로운 겍체를 찾도록 도움</p>
+<h3 id="433-시퀀스-다이어그램-사용하기"><a href="#433-%EC%8B%9C%ED%80%80%EC%8A%A4-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4.3.3 시퀀스 다이어그램 사용하기</h3>
+<p>UML은 그 중 하나임</p>
+<ul>
+<li>객체들의 배치</li>
+<li>메시지 전송 전략
+에 대해 검토 가능</li>
+</ul>
+<p>wayne은 Trip에게 <code class="language-text">suitable_trips</code> 메세지를 전송하여 결과만 돌려받음</p>
+<p><a
+    class="gatsby-resp-image-link"
+    href="/static/8740cc68e0163a57a9c4a0dc7b8fe09c/096d1/ch4-2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 65.79352850539291%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABU0lEQVQ4y5WSS4+DMAyE8/9/FycOPfTCqVKrAkI8CrS8+gCvvkiDaHcP3UhWEmc8tsdxy7LYPM/G6vveXq+X4ZNfpju7sNfr1Z+3b24cR3s+n8b+eDzsfr/bNE3rHZDe2Ydh8MEQcgZ7u91WjCNLkiRWlqUPVmYMAAvitm3tfD5bXdceB0lRFFZVlV0uF0vT1Ptc0zQWx7EnZJEVAIGcCYYQnAjVMgnZ3wgpmTa7rvO7WlHL0lBSCAeGs7AYfqeAPM8tCAJfhXT7HAwDQ54wDFeJNETI/FAAUgmA/X5vWZaZqt6SqUq0hJTqNCi9sTtYpQVOBSmjKuPMADAGhqZ0xdsb4TZAf0mtyI/Yx+PRDoeDnU4nH8yiul8Vfrb1lxFEBxiEURT5n0HbKkID/IpQQVSMxrvdzrdOVfoNJPs3oT4xEqCzNOVvaupfE251UgJpuG35B5j/83aHdvBJAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    ></span>
+    <img
+        class="gatsby-resp-image-image"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
+        alt="img"
+        title=""
+        src="/static/8740cc68e0163a57a9c4a0dc7b8fe09c/40fad/ch4-2.png"
+        srcset="/static/8740cc68e0163a57a9c4a0dc7b8fe09c/707e9/ch4-2.png 148w,
+/static/8740cc68e0163a57a9c4a0dc7b8fe09c/649e0/ch4-2.png 295w,
+/static/8740cc68e0163a57a9c4a0dc7b8fe09c/40fad/ch4-2.png 590w,
+/static/8740cc68e0163a57a9c4a0dc7b8fe09c/b3fef/ch4-2.png 885w,
+/static/8740cc68e0163a57a9c4a0dc7b8fe09c/301c0/ch4-2.png 1180w,
+/static/8740cc68e0163a57a9c4a0dc7b8fe09c/096d1/ch4-2.png 1298w"
+        sizes="(max-width: 590px) 100vw, 590px"
+      />
+  </span>
+  </a></p>
+<p>위 이미지에서 질문을 던져보자.</p>
+<ul>
+<li>
+<p>여행에 적당한 자전거가 준비되어 있는지 파악하는 것이 Trip의 책임일까?</p>
+<ul>
+<li>이 수신자가 이 메시지에 반응하 책임을 가지고 있는가?</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>위와 같이 다이어그램을 사용하면
+“이 클래스가 필요한건 알겠는데 <strong>이 클래스는 무엇을 해야하지?</strong> ” 가 아닌
+”<strong>메시지를 전송해야 하는데 누구에게 전송하지?</strong> 라고 질문할 수 있음, 즉 메시지 기반 디자인 가능</p>
+</blockquote>
+<p>여튼 위와 같은 질문에 대해</p>
+<ul>
+<li>
+<p>여행에 어울리는 자전거를 파악하는 것은 Trip이 아닌 Bicycle일듯</p>
+<ul>
+<li>Trip은 sutiable<em>trips에, Bicycle은 suitable</em>bicycle을 처리해야할 책임 있음</li>
+</ul>
+</li>
+</ul>
+<p>정리하자면 wayne은</p>
+<ul>
+<li>여행지 목록을 얻고자함</li>
+<li>suitable_trips 메세지를 구현하고 있는 객체를 가짐</li>
+</ul>
+<p><strong>개선해보자</strong></p>
+<p><strong>(2)</strong></p>
+<ul>
+<li>wayne은 여행지 목록을 얻고자함</li>
+<li>suitable_trips 메세지를 구현하고 있는 객체가 있음</li>
+<li>suitable trips를 찾기 위해 suitable_bicycles도 골라야 함</li>
+<li>suitable_bicycles 메시지를 구현하고 있는 또 다른 객체가 있음</li>
+</ul>
+<p>이번에는 Trip에서 추가적인 책임을 걷어냈지만</p>
+<ul>
+<li>이 책임을 단지 customer로 옮겨놓았을 뿐임</li>
+<li>자신이 무엇을 원하는지 알아야하고</li>
+<li>다른 객체들이 어떻게 협업해야 하는지도 알아야함</li>
+<li>즉, Customer 클래스는 자신의 책임이 아닌 거까지 직접 관리하고 있음(손님이 메뉴판을 보고 음식을 주문하는게 아닌 직접 부엌에 들어가 요리하는 것)</li>
+</ul>
+<h2 id="summary"><a href="#summary" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h2>
+<p>객체 사이의 (메시지)소통은 인터페이스를 통해 이뤄짐</p>
+<p>인터페이스란 메시지의 묶음</p>
+<blockquote>
+<p>예를 들어보자.
+식당에는 손님이 사용할 수 있는 public interface인 메뉴판이 있음
+부엌에서는 많은 일이 오가지만 private 하기에 손님에게 보이지 않음
+손님은 메뉴판으로 <strong>원하는 것을 주문</strong> 만 하면됨. public interface의 메서드에 메뉴만 인자로 전달하면 원하는 것을 제공하기 위해 음식을 만듬</p>
+</blockquote>
+<p>퍼블릭 인터페이스</p>
+<ul>
+<li>클래스의 <strong>핵심 책임</strong> 을 드러냄</li>
+<li>다른 객체에 의해 호출됨</li>
+<li>쉽게 변경 ㄴㄴ</li>
+<li>다른 객체가 안정적 의존 가능</li>
+<li>테스트를 통해 문서화됨</li>
+</ul>
+<p>프라이빗 인터페이스</p>
+<ul>
+<li>세부 구현 담당</li>
+<li>다른 객체에 의해 호출 ㄴㄴ</li>
+<li>필요에 따라 언제든 변경 가능</li>
+<li>다른 객체가 의존하면 위험</li>
+</ul>
+<p>설계할 때 주의할점</p>
+<ul>
+<li>도메인 객체에만 집착하면 행동들을 객체 속에 넣는 실수하게됨</li>
+<li>
+<p><strong>도메인 객체들이 주고 받는 메시지</strong> 에 주목해야함</p>
+<ul>
+<li>이 메세지들은 새로운 객체를 찾도록 도움</li>
+</ul>
+</li>
+</ul>
+<p>UML을 통해</p>
+<ul>
+<li>객체를 배치하고</li>
+<li>
+<p>메시지 전송을 그려서 전략 작성하면 도움됨</p>
+<ul>
+<li>이 클래스는 무엇을 해야하지? 보다는 메시지를 전송하면 누구한테 전송하지? 라는 올바른 질문 가능</li>
+</ul>
+</li>
+</ul></div><hr class="custom-hr"/><div class="bio"><div class="author"><div class="author-description"><div class="author-image gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:72px;height:72px;border-radius:100%"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAfElEQVQoz2P41u9KNmIYnJonuP7odyFPs8unbqcHk2O+TPD4jsMIHJonuH3tcXzQYHtncsL3fmeSbf7a6/Sg1uJxr//3Ce7fSLTZ/ftk78/dzk8mhX+Ym/i91/FbvxsJNn+f5PVtktfDVtdX3e4/JpAR2n0uX8kN7cGcwgCmvtDORM+8NAAAAABJRU5ErkJggg==" alt="hoilzz" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><source srcSet="/static/5c48b8f7d91f4ec8970d545f1ca219a4/43715/profile.png 1x,
+/static/5c48b8f7d91f4ec8970d545f1ca219a4/8c1b8/profile.png 1.5x,
+/static/5c48b8f7d91f4ec8970d545f1ca219a4/4c15e/profile.png 2x,
+/static/5c48b8f7d91f4ec8970d545f1ca219a4/c786a/profile.png 3x" /><img width="72" height="72" src="/static/5c48b8f7d91f4ec8970d545f1ca219a4/43715/profile.png" alt="hoilzz" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div class="author-name"><span class="author-name-prefix">Written by</span><a class="author-name-content" href="/about"><span>@<!-- -->hoilzz</span></a><div class="author-introduction">hzz</div><p class="author-socials"><a href="https://github.com/hoilzz">GitHub</a><a href="https://twitter.com/qqwq9999">Twitter</a></p></div></div></div></div><ul class="navigator"><li><a rel="prev" href="/book/ch3-의존성-관리하기/">← <!-- -->[루비로 배우는 객체지향 디자인] 3. 의존성 관리하기</a></li><li><a rel="next" href="/book/ch4-2-유연한-인터페이스-만들기/">[루비로 배우는 객체지향 디자인] 4. 유연한 인터페이스 만들기(2)<!-- --> →</a></li></ul><div class="utterences"></div><footer class="footer">©<a href="https://github.com/JaeYeopHan">Jbee</a>, Built with<!-- --> <a href="https://github.com/JaeYeopHan/gatsby-starter-bee">Gatsby-starter-bee</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-89789078-1', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"book-ch-4-1-유연한-인터페이스-만들기-739","path":"/book/ch4-1-유연한-인터페이스-만들기/"};window.dataPath="337/path---book-ch-4-1-유연한-인터페이스-만들기-739-a96-pQenky2qsZPIVN9fuXikabF7f2g";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.2614055ca54359dc7972.css","/app-21f84ebe1b089822e996.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-1973d26eafc53a9664df.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js.16e0e2398b425383f792.css","/component---src-templates-blog-post-js-3824afa675ea8a695745.js"],"component---src-pages-404-js":["/component---src-pages-404-js.d7b2009829944cac142a.css","/component---src-pages-404-js-87e7fbab9f090247021f.js"],"component---src-pages-about-js":["/component---src-pages-about-js-4a19e0a1904474eb6f94.js"],"component---src-pages-index-js":["/component---src-pages-index-js.81326a1f26d2a5a341c0.css","/component---src-pages-index-js-77c0080c37ea12e70ba3.js"],"pages-manifest":["/pages-manifest-2fac768a3f29a4623cf5.js"]};/*]]>*/</script><script src="/webpack-runtime-e84ddb3ef70cba7c3b8b.js" async=""></script><script src="/0-7fa42fbc2c9c0a2f8ec6.js" async=""></script><script src="/1-a40809d9e8818f0dbb16.js" async=""></script><script src="/11-b76506ca78c3fcff1d10.js" async=""></script><script src="/app-21f84ebe1b089822e996.js" async=""></script><script src="/component---src-templates-blog-post-js-3824afa675ea8a695745.js" async=""></script></body></html>

@@ -1,0 +1,649 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=2"/><style data-href="/app.2614055ca54359dc7972.css">@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:100;src:local("Noto Sans KR Thin "),local("Noto Sans KR-Thin"),url(/static/noto-sans-kr-latin-100-2de137ca3e12ea146ee47485a97f1e78.woff2) format("woff2"),url(/static/noto-sans-kr-latin-100-b965647685dd9fc531d1f8a1cc25e024.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:300;src:local("Noto Sans KR Light "),local("Noto Sans KR-Light"),url(/static/noto-sans-kr-latin-300-4f773a0fce88aa857d70b56c5b0a1d26.woff2) format("woff2"),url(/static/noto-sans-kr-latin-300-ee87751dac814562bac316d848e35748.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:400;src:local("Noto Sans KR Regular "),local("Noto Sans KR-Regular"),url(/static/noto-sans-kr-latin-400-be09f2ced7ff9fa6eda5f0416e2fc840.woff2) format("woff2"),url(/static/noto-sans-kr-latin-400-4c50be0fe5b21a153b8e40a392c2d3fe.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:500;src:local("Noto Sans KR Medium "),local("Noto Sans KR-Medium"),url(/static/noto-sans-kr-latin-500-416698c2fc4b3951f8d63d3d2ae23900.woff2) format("woff2"),url(/static/noto-sans-kr-latin-500-28601458e118110e494903a1fcd6dcf5.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:700;src:local("Noto Sans KR Bold "),local("Noto Sans KR-Bold"),url(/static/noto-sans-kr-latin-700-04e782e08729f3725ae5a9c95da0c8ba.woff2) format("woff2"),url(/static/noto-sans-kr-latin-700-b9e989a96027f839a9569d2d011e0b71.woff) format("woff")}@font-face{font-family:Noto Sans KR;font-style:normal;font-display:swap;font-weight:900;src:local("Noto Sans KR Black "),local("Noto Sans KR-Black"),url(/static/noto-sans-kr-latin-900-c41f1395489a117ca36d550142a1695f.woff2) format("woff2"),url(/static/noto-sans-kr-latin-900-589f5fbf84d9dc9984a969bae969fd60.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:100;src:local("Catamaran Thin "),local("Catamaran-Thin"),url(/static/catamaran-latin-100-3570195a7b5f619dd9b2419d8fa3f089.woff2) format("woff2"),url(/static/catamaran-latin-100-e82908f57f6d2f23eb9876b2d6868195.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:200;src:local("Catamaran Extra Light "),local("Catamaran-Extra Light"),url(/static/catamaran-latin-200-987ea210308405ac77ba2f36430a70c9.woff2) format("woff2"),url(/static/catamaran-latin-200-bb5993d2f001b739bb9ab7c3ed9725c3.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:300;src:local("Catamaran Light "),local("Catamaran-Light"),url(/static/catamaran-latin-300-2b8a4bd13e9d5ba755f010f8732b0bb6.woff2) format("woff2"),url(/static/catamaran-latin-300-c2696c65c33dcf37871b72bad51ee1ce.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:400;src:local("Catamaran Regular "),local("Catamaran-Regular"),url(/static/catamaran-latin-400-640947b787a38ec35d097129637d9130.woff2) format("woff2"),url(/static/catamaran-latin-400-97e5bc807a3e915e3fbf40ce5fcb1128.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:500;src:local("Catamaran Medium "),local("Catamaran-Medium"),url(/static/catamaran-latin-500-884483dd213f37ae3b5c98f73dd190a5.woff2) format("woff2"),url(/static/catamaran-latin-500-412cf386e31213e3601cb2132b9c4c2d.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:600;src:local("Catamaran SemiBold "),local("Catamaran-SemiBold"),url(/static/catamaran-latin-600-eb6ebda25331e50d3f42c45a41f613bb.woff2) format("woff2"),url(/static/catamaran-latin-600-215c58c6114e0556cb1c332c0fda463a.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:700;src:local("Catamaran Bold "),local("Catamaran-Bold"),url(/static/catamaran-latin-700-3196f49881b324fa5a5f937875cc380f.woff2) format("woff2"),url(/static/catamaran-latin-700-05f6e51c518dd3b521b258e5c05d0e72.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:800;src:local("Catamaran ExtraBold "),local("Catamaran-ExtraBold"),url(/static/catamaran-latin-800-601b1d0f1b78fd65c3205b2c004bbe60.woff2) format("woff2"),url(/static/catamaran-latin-800-3b1675e4ede7e86ec79fa84c1203908e.woff) format("woff")}@font-face{font-family:Catamaran;font-style:normal;font-display:swap;font-weight:900;src:local("Catamaran Black "),local("Catamaran-Black"),url(/static/catamaran-latin-900-6bb5f96614acb7754020b922e1a63d24.woff2) format("woff2"),url(/static/catamaran-latin-900-79292dba48851cc3a212863c860d8f09.woff) format("woff")}</style><style data-href="/component---src-templates-blog-post-js.16e0e2398b425383f792.css">@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);.custom-hr{margin:64px;background:linear-gradient(72deg,#291e95,#cc007a);border:none;height:2px}.github{float:right;padding:14px;opacity:.6}.top{position:relative;width:100%;height:60px;background:#282c35}.top .link{display:inline-block;font-size:28px;padding-top:8px;color:#fff;opacity:.7;margin-left:20px;font-family:Catamaran;font-weight:800}.home-header{margin-top:0;border-bottom:none;font-weight:900;font-size:48px;letter-spacing:-2px}.link{box-shadow:none;text-decoration:none;color:inherit}.switch-container{text-align:right}.switch-container .icon{text-align:center;color:#222;font-size:14px;font-weight:900}.footer{padding-top:52px;text-align:center;font-size:12px}.footer a{text-decoration:none!important}body.light{background-color:#fff;text-shadow:0 0 .1px rgba(0,0,0,.3)}body.light .home-header{color:#333}body.light .bio .author-name-content{background-color:#ecf0f2}body.light .bio .author-introduction{color:#7d7d7d}body.light .bio a{color:navy}body.light .category-container{border-color:#ecf0f2;border-style:solid;border-width:1px 6px;background-color:#f4f7f8}body.light .category-container .item{border:1px solid #ecf0f2;background-color:#fff;box-shadow:0 1px 1px rgba(0,0,0,.1)}body.light .category-container .item a{color:#666}body.light .category-container .item[aria-selected=true]{border:2px solid #909da1;font-weight:bolder}body.light .category-container .item[aria-selected=true] a{color:#636c6e}body.light .thumbnail h3{color:#333}body.light .thumbnail p{color:#7d7d7d}body.light .thumbnail:hover{text-shadow:0 0 6px rgba(0,0,0,.2)}body.light .footer{color:#aaa}body.light .footer a{color:#333}body.light .navigator a{background-color:#fceff7;color:#cc007a}body.dark{background-color:#282c35;text-shadow:0 0 .1px hsla(0,0%,100%,.3)}body.dark,body.dark .home-header{color:#eee}body.dark .bio .author-name-content{background-color:#383636}body.dark .bio .author-introduction{color:#d8d7d7}body.dark .bio a{color:#bb72ec}body.dark .category-container{border-color:#383636;border-style:solid;border-width:1px 6px;background-color:#24272c}body.dark .category-container .item{border:1px solid #383636;background-color:#282c35;box-shadow:0 1px 1px hsla(0,0%,100%,.1)}body.dark .category-container .item a{color:#d8d7d7}body.dark .category-container .item[aria-selected=true]{border:2px solid #666;font-weight:bolder}body.dark .category-container .item[aria-selected=true] a{color:#fff}body.dark .thumbnail h3{color:#eee}body.dark .thumbnail p{color:#d8d7d7}body.dark .thumbnail:hover{text-shadow:0 0 6px hsla(0,0%,100%,.2)}body.dark .footer{color:#d8d7d7}body.dark .footer a{color:#fff}body.dark blockquote{border-left:4px solid hsla(0,0%,100%,.822)}body.dark h1,body.dark h2{border-bottom-color:hsla(0,0%,100%,.3)}body.dark .navigator a{background-color:#fceff7;color:#cc007a}body{font-family:Noto Sans KR,sans-serif;background-color:#fff;-webkit-text-size-adjust:antialiased;-moz-osx-font-smoothing:grayscale;transition:background-color .3s,color .3s}.sponsor-button{text-align:right;margin:4px}.sponsor-button .bmc-button{display:inline-block;padding:0 7px;width:133px;height:33px;text-decoration:none;background-color:#bb5794;color:#fff;border:1px solid transparent;border-radius:6px;letter-spacing:-.08px;box-sizing:border-box;font-size:12px;line-height:30px;text-align:left}.sponsor-button .bmc-button:active,.sponsor-button .bmc-button:hover{background-color:#a0457d}.sponsor-button .bmc-button img{width:20px;margin-bottom:1px;box-shadow:none;border:none;vertical-align:middle}.sponsor-button .bmc-button span{margin-left:6px}.bio{margin-bottom:24px}.bio .author-description{display:flex}.bio .author-image{margin-top:12px;margin-right:12px;margin-bottom:0;min-width:72px}.bio .author-name-prefix{font-size:90%;margin-right:4px}.bio .author-name-content{display:inline-block;font-size:95%;padding:2px 6px;font-weight:bolder;border-radius:8px;-webkit-transform-origin:center;transform-origin:center;-webkit-animation:flutter 2s linear infinite;animation:flutter 2s linear infinite}.bio .author-introduction{margin-top:4px;font-size:80%;line-height:1.4}.bio .author-socials{margin-top:4px}.bio a{margin-right:8px;font-size:80%}.bio a.visited{text-decoration:none}@-webkit-keyframes flutter{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}35%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}40%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}65%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes flutter{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}35%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}40%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}65%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.navigator{margin:40px 0;display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0}.navigator li{margin-bottom:12px}.navigator a{padding:7px 16px 8px;border-radius:6px;font-size:12px;opacity:.8}.gatsby-highlight-code-line{background-color:#022a4b;display:block;margin-right:-1.2em;margin-left:-1.2em;padding-right:1em;padding-left:.75em;border-left:.35em solid #0687f0}blockquote{color:#999}code[class*=language-],pre[class*=language-]{color:#e0e0e0;background:none;font-family:Fira Code,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.6;font-size:13px;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;-ms-overflow-style:none;overflow:-moz-scrollbars-none}pre[class*=language-]::-webkit-scrollbar{display:none}pre[class*=language-]{padding:1.2em;margin:1.5em 0;overflow:auto;border-radius:.6em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#212121}:not(pre)>code[class*=language-]{padding:.1em .6em;border-radius:.2em;white-space:normal;background:#ece5f1;color:#4b2043}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#616161}.token.punctuation{color:#e0e0e0}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#ff9100}.token.class-name,.token.constant,.token.property,.token.symbol{color:#ff0}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#b388ff}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#00e676}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style><meta name="generator" content="Gatsby 2.0.116"/><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.625 -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:normal;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}h1{margin-left:0;margin-right:0;margin-top:2.4375rem;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.21875rem;color:inherit;font-family:Catamaran;font-weight:800;text-rendering:optimizeLegibility;font-size:2rem;line-height:1.2;border-bottom:1px solid hsla(0,0%,0%,0.07);}h2{margin-left:0;margin-right:0;margin-top:56px;padding-bottom:calc(0.40625rem - 1px);padding-left:0;padding-right:0;padding-top:0;margin-bottom:20px;color:inherit;font-family:Catamaran;font-weight:700;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:1.2;border-bottom:1px solid hsla(0,0%,0%,0.07);}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:inherit;font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;color:hsla(0,0%,0%,0.53);font-family:-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-weight:600;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}ul{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:6px;list-style-position:outside;list-style-image:none;}ol{margin-left:1.625rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:0.85rem;line-height:1.625rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;font-size:1rem;line-height:1.625rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}blockquote{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:calc(0.8125rem - 1px);padding-right:0;padding-top:0;margin-bottom:0.8125rem;border-left:4px solid hsla(0,0%,0%,0.13);color:hsla(0,0%,0%,0.53);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(0.8125rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:0.8125rem;}b{font-weight:600;}strong{font-weight:600;}dt{font-weight:600;}th{font-weight:600;}li{margin-bottom:2px;}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}li > ul{margin-left:1.625rem;margin-bottom:calc(0.8125rem / 2);margin-top:calc(0.8125rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(0.8125rem / 2);}code{font-size:0.85rem;line-height:1.625rem;}kbd{font-size:0.85rem;line-height:1.625rem;}samp{font-size:0.85rem;line-height:1.625rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.08333rem;padding-right:1.08333rem;padding-top:0.8125rem;padding-bottom:calc(0.8125rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}h3,h4,h5,h6{margin-bottom:0.8125rem;margin-top:1.625rem;}ol,ul{margin-left:2.03125rem;}li>ol,li>ul{margin-left:2.03125rem;}a{color:#0687f0;text-decoration:none;box-shadow:none;}a:hover,a:active{text-decoration:underline;}a.gatsby-resp-image-link{box-shadow:none;text-decoration:none;}a:hover{text-decoration:none;}</style><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">dan의 build-react-app-with-idiomatic-redux 강의 정리 | hoilzz</title><meta data-react-helmet="true" name="description" content="dan의 building-react-applications-with-idiomatic-redux 을 보며 새롭게 배운것들만 따로 정리. 전체 코드 및 해석된 대본 정리는  advanced Redux  에서 참고 가능. 1. Colocating Selectors with Reducer visibleTodos 를 가져오기 위해, getVisibleTodos라는 셀렉터를 사용한다.
+이 때 전달되는 파라미터는 state.todos라는 조각이다. 이 때, state 구조가 바뀌면(정확히는 todos…"/><meta data-react-helmet="true" property="og:title" content="dan의 build-react-app-with-idiomatic-redux 강의 정리"/><meta data-react-helmet="true" property="og:description" content="dan의 building-react-applications-with-idiomatic-redux 을 보며 새롭게 배운것들만 따로 정리. 전체 코드 및 해석된 대본 정리는  advanced Redux  에서 참고 가능. 1. Colocating Selectors with Reducer visibleTodos 를 가져오기 위해, getVisibleTodos라는 셀렉터를 사용한다.
+이 때 전달되는 파라미터는 state.todos라는 조각이다. 이 때, state 구조가 바뀌면(정확히는 todos…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="hoilzz"/><meta data-react-helmet="true" name="twitter:title" content="dan의 build-react-app-with-idiomatic-redux 강의 정리"/><meta data-react-helmet="true" name="twitter:description" content="dan의 building-react-applications-with-idiomatic-redux 을 보며 새롭게 배운것들만 따로 정리. 전체 코드 및 해석된 대본 정리는  advanced Redux  에서 참고 가능. 1. Colocating Selectors with Reducer visibleTodos 를 가져오기 위해, getVisibleTodos라는 셀렉터를 사용한다.
+이 때 전달되는 파라미터는 state.todos라는 조각이다. 이 때, state 구조가 바뀌면(정확히는 todos…"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-3824afa675ea8a695745.js"/><link as="script" rel="preload" href="/app-21f84ebe1b089822e996.js"/><link as="script" rel="preload" href="/11-b76506ca78c3fcff1d10.js"/><link as="script" rel="preload" href="/1-a40809d9e8818f0dbb16.js"/><link as="script" rel="preload" href="/0-7fa42fbc2c9c0a2f8ec6.js"/><link as="script" rel="preload" href="/webpack-runtime-e84ddb3ef70cba7c3b8b.js"/><link as="fetch" rel="preload" href="/static/d/644/path---react-build-react-app-with-idiomatic-redux-e-17-a1a-J1xCtkdgDRnJeEcA0ovvYVUT0.json" crossOrigin="use-credentials"/><meta name="google-site-verification" content="oNBk5rPBIqfpVeDsfVhiUV3VLmYkRjrySs_8slxHOF0"/></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div class="top"><a class="link" href="/">hoilzz</a></div><div style="margin-left:auto;margin-right:auto;max-width:39rem;padding:2.4375rem 1.21875rem"><div class="switch-container"><label for="normal-switch"><div style="position:relative;display:inline-block;text-align:left;opacity:1;border-radius:12px;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s;touch-action:none;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none"><div class="react-switch-bg" style="height:24px;width:48px;margin:0;position:relative;background:#d9dfe2;border-radius:12px;cursor:pointer;-webkit-transition:background 0.25s;-moz-transition:background 0.25s;transition:background 0.25s"><div style="height:24px;width:26px;position:relative;opacity:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon checkedIcon">D</div></div><div style="height:24px;width:26px;position:absolute;opacity:1;right:0;top:0;pointer-events:none;-webkit-transition:opacity 0.25s;-moz-transition:opacity 0.25s;transition:opacity 0.25s"><div class="icon uncheckedIcon">L</div></div></div><div class="react-switch-handle" style="height:22px;width:22px;background:#ffffff;display:inline-block;cursor:pointer;border-radius:50%;position:absolute;transform:translateX(1px);top:1px;outline:0;border:0;-webkit-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;-moz-transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s;transition:background-color 0.25s, transform 0.25s, box-shadow 0.15s"></div><input type="checkbox" role="switch" id="normal-switch" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px"/></div></label></div><h1>dan의 build-react-app-with-idiomatic-redux 강의 정리</h1><div><p><a href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">dan의 building-react-applications-with-idiomatic-redux</a>을 보며 새롭게 배운것들만 따로 정리.</p>
+<p>전체 코드 및 해석된 대본 정리는 <a href="https://github.com/hoilzz/advancedredux">advanced Redux</a> 에서 참고 가능.</p>
+<h2 id="1-colocating-selectors-with-reducer"><a href="#1-colocating-selectors-with-reducer" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Colocating Selectors with Reducer</h2>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// visibleTodoList.js</span>
+<span class="token operator">...</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> getVisibleTodos <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'Reducers/todos/'</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">mapStateToProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> <span class="token punctuation">{</span> params <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  todos<span class="token punctuation">:</span> <span class="token function">getVisibleTodos</span><span class="token punctuation">(</span>state<span class="token punctuation">.</span>todos<span class="token punctuation">,</span> params<span class="token punctuation">.</span>filter <span class="token operator">||</span> <span class="token string">'all'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<p>visibleTodos 를 가져오기 위해, getVisibleTodos라는 셀렉터를 사용한다.
+이 때 전달되는 파라미터는 state.todos라는 조각이다.</p>
+<p>이 때, state 구조가 바뀌면(정확히는 todos), getVisibleTodos함수를 사용하는 곳의 코드를 전부 변경해야한다.</p>
+<p>그래서 public API와, private API로 나눠보자.</p>
+<p>public API는</p>
+<ul>
+<li>외부에서(컴포넌트에서) 접근 가능한 API</li>
+<li>
+<p>셀렉터를 사용하는쪽은 state만 전달해주면 된다. 즉, selector를 사용하는 컴포넌트는 selector를 사용하기 위해, 아무것도 몰라도됨. 걍 state만 전달하면된다.</p>
+<ul>
+<li>이렇게 하면, state 구조가 바뀌더라도 코드 변경 불필요하다.</li>
+<li>컴포넌트 측은 필요한 것을 얻기위해 어떠한 정보(어떤 state 조각을 넘겨야 할지)도 알필요 없이 state만 전달하면됨. (connect의 mapStateToProps 함수를 통해 전체 app 상태 정보를 알고있음)</li>
+</ul>
+</li>
+<li>이것은 rootReducer. 즉, 서브 리듀서들이 최종 통합되는 곳(<code class="language-text">reducer/index</code>)에서 작성한다.</li>
+</ul>
+<p>private API는</p>
+<ul>
+<li>외부에서(컴포넌트에서) 접근 불가한 API</li>
+<li>복잡한 로직(반복문을 통해 visible한 todo 찾기)은 private API에서 책임진다.</li>
+</ul>
+<p>위와 같은 규칙을 통해 selector를 다시 작성해보자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// visibleTodoList.js</span>
+<span class="token operator">...</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> getVisibleTodos <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'Reducers/'</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">mapStateToProps</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> <span class="token punctuation">{</span> match<span class="token punctuation">:</span> <span class="token punctuation">{</span> params <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> filter <span class="token operator">=</span> params<span class="token punctuation">.</span>filter <span class="token operator">||</span> <span class="token string">'all'</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    todos<span class="token punctuation">:</span> <span class="token function">getVisibleTodos</span><span class="token punctuation">(</span>state<span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    filter<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// reducer/index.js</span>
+<span class="token keyword">const</span> todoApp <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  todos<span class="token punctuation">,</span>
+  visibilityFilter<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> todoApp
+
+<span class="token comment">// public API</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">getVisibleTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> fromTodos<span class="token punctuation">.</span><span class="token function">getVisibleTodos</span><span class="token punctuation">(</span>state<span class="token punctuation">.</span>todos<span class="token punctuation">,</span> filter<span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// reducer/todos.js</span>
+<span class="token comment">// private API</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">getVisibleTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'all'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+    <span class="token keyword">case</span> <span class="token string">'completed'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">.</span>todos<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>t <span class="token operator">=></span> t<span class="token punctuation">.</span>completed<span class="token punctuation">)</span>
+    <span class="token keyword">case</span> <span class="token string">'active'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">.</span>todos<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>t <span class="token operator">=></span> <span class="token operator">!</span>t<span class="token punctuation">.</span>completed<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`Unknown filter: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>filter<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><code class="language-text">todos: getVisibleTodos(state, params.filter || &#39;all&#39;)</code> 이 구조를 만들어서</p>
+<ul>
+<li>
+<p>state 구조가 변경되더라도 UI 를 사용하는 곳은 state 만 넣어주면 된다.</p>
+<ul>
+<li>왜냐하면 해당함수는 셀렉터 함수이기 때문이다.</li>
+<li>셀렉터 함수는 전체 어플리케이션 상태에 대한 정보를 알고 있고 해당 로직에 따라 state 만 넣어주면 select 해주기 때문이다.</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-nomarlizing-the-state-shape"><a href="#2-nomarlizing-the-state-shape" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Nomarlizing the state shape</h2>
+<p>State tree 내부에서 <code class="language-text">todo</code> objects의 배열을 todo로 나타낸다.</p>
+<p>하지만 real world 에서는</p>
+<ul>
+<li>single array 이상일 수 있고,</li>
+<li>다른 배열에서 동일한 id를 가진 todo와 sync가 맞지 않을 수도 있다.</li>
+</ul>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">todos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>state<span class="token punctuation">,</span> <span class="token function">todo</span><span class="token punctuation">(</span>undefined<span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">]</span>
+    <span class="token keyword">case</span> <span class="token string">'TOGGLE_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>t <span class="token operator">=></span> <span class="token function">todo</span><span class="token punctuation">(</span>t<span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="byid-리듀서-추가하기"><a href="#byid-%EB%A6%AC%EB%93%80%EC%84%9C-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>byId 리듀서 추가하기</h3>
+<p><strong>state를 db로 다루기, todos를 id에 의해 인덱싱된 obejct로 유지하기</strong></p>
+<ul>
+<li>
+<p>reducer 를 <code class="language-text">byID</code>로 리네이밍하기</p>
+</li>
+<li>
+<p>todo 추가 할 때 마지막 index에 추가하는 로직, todo toggle시에 map을 통해 상태 변경하는 로직을 사용하지 않고,</p>
+<ul>
+<li>lookup table 내부의 값을 변경할 것이다.</li>
+</ul>
+</li>
+</ul>
+<p><code class="language-text">TOGGLE_TODO</code>와 <code class="language-text">ADD_TODO</code>는 동일한 로직을 가진다.</p>
+<p>(둘 다 룩업 테이블에서 key 값에 id 를 찾거나 추가, value 는 action 에서 태운 값)</p>
+<p><code class="language-text">action.id</code>의 값이 이전 <code class="language-text">action.id</code>값(<code class="language-text">state[action.id]</code>)과</p>
+<p><code class="language-text">action</code> 으로 todo reducer 를 호출한 결과(<code class="language-text">todo(state[action.id], action)</code>)가 되도록 하는 new lookup table 을 리턴할거다.</p>
+<p>아래 코드 중 이부분을 말한다. <code class="language-text">[action.id]: todo(state[action.id], action),</code></p>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">byId</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+    <span class="token keyword">case</span> <span class="token string">'TOGGLE_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token operator">...</span>state<span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>action<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token function">todo</span><span class="token punctuation">(</span>state<span class="token punctuation">[</span>action<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="allids-reducer-추가하기"><a href="#allids-reducer-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>allIds reducer 추가하기</h3>
+<p>위에서 작성한 byId todos를 id를 키로 가지고 todo에 대한 정보를 값으로 가지는 map으로 유지한다.</p>
+<p>allIds 리듀서는 ADD_TODO만 신경쓴다.</p>
+<p>그 이유는 new todo가 추가되면 new id를 가진 새로운 ids 배열을 리턴해야한다.(물론, 삭제 기능도 추가하면 얘도 포함..)</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">allIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>state<span class="token punctuation">,</span> action<span class="token punctuation">.</span>id<span class="token punctuation">]</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>2가지 리듀서 byId, allIds 를 생성했다.
+이 리듀서는 todos.js에서 다시 comebine 된다.</p>
+<h3 id="updating-getvisible-todos-selector"><a href="#updating-getvisible-todos-selector" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Updating getVisible Todos selector</h3>
+<p>reducer에서 state shape을 변경했다. 변경된 state shape을 의존하는 selector를 업데이트해보자.</p>
+<p>todos의 배열을 더이상 사용하지 않기 때문에(위에서 우리가 normalize해서 state.todos 배열이 없어짐), 배열을 생성하는 <code class="language-text">getAllTodos</code> 셀렉터를 만들자.</p>
+<p><code class="language-text">getAllTodos</code>는 todos.js 에서만 사용하기 때문에 <code class="language-text">allIds</code>와 <code class="language-text">byId</code> lookup table 을 매핑한 결과를 리턴하자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">getAllTodos</span> <span class="token operator">=</span> state <span class="token operator">=></span> state<span class="token punctuation">.</span>allIds<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>id <span class="token operator">=></span> state<span class="token punctuation">.</span>byId<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token punctuation">)</span></code></pre></div>
+<p><code class="language-text">getVisibleTodo</code> 셀렉터도 수정하자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">getVisibleTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> allTodos <span class="token operator">=</span> <span class="token function">getAllTodos</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'all'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> allTodos
+    <span class="token keyword">case</span> <span class="token string">'completed'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> allTodos<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>t <span class="token operator">=></span> t<span class="token punctuation">.</span>completed<span class="token punctuation">)</span>
+    <span class="token keyword">case</span> <span class="token string">'active'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> allTodos<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>t <span class="token operator">=></span> <span class="token operator">!</span>t<span class="token punctuation">.</span>completed<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`Unknown filter: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>filter<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><code class="language-text">allTodos</code>는 컴포넌트가 예측하는 todos 의 배열이다. getVisibleTodos를 사용하는 측에서는 동일한 결과를 리턴해주기 때문에 바뀐 리듀서 및 state 구조에 대해 대응할 필요가 없다.</p>
+<h3 id="더-나아가서-todo라는-서브-리듀서로-리듀서-쪼개기"><a href="#%EB%8D%94-%EB%82%98%EC%95%84%EA%B0%80%EC%84%9C-todo%EB%9D%BC%EB%8A%94-%EC%84%9C%EB%B8%8C-%EB%A6%AC%EB%93%80%EC%84%9C%EB%A1%9C-%EB%A6%AC%EB%93%80%EC%84%9C-%EC%AA%BC%EA%B0%9C%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>더 나아가서, todo라는 서브 리듀서로 리듀서 쪼개기</h3>
+<p>todos.js는 갱장히 커졌다. single todo를 관리하는 파일을 생성하자.</p>
+<p>todo.js는 todos.js의 서브 리듀서다.</p>
+<hr>
+<h2 id="3-서버에서-내려준-데이터로-state-업데이트하기"><a href="#3-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EB%82%B4%EB%A0%A4%EC%A4%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C-state-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. 서버에서 내려준 데이터로 state 업데이트하기.</h2>
+<p>지금까지는 서버에서 내려준 데이터 없이 브라우저단에서만 데이터를 관리했다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">getVisibleTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> allTodos <span class="token operator">=</span> <span class="token function">getAllTodos</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'all'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> allTodos
+    <span class="token keyword">case</span> <span class="token string">'completed'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> allTodos<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>t <span class="token operator">=></span> t<span class="token punctuation">.</span>completed<span class="token punctuation">)</span>
+    <span class="token keyword">case</span> <span class="token string">'active'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> allTodos<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>t <span class="token operator">=></span> <span class="token operator">!</span>t<span class="token punctuation">.</span>completed<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token string">`Unknown filter: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>filter<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>서버에서 todos를 내려준다고하자. 위 리듀서 구조는 todos를 전부 내려줄 때만 사용가능하다. 왜냐하면 모든 구조가 allTodos.으로 되있으니까.. 또, <strong>만약 todos가 천단위로 내려온다고 할 때 전부 가져와서 필터링하는 것은 실용적이지 않다.</strong></p>
+<h3 id="getvisibletodos-리팩토링"><a href="#getvisibletodos-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getVisibleTodos 리팩토링</h3>
+<p>엄청나게 큰(1000개가 들어있는) ids를 유지하는 것보다,</p>
+<ul>
+<li>every filter’s tab에 대해 <code class="language-text">id</code>s 리스트를 유지하는 것이 낫다.</li>
+<li>그래서 그것들은 분리되서 저장되고 fetched된 데이터와 함께 action에 따라 채워질 것이다.</li>
+</ul>
+<p>위에서 작성한 <code class="language-text">getAllTodos</code> 셀렉터를 지우자. <code class="language-text">allTodos</code>는 더이상 사용하지 않는다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">getVisbileTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">,</span> filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> ids <span class="token operator">=</span> state<span class="token punctuation">.</span>idsByFilter<span class="token punctuation">[</span>filter<span class="token punctuation">]</span>
+  <span class="token keyword">return</span> ids<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>id <span class="token operator">=></span> state<span class="token punctuation">.</span>byId<span class="token punctuation">[</span>id<span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="todos-리팩토링"><a href="#todos-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>todos 리팩토링</h3>
+<p>기존 todos 구조</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> todos <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  byId<span class="token punctuation">,</span>
+  allIds<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<p>allIds는 더 이상 사용하지 않기 떄문에, 다음과 같이 변경</p>
+<p>todos.allIds가 아닌, todos.idsByFilter[all, active, completed]로 분리.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> todos <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  byId<span class="token punctuation">,</span>
+  idsByFilter<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> idsByFilter <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  all<span class="token punctuation">:</span> allIds<span class="token punctuation">,</span>
+  active<span class="token punctuation">:</span> activeIds<span class="token punctuation">,</span>
+  completed<span class="token punctuation">:</span> completedIds<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<h3 id="allids-리듀서-업데이트하기"><a href="#allids-%EB%A6%AC%EB%93%80%EC%84%9C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>allIds 리듀서 업데이트하기.</h3>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">allIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>state<span class="token punctuation">,</span> action<span class="token punctuation">.</span>id<span class="token punctuation">]</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>allIds 리듀서는 <code class="language-text">ADD_TODO</code> action과 ids 배열을 관리했다.</p>
+<p>이제 ADD는 서버에 todo를 추가하라는 요청을 보내기 때문에, 직접 추가할 필요는 없다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">allIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>그리고 ADD<em>TODO는 서버에서 수행하고 수행 결과를 받기 때문에 action명을 `RECEIVE</em>TODOS`로 변경하자.</p>
+<p>서버에서 todos 배열을 받은 후, todo에서 id만 셀렉트해서 추가할거다.</p>
+<h3 id="activeids-reducer-생성하기"><a href="#activeids-reducer-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>activeIds reducer 생성하기</h3>
+<p>각 filter의 ids 리듀서를 추가할거다. (activeIds, completedIds)
+allIds와 동일한 역할을 한다. <code class="language-text">RECEIVE_TODOS</code> 액션 디스패치될 때, filter 인자를 추가로 전달해줄거다.
+이 filter와 일치한 ids reducer만 업데이트 될 것이다.</p>
+<p><em>activeIds.js</em></p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">activeIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'active'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p><em>completedIds.js</em></p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">completedIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'completed'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="byid-reducer도-리팩토링"><a href="#byid-reducer%EB%8F%84-%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>byId reducer도 리팩토링</h3>
+<p><em>before byId.js</em></p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">byId</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+    <span class="token keyword">case</span> <span class="token string">'TOGGLE_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token operator">...</span>state<span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>action<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token function">todo</span><span class="token punctuation">(</span>state<span class="token punctuation">[</span>action<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>서버의 응답값의 todos를 처리하기 위해 byId reducer도 업데이트하자.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">byId</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">const</span> nextState<span class="token punctuation">;</span>
+      action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> <span class="token punctuation">{</span>
+        nextState<span class="token punctuation">[</span>todo<span class="token punctuation">.</span>id<span class="token punctuation">]</span> <span class="token operator">=</span> todo<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> nextState<span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<h2 id="4-reducer-반복-코드-factory-패턴으로-줄이기"><a href="#4-reducer-%EB%B0%98%EB%B3%B5-%EC%BD%94%EB%93%9C-factory-%ED%8C%A8%ED%84%B4%EC%9C%BC%EB%A1%9C-%EC%A4%84%EC%9D%B4%EA%B8%B0" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. reducer 반복 코드 factory 패턴으로 줄이기</h2>
+<p>아래 코드를 잘 보면 반복되는 코드가 많다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">allIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'all'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">activeIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'activeIds action: '</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'active'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">completedIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'completed'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>반복되는 ids 리듀서 코드 factory 패턴을 이용해 줄이기.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// createList.js</span>
+<span class="token keyword">const</span> <span class="token function-variable function">createList</span> <span class="token operator">=</span> filter <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> state
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+      <span class="token keyword">default</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> state
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// todos.js -> 이제는 index.js</span>
+<span class="token keyword">const</span> listByFilter <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  all<span class="token punctuation">:</span> <span class="token function">createList</span><span class="token punctuation">(</span><span class="token string">'all'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  active<span class="token punctuation">:</span> <span class="token function">createList</span><span class="token punctuation">(</span><span class="token string">'active'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  completed<span class="token punctuation">:</span> <span class="token function">createList</span><span class="token punctuation">(</span><span class="token string">'completed'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<p>요청완료 전까지 loading 을 보여주기 위해 각 ids에 isfetching 추가</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">createList</span> <span class="token operator">=</span> filter <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">ids</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token comment">// ...</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">const</span> <span class="token function-variable function">isFetching</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> state
+    <span class="token punctuation">}</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span>
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">case</span> <span class="token string">'REQUEST_TODOS'</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span>
+      <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">false</span>
+      <span class="token keyword">default</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> state
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">return</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    ids<span class="token punctuation">,</span>
+    isFetching<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h2 id="5-avoiding-race-condition"><a href="#5-avoiding-race-condition" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. avoiding-race-condition</h2>
+<p>요청 전에 isFething flag를 통해 요청 중일 경우 요청하지 않고 즉시 return;</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">fetchTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>dispatch<span class="token punctuation">,</span> getState<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">getIsFetching</span><span class="token punctuation">(</span><span class="token function">getState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span></code></pre></div>
+<h2 id="요약본"><a href="#%EC%9A%94%EC%95%BD%EB%B3%B8" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>요약본</h2>
+<ol>
+<li>Colocating Selectors with Reducer</li>
+</ol>
+<p>component에서 state의 값들을 가져올 때 selector를 적극 활용하자.</p>
+<ul>
+<li>
+<p>재사용 가능 및 유지보수 용이</p>
+<ul>
+<li>component에서 직접 state접근하여 가져올 경우, state 구조가 변경될 때마다 다 수정해줘야함.</li>
+</ul>
+</li>
+<li>
+<p>캡슐화</p>
+<ul>
+<li>state의 구조와 state에 접근하기 위한 로직을 selector 함수에 은닉</li>
+<li>state를 사용하는 component 입장에서는 단순히 호출만 하면됨.</li>
+<li>즉, 컴포넌트는 todos를 달라고할 때, state.todos를 전달(<strong>“state안에있는 todos라는거 있는데 그거 줘”</strong>)</li>
+<li>가 아닌, <strong>todos 내놔</strong> 라고 하면 selector 함수 내부에서 (“todos는 state.todos에 있으니까 이거 줄께”)가 되야함. (selector에 대한 책임을 컴포넌트가 나눠갖는게 아닌 selector에게 일방적으로 강요 하면서 의존성 약하게 할 수 있음)</li>
+</ul>
+</li>
+</ul>
+<p>fake API 에서 0.5 -> 5 초 delay 를 줬을 때, 문제가 있었다. 요청 시작하기 전에 탭 로딩 여부를 체크하지 않았다. 그래서 <code class="language-text">receiveTodos</code> action 이 다시 시작되고 잠재적으로 경쟁 조건이 발생할 수 있다.</p>
+<p>이걸 고치기 위해, <strong>주어진 필터의 todos 를 이미 fetching 중이라는걸 알게 되면 <code class="language-text">fetchTodos</code> action creator 에서 조기 종료</strong>할 수 있다.</p>
+<p><code class="language-text">fetchTodos</code> 내부에서, 현재 store state 와 filter 를 인자로 받는 <code class="language-text">getIsFetching</code> selector 를 이용하여 fetching 여부를 판단하기 위해 <code class="language-text">if</code>를 추가 할 것이다. 만약 <code class="language-text">true</code>를 리턴하면, action dispatching 없이 thunk 에서 조기 종료할 것이다.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">fetchTodos</span> <span class="token operator">=</span> filter <span class="token operator">=></span> <span class="token punctuation">(</span>dispatch<span class="token punctuation">,</span> getState<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">getIsFetching</span><span class="token punctuation">(</span><span class="token function">getState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token function">requestTodos</span><span class="token punctuation">(</span>filter<span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token keyword">return</span> api
+    <span class="token punctuation">.</span><span class="token function">fetchTodos</span><span class="token punctuation">(</span>filter<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>response <span class="token operator">=></span> <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token function">receiveTodos</span><span class="token punctuation">(</span>filter<span class="token punctuation">,</span> response<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>State Shape의 변화</p>
+<ol>
+<li>API 통신 없이, 단일 todos</li>
+</ol>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">todos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>state<span class="token punctuation">,</span> <span class="token function">todo</span><span class="token punctuation">(</span>undefined<span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">]</span>
+    <span class="token keyword">case</span> <span class="token string">'TOGGLE_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>t <span class="token operator">=></span> <span class="token function">todo</span><span class="token punctuation">(</span>t<span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ol start="2">
+<li>
+<p>byId, allIds를 통해 분리해서 관리.</p>
+</li>
+<li>
+<p>byId는 todo의 id를 key로 가지고 todo에 대한 정보를 값으로 갖는 lookup table</p>
+</li>
+<li>
+<p>allIds는 id들의 배열</p>
+</li>
+</ol>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> todos <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  byId<span class="token punctuation">,</span>
+  allIds<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">allIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>state<span class="token punctuation">,</span> action<span class="token punctuation">.</span>id<span class="token punctuation">]</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">byId</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'ADD_TODO'</span><span class="token punctuation">:</span>
+    <span class="token keyword">case</span> <span class="token string">'TOGGLE_TODO'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token operator">...</span>state<span class="token punctuation">,</span>
+        <span class="token punctuation">[</span>action<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">:</span> <span class="token function">todo</span><span class="token punctuation">(</span>state<span class="token punctuation">[</span>action<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<ol start="3">
+<li>
+<p>server API 통신을 통해 todo 관리</p>
+</li>
+<li>
+<p>서버에서 1000개이상의 todo를 내려받을 경우 1개의 ids를 유지하는 것보다, 필터별로 관리하는게 낫다.</p>
+</li>
+</ol>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> todos <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  byId<span class="token punctuation">,</span>
+  idsByFilter<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> idsByFilter <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  all<span class="token punctuation">:</span> allIds<span class="token punctuation">,</span>
+  active<span class="token punctuation">:</span> activeIds<span class="token punctuation">,</span>
+  completed<span class="token punctuation">:</span> completedIds<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">allIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">activeIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'active'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">completedIds</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> <span class="token string">'completed'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">byId</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+      <span class="token keyword">const</span> nextState<span class="token punctuation">;</span>
+      action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> <span class="token punctuation">{</span>
+        nextState<span class="token punctuation">[</span>todo<span class="token punctuation">.</span>id<span class="token punctuation">]</span> <span class="token operator">=</span> todo<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> nextState<span class="token punctuation">;</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div>
+<ol start="4">
+<li>filter별 ids에 반복되는 패턴이 있음. factory 패턴으로 줄이기.</li>
+</ol>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">createList</span> <span class="token operator">=</span> filter <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> state
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> action<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>todo <span class="token operator">=></span> todo<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+      <span class="token keyword">default</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> state
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// todos.js -> 이제는 index.js</span>
+<span class="token keyword">const</span> listByFilter <span class="token operator">=</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  all<span class="token punctuation">:</span> <span class="token function">createList</span><span class="token punctuation">(</span><span class="token string">'all'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  active<span class="token punctuation">:</span> <span class="token function">createList</span><span class="token punctuation">(</span><span class="token string">'active'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  completed<span class="token punctuation">:</span> <span class="token function">createList</span><span class="token punctuation">(</span><span class="token string">'completed'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre></div>
+<ol start="5">
+<li>API요청시 응답이 늦게 들어올 경우 race-condition 발생.</li>
+</ol>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token comment">// action.js</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">fetchTodos</span> <span class="token operator">=</span> <span class="token punctuation">(</span>filter<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>dispatch<span class="token punctuation">,</span> getState<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">getIsFetching</span><span class="token punctuation">(</span><span class="token function">getState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+<span class="token comment">// reducer/createList.js</span>
+<span class="token keyword">const</span> <span class="token function-variable function">createList</span> <span class="token operator">=</span> filter <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">ids</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token comment">// ...</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> <span class="token function-variable function">isFetching</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>filter <span class="token operator">!==</span> filter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">case</span> <span class="token string">'REQUEST_TODOS'</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+      <span class="token keyword">case</span> <span class="token string">'RECEIVE_TODOS'</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+      <span class="token keyword">default</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> state<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> <span class="token function">combineReducers</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    ids<span class="token punctuation">,</span>
+    isFetching<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre></div></div><hr class="custom-hr"/><div class="bio"><div class="author"><div class="author-description"><div class="author-image gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:72px;height:72px;border-radius:100%"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAfElEQVQoz2P41u9KNmIYnJonuP7odyFPs8unbqcHk2O+TPD4jsMIHJonuH3tcXzQYHtncsL3fmeSbf7a6/Sg1uJxr//3Ce7fSLTZ/ftk78/dzk8mhX+Ym/i91/FbvxsJNn+f5PVtktfDVtdX3e4/JpAR2n0uX8kN7cGcwgCmvtDORM+8NAAAAABJRU5ErkJggg==" alt="hoilzz" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition:opacity 0.5s;transition-delay:0.25s"/><noscript><picture><source srcSet="/static/5c48b8f7d91f4ec8970d545f1ca219a4/43715/profile.png 1x,
+/static/5c48b8f7d91f4ec8970d545f1ca219a4/8c1b8/profile.png 1.5x,
+/static/5c48b8f7d91f4ec8970d545f1ca219a4/4c15e/profile.png 2x,
+/static/5c48b8f7d91f4ec8970d545f1ca219a4/c786a/profile.png 3x" /><img width="72" height="72" src="/static/5c48b8f7d91f4ec8970d545f1ca219a4/43715/profile.png" alt="hoilzz" style="position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div class="author-name"><span class="author-name-prefix">Written by</span><a class="author-name-content" href="/about"><span>@<!-- -->hoilzz</span></a><div class="author-introduction">hzz</div><p class="author-socials"><a href="https://github.com/hoilzz">GitHub</a><a href="https://twitter.com/qqwq9999">Twitter</a></p></div></div></div></div><ul class="navigator"><li><a rel="prev" href="/book/ch5-오리타입으로-비용줄이기/">← <!-- -->[루비로 배우는 객체지향 디자인] 5. 오리타입으로 비용 줄이기</a></li><li><a rel="next" href="/react/normalizing-state-shape/">[번역] Normalizing State Shape<!-- --> →</a></li></ul><div class="utterences"></div><footer class="footer">©<a href="https://github.com/JaeYeopHan">Jbee</a>, Built with<!-- --> <a href="https://github.com/JaeYeopHan/gatsby-starter-bee">Gatsby-starter-bee</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-89789078-1', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"react-build-react-app-with-idiomatic-redux-e17","path":"/react/build-react-app-with-idiomatic-redux/"};window.dataPath="644/path---react-build-react-app-with-idiomatic-redux-e-17-a1a-J1xCtkdgDRnJeEcA0ovvYVUT0";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.2614055ca54359dc7972.css","/app-21f84ebe1b089822e996.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-1973d26eafc53a9664df.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js.16e0e2398b425383f792.css","/component---src-templates-blog-post-js-3824afa675ea8a695745.js"],"component---src-pages-404-js":["/component---src-pages-404-js.d7b2009829944cac142a.css","/component---src-pages-404-js-87e7fbab9f090247021f.js"],"component---src-pages-about-js":["/component---src-pages-about-js-4a19e0a1904474eb6f94.js"],"component---src-pages-index-js":["/component---src-pages-index-js.81326a1f26d2a5a341c0.css","/component---src-pages-index-js-77c0080c37ea12e70ba3.js"],"pages-manifest":["/pages-manifest-2fac768a3f29a4623cf5.js"]};/*]]>*/</script><script src="/webpack-runtime-e84ddb3ef70cba7c3b8b.js" async=""></script><script src="/0-7fa42fbc2c9c0a2f8ec6.js" async=""></script><script src="/1-a40809d9e8818f0dbb16.js" async=""></script><script src="/11-b76506ca78c3fcff1d10.js" async=""></script><script src="/app-21f84ebe1b089822e996.js" async=""></script><script src="/component---src-templates-blog-post-js-3824afa675ea8a695745.js" async=""></script></body></html>
