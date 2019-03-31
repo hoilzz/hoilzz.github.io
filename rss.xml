@@ -1,23 +1,182 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>https://hoilzz.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 31 Mar 2019 07:52:19 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[redux is smarter than you think redux는 생각보다 똑똑하다. 이 사실을 알고나면 너에게 도움이 될거다. redux는 connect() 는 redux에서 가장 중요하다. state를 가지고 props…]]></description><link>https://hoilzz.github.io/react/redux-is-smarter-than-you-think/</link><guid isPermaLink="false">https://hoilzz.github.io/react/redux-is-smarter-than-you-think/</guid><content:encoded>&lt;h1 id=&quot;redux-is-smarter-than-you-think&quot;&gt;&lt;a href=&quot;#redux-is-smarter-than-you-think&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;redux is smarter than you think&lt;/h1&gt;
-&lt;p&gt;redux는 생각보다 똑똑하다. 이 사실을 알고나면 너에게 도움이 될거다. redux는&lt;/p&gt;
-&lt;h2 id=&quot;connect&quot;&gt;&lt;a href=&quot;#connect&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;connect()&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;는 redux에서 가장 중요하다.&lt;/p&gt;
-&lt;p&gt;state를 가지고 props의 형태로 컴포넌트 계층으로 내려보낸다. 그곳에서 부터 presentational components는 자신들이 할일을 하고 렌더링을 진행한다. 나는 &lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;에 집중할거고 그 이유는 최적화가 위치한 곳이기 때문이다.&lt;/p&gt;
-&lt;h2 id=&quot;efficiently-connecting-components&quot;&gt;&lt;a href=&quot;#efficiently-connecting-components&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;efficiently connecting() components&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt; 인자들은 주목할 가치가 있다. ??
-귿즉, state tree가 업데이트될 때, wrapped(presentational) component는 미리 렌더링하지 않을까?라는 걱정을 하지 않아도 된다. app의 생명주기를 통해&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;shouldComponentUpdate&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;prop을 바인딩할 때 조심해야할 것.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[hoilzz]]></title><description><![CDATA[hzz]]></description><link>https://hoilzz.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 31 Mar 2019 07:55:16 GMT</lastBuildDate><item><title><![CDATA[connect의 mapStateToProps는 언제 실행될까. 그리고 리렌더링은 언제 어떻게 발생하는가.]]></title><description><![CDATA[react-redux와 connect https://react-redux.js.org/using-react-redux/connect-mapstate 를 번역한 글이다. Connect: mapStateToProps…]]></description><link>https://hoilzz.github.io/react/connect-state/</link><guid isPermaLink="false">https://hoilzz.github.io/react/connect-state/</guid><pubDate>Sun, 24 Mar 2019 17:20:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;react-redux와-connect&quot;&gt;&lt;a href=&quot;#react-redux%EC%99%80-connect&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;react-redux와 connect&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://react-redux.js.org/using-react-redux/connect-mapstate&quot;&gt;https://react-redux.js.org/using-react-redux/connect-mapstate&lt;/a&gt;를 번역한 글이다.&lt;/p&gt;
+&lt;h2 id=&quot;connect-mapstatetoprops로-데이터-가져오기&quot;&gt;&lt;a href=&quot;#connect-mapstatetoprops%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Connect: mapStateToProps로 데이터 가져오기&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;는 스토어에서 데이터의 부분을 선택하여 사용한다. 즉, 연결된 컴포넌트가 필요한 데이터만 스토어에서 가져온다.&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;이것은 스토어 상태가 변할 때마다 호출된다.&lt;/li&gt;
+&lt;li&gt;전체 스토어 상태를 받고 이 컴포넌트가 필요한 데이터 객체만 가져와야한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;mapstatetoprops-and-performance&quot;&gt;&lt;a href=&quot;#mapstatetoprops-and-performance&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;mapStateToProps and Performance&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;반환 값은 컴포넌트가 리렌더할지 결정한다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;React Redux는 &lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate(SCU)&lt;/code&gt;를 내부적으로 구현하여, 컴포넌트가 필요한 데이터가 변경 될 때 wrapper component가 리렌더링되도록 한다. 기본적으로, React Redux는 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;에서 리턴 받은 객체의 내용이 달라졌는지 판단하기 위해 리턴된 객체의 각 필드에 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt; 비교(shallow equality)를 이용한다. 만약 필드가 하나라도 변경되면, 컴포넌트가 리렌더링되고 update된 prop을 전달받을 수 있다. &lt;strong&gt;동일한 참조 값의 변경된 오브젝트를 리턴하는 것은 컴포넌트가 예상대로 리렌더링 되지 않는 일반적인 실수다.&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;요 부분이 궁금해서 코드를 찾아봤다.
+dan이 약식으로 &lt;a href=&quot;https://gist.github.com/gaearon/%0A1d19088790e70ac32ea636c025ba424e&quot;&gt;작성한 코드를 참고&lt;/a&gt;하자.
+요약하자면,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// areStateEqual에 전달되는 값.&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;strictEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; b
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;pureFinalPropsSelectorFactory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  mapStateToProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  mapDispatchToProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  mergeProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// areStatesEqual은 strictEqual을 전달받음.&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; areStatesEqual&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; areOwnPropsEqual&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; areStatePropsEqual &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; hasRunAtLeastOnce &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; state
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; ownProps
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; stateProps
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; dispatchProps
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; mergedProps
+
+  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewPropsAndNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    stateProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapStateToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mapDispatchToProps&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dependsOnOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      dispatchProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapDispatchToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    mergedProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mergeProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stateProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dispatchProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mergedProps
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; nextStateProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapStateToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; statePropsChanged &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;areStatePropsEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextStateProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; stateProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    stateProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextStateProps
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;statePropsChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      mergedProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mergeProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stateProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dispatchProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mergedProps
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// TODO: Add more comments&lt;/span&gt;
+
+  &lt;span class=&quot;token comment&quot;&gt;// If pure is true, the selector returned by selectorFactory will memoize its results,&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// allowing connectAdvanced&apos;s shouldComponentUpdate to return false if final&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// props have not changed. If false, the selector will always return a new&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// object and shouldComponentUpdate will always return true.&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleSubsequentCalls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; propsChanged &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;areOwnPropsEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// state는 클로저 환경에서 생성된 자유변수&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; stateChanged &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;areStatesEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextState
+    ownProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextOwnProps
+
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;propsChanged &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; stateChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewPropsAndNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;propsChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stateChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mergedProps
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;pureFinalPropsSelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; hasRunAtLeastOnce
+      &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleSubsequentCalls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleFirstCall&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;로 래핑된 컴포넌트의 행동을 요약하자면,&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;state =&gt; stateProps&lt;/th&gt;
+&lt;th align=&quot;center&quot;&gt;(state, ownProps) =&gt; stateProps&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;mapStateToProps가 실행될 떄:&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;store &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;가 변경될 때&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;store &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;가 변경되거나 &lt;code class=&quot;language-text&quot;&gt;ownProps&lt;/code&gt;의 필드가 하나라도 달라지면&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;component가 리렌더링 될 때&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;stateProps&lt;/code&gt;의 필드가 하나라도 달라지면&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;stateProps&lt;/code&gt;의 필드가 하나라도 달라지거나 &lt;code class=&quot;language-text&quot;&gt;ownProps&lt;/code&gt;의 필드가 하나라도 달라지면&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;only Return New Object References If Needed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;React-Redux는 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;의 결과값의 변경여부를 체크하기 위해 shallow compare를 한다. 새로운 객체 혹은 새로운 배열 참조 값을 매번 리턴하는 것과 같은 실수는 하기 쉽다. (그리고 이것은 데이터가 실제로 같더라도 리렌더링을 유발한다.)&lt;/p&gt;
+&lt;p&gt;new object or array reference를 생성하는 일반적인 동작들&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;.map()&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;.filter()&lt;/code&gt;로 새로운 배열 만들기&lt;/li&gt;
+&lt;li&gt;.concat으로 배열 합치기&lt;/li&gt;
+&lt;li&gt;.slice로 부분적 배열 선택하기&lt;/li&gt;
+&lt;li&gt;.assign으로 값 복사하기&lt;/li&gt;
+&lt;li&gt;spread oeprator {…oldState, …newDate}로 값 복사하기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;만약 input value가 변경된 경우에만 실행하도록 해주는 memoized selector 함수를 이용하자. value가 변경되지 않으면 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;는 여전히 동일한 결과 값을 리턴할 거고 &lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;는 re-render를 스킵할 거다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Only Perform Expensive Operations When Data Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;데이터 변경(transformation)하는 것은 비용이 높다. (보통 새로운 객체 참조값을 리턴하는 경우) &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 함수가 가능한 빨라지기 위해, 관련 데이터가 변경된 경우에만 복잡한 transformation을 재실행해야 한다.&lt;/p&gt;
+&lt;p&gt;이러한 접근에 몇가지 방법이 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;몇몇 transformation은 action creator나 reducer에서 계산되어야 한다. transformed data는 스토어에 유지되어야 한다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;render&lt;/code&gt; 메서드에서 transformation이 되어야한다.&lt;/li&gt;
+&lt;li&gt;만약 transformation이 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 함수에서 해야한다면, 값이 변경될 때만 transformation 하기 위해 memoized selector function 이용하기를 권장한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;behavior-and-gotchas&quot;&gt;&lt;a href=&quot;#behavior-and-gotchas&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Behavior and Gotchas&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;mapStateToProps는 Store state가 동일하다면 실행되지 않는다&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;로 생성된 wrapper component는 Redux store를 구독한다. action이 dispatch 될 때마다, &lt;code class=&quot;language-text&quot;&gt;store.getState()&lt;/code&gt;를 호출하고 &lt;code class=&quot;language-text&quot;&gt;lastState === currentState&lt;/code&gt;인지 확인한다. 만약 2개의 state 참조 값이 같다면 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 함수를 재실행 하지 않는다. 왜냐하면 store state의 나머지도 변경되지 않았을거라고 판단하기 때문이다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;combineReducer&lt;/code&gt; utility 함수는 이것을 최적화하려고 한다. 만약 reducer 조각이 new value를 반환하지 않는다면, combineReducers는 새 object 대신에 old state object를 리턴한다. 이것은 reducer에서 변경이 root state object가 업데이트 되지 않도록 할 수 있다. 그래서 UI는 리렌더링 되지 않는다.&lt;/p&gt;
+&lt;h2 id=&quot;내가-궁금했었던거&quot;&gt;&lt;a href=&quot;#%EB%82%B4%EA%B0%80-%EA%B6%81%EA%B8%88%ED%96%88%EC%97%88%EB%8D%98%EA%B1%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;내가 궁금했었던거&lt;/h2&gt;
+&lt;p&gt;Q. react-redux의 connect에서 퍼포먼스 최적화를 해준다고 했는데 뭘까?
+A. SCU를 내부적으로 구현했다. connect된 컴포넌트에서 리렌더링이 되는 과정을 간단히 살펴보자.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;state 변경 -&gt; mapStateToProps 실행 -&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;summary&quot;&gt;&lt;a href=&quot;#summary&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Summary&lt;/h2&gt;
+&lt;p&gt;react-redux는 SCU를 내부적으로 구현&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;컴포넌트가 필요한 데이터가 변경 될 때 리렌더링 일으킴&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;inline function은 불필요한 render call&lt;/p&gt;
+&lt;p&gt;mapStateToProps에서 데이터 변경 유무를 판단하는 방법&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;hooks의 useCallback을 이용하여 메모이제이션하자.
-Instead of doing stuff like &amp;#x3C;MyComponent items={[‘one’, ‘two’]} /&gt;, which will lead to new props each time and make shouldComponentUpdate evaluate to true (thus triggering a render()), you’re instructed to do something like:&lt;/li&gt;
+&lt;li&gt;리턴된 객체의 각 필드에 대해 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt; 으로 shallow equality 비교&lt;/li&gt;
+&lt;li&gt;여기서 필드가 하나라도 변경되면 리렌더링&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;이걸 다 읽고 나서 component에 prop을 전달할 때 신경써야되는게 뭘까? 라고 생각할거다. &lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;를 다시보자.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[stateless component, purecomponent 리렌더링 이유 비교]]></title><description><![CDATA[번역 및 정리 필요 https://stackoverflow.com/questions/46736983/will-a-stateless-component-re-render-if-its-props-have-not-changed/46737063 https…]]></description><link>https://hoilzz.github.io/devlog/react-render/</link><guid isPermaLink="false">https://hoilzz.github.io/devlog/react-render/</guid><pubDate>Mon, 11 Mar 2019 12:20:00 GMT</pubDate><content:encoded>&lt;p&gt;번역 및 정리 필요&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;퍼포먼스&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;동일한 input 값이더라도 .map, .filter .assign 등과 같이 새로운 참조 값을 리턴하는 것은 mapStateToProps가 shallow compare시 값이 달라졌다고 판단&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;불필요한 리렌더링 유발&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;memoized selector 함수를 이용하여 해결&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;transformation은 mapStateToProps에서 하지 않는 것을 권장&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 연산의 input 값이 안바뀌더라도, state가 변경될 때마다 매번 불필요한 연산을 필요로함.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;해결책&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;action creator나 reducer에서 연산하여 store에 유지&lt;/li&gt;
+&lt;li&gt;굳이 mapStateToProps에서 해야한다면 memoized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;lastState === curentState&lt;/code&gt;를 확인하여 mapStateToProps 실행 여부 판단.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;mapStateToProps가 실행되야 한다면 실행 후에, 리턴된 객체에 대해 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt;으로 shallow equality 비교하여 리렌더링 판단.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[stateless component, purecomponent 리렌더링 이유 비교]]></title><description><![CDATA[번역 및 정리 필요 https://stackoverflow.com/questions/46736983/will-a-stateless-component-re-render-if-its-props-have-not-changed/46737063 https…]]></description><link>https://hoilzz.github.io/devlog/react-render/</link><guid isPermaLink="false">https://hoilzz.github.io/devlog/react-render/</guid><pubDate>Mon, 11 Mar 2019 12:20:00 GMT</pubDate><content:encoded>&lt;p&gt;번역 및 정리 필요&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/46736983/will-a-stateless-component-re-render-if-its-props-have-not-changed/46737063&quot;&gt;https://stackoverflow.com/questions/46736983/will-a-stateless-component-re-render-if-its-props-have-not-changed/46737063&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://reactjs.org/docs/optimizing-performance.html&quot;&gt;https://reactjs.org/docs/optimizing-performance.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://reactjs.org/docs/reconciliation.html&quot;&gt;https://reactjs.org/docs/reconciliation.html&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[나만의 웹팩 만들기] 11. eslint, prettier로 편안해지기]]></title><description><![CDATA[코드를 보려면  이동 velopert님이 굉장히 잘  정리 해주셔서 링크 참고 부탁드립니다. 위 방식대로 하면 dynamic import에서 eslint가 다음과 같은 에러를 발생시킵니다. Eslint README의 What about…]]></description><link>https://hoilzz.github.io/webpack/11-eslint-prettier/</link><guid isPermaLink="false">https://hoilzz.github.io/webpack/11-eslint-prettier/</guid><pubDate>Tue, 12 Feb 2019 23:02:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
@@ -3600,182 +3759,4 @@ DB는 영구 저장되는 localStorage를 이용하였다.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;참고&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.quirksmode.org/js/events_order.html#link4&quot;&gt;quirkmode.org/events_order&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/DOM-Level-3-Events/#event-flow&quot;&gt;W3C event flow&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[connect의 mapStateToProps는 언제 실행될까. 그리고 리렌더링은 언제 어떻게 발생하는가.]]></title><description><![CDATA[react-redux와 connect https://react-redux.js.org/using-react-redux/connect-mapstate 를 번역한 글이다. Connect: mapStateToProps…]]></description><link>https://hoilzz.github.io/react/connect-state/</link><guid isPermaLink="false">https://hoilzz.github.io/react/connect-state/</guid><pubDate>Sun, 24 Mar 2019 17:20:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;react-redux와-connect&quot;&gt;&lt;a href=&quot;#react-redux%EC%99%80-connect&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;react-redux와 connect&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://react-redux.js.org/using-react-redux/connect-mapstate&quot;&gt;https://react-redux.js.org/using-react-redux/connect-mapstate&lt;/a&gt;를 번역한 글이다.&lt;/p&gt;
-&lt;h2 id=&quot;connect-mapstatetoprops로-데이터-가져오기&quot;&gt;&lt;a href=&quot;#connect-mapstatetoprops%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Connect: mapStateToProps로 데이터 가져오기&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;는 스토어에서 데이터의 부분을 선택하여 사용한다. 즉, 연결된 컴포넌트가 필요한 데이터만 스토어에서 가져온다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;이것은 스토어 상태가 변할 때마다 호출된다.&lt;/li&gt;
-&lt;li&gt;전체 스토어 상태를 받고 이 컴포넌트가 필요한 데이터 객체만 가져와야한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;mapstatetoprops-and-performance&quot;&gt;&lt;a href=&quot;#mapstatetoprops-and-performance&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;mapStateToProps and Performance&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;반환 값은 컴포넌트가 리렌더할지 결정한다.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;React Redux는 &lt;code class=&quot;language-text&quot;&gt;shouldComponentUpdate(SCU)&lt;/code&gt;를 내부적으로 구현하여, 컴포넌트가 필요한 데이터가 변경 될 때 wrapper component가 리렌더링되도록 한다. 기본적으로, React Redux는 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;에서 리턴 받은 객체의 내용이 달라졌는지 판단하기 위해 리턴된 객체의 각 필드에 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt; 비교(shallow equality)를 이용한다. 만약 필드가 하나라도 변경되면, 컴포넌트가 리렌더링되고 update된 prop을 전달받을 수 있다. &lt;strong&gt;동일한 참조 값의 변경된 오브젝트를 리턴하는 것은 컴포넌트가 예상대로 리렌더링 되지 않는 일반적인 실수다.&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;요 부분이 궁금해서 코드를 찾아봤다.
-dan이 약식으로 &lt;a href=&quot;https://gist.github.com/gaearon/%0A1d19088790e70ac32ea636c025ba424e&quot;&gt;작성한 코드를 참고&lt;/a&gt;하자.
-요약하자면,&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// areStateEqual에 전달되는 값.&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;strictEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; b
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;pureFinalPropsSelectorFactory&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-  mapStateToProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  mapDispatchToProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  mergeProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token comment&quot;&gt;// areStatesEqual은 strictEqual을 전달받음.&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; areStatesEqual&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; areOwnPropsEqual&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; areStatePropsEqual &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; hasRunAtLeastOnce &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; state
-  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; ownProps
-  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; stateProps
-  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; dispatchProps
-  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; mergedProps
-
-  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewPropsAndNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    stateProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapStateToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;mapDispatchToProps&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;dependsOnOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-      dispatchProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapDispatchToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-    mergedProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mergeProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stateProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dispatchProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mergedProps
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; nextStateProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mapStateToProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; statePropsChanged &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;areStatePropsEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextStateProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; stateProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    stateProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextStateProps
-
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;statePropsChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-      mergedProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mergeProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stateProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dispatchProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mergedProps
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token comment&quot;&gt;// ...&lt;/span&gt;
-
-  &lt;span class=&quot;token comment&quot;&gt;// TODO: Add more comments&lt;/span&gt;
-
-  &lt;span class=&quot;token comment&quot;&gt;// If pure is true, the selector returned by selectorFactory will memoize its results,&lt;/span&gt;
-  &lt;span class=&quot;token comment&quot;&gt;// allowing connectAdvanced&apos;s shouldComponentUpdate to return false if final&lt;/span&gt;
-  &lt;span class=&quot;token comment&quot;&gt;// props have not changed. If false, the selector will always return a new&lt;/span&gt;
-  &lt;span class=&quot;token comment&quot;&gt;// object and shouldComponentUpdate will always return true.&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleSubsequentCalls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; propsChanged &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;areOwnPropsEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ownProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// state는 클로저 환경에서 생성된 자유변수&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; stateChanged &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;areStatesEqual&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; state&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextState
-    ownProps &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nextOwnProps
-
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;propsChanged &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; stateChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewPropsAndNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;propsChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stateChanged&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleNewState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; mergedProps
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;pureFinalPropsSelector&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; hasRunAtLeastOnce
-      &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleSubsequentCalls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleFirstCall&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nextState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; nextOwnProps&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;로 래핑된 컴포넌트의 행동을 요약하자면,&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;state =&gt; stateProps&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;(state, ownProps) =&gt; stateProps&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;mapStateToProps가 실행될 떄:&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;store &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;가 변경될 때&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;store &lt;code class=&quot;language-text&quot;&gt;state&lt;/code&gt;가 변경되거나 &lt;code class=&quot;language-text&quot;&gt;ownProps&lt;/code&gt;의 필드가 하나라도 달라지면&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;component가 리렌더링 될 때&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;stateProps&lt;/code&gt;의 필드가 하나라도 달라지면&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;stateProps&lt;/code&gt;의 필드가 하나라도 달라지거나 &lt;code class=&quot;language-text&quot;&gt;ownProps&lt;/code&gt;의 필드가 하나라도 달라지면&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;only Return New Object References If Needed&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;React-Redux는 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;의 결과값의 변경여부를 체크하기 위해 shallow compare를 한다. 새로운 객체 혹은 새로운 배열 참조 값을 매번 리턴하는 것과 같은 실수는 하기 쉽다. (그리고 이것은 데이터가 실제로 같더라도 리렌더링을 유발한다.)&lt;/p&gt;
-&lt;p&gt;new object or array reference를 생성하는 일반적인 동작들&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;.map()&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;.filter()&lt;/code&gt;로 새로운 배열 만들기&lt;/li&gt;
-&lt;li&gt;.concat으로 배열 합치기&lt;/li&gt;
-&lt;li&gt;.slice로 부분적 배열 선택하기&lt;/li&gt;
-&lt;li&gt;.assign으로 값 복사하기&lt;/li&gt;
-&lt;li&gt;spread oeprator {…oldState, …newDate}로 값 복사하기&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;만약 input value가 변경된 경우에만 실행하도록 해주는 memoized selector 함수를 이용하자. value가 변경되지 않으면 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt;는 여전히 동일한 결과 값을 리턴할 거고 &lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;는 re-render를 스킵할 거다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Only Perform Expensive Operations When Data Changes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;데이터 변경(transformation)하는 것은 비용이 높다. (보통 새로운 객체 참조값을 리턴하는 경우) &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 함수가 가능한 빨라지기 위해, 관련 데이터가 변경된 경우에만 복잡한 transformation을 재실행해야 한다.&lt;/p&gt;
-&lt;p&gt;이러한 접근에 몇가지 방법이 있다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;몇몇 transformation은 action creator나 reducer에서 계산되어야 한다. transformed data는 스토어에 유지되어야 한다.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;render&lt;/code&gt; 메서드에서 transformation이 되어야한다.&lt;/li&gt;
-&lt;li&gt;만약 transformation이 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 함수에서 해야한다면, 값이 변경될 때만 transformation 하기 위해 memoized selector function 이용하기를 권장한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;behavior-and-gotchas&quot;&gt;&lt;a href=&quot;#behavior-and-gotchas&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Behavior and Gotchas&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;mapStateToProps는 Store state가 동일하다면 실행되지 않는다&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;connect&lt;/code&gt;로 생성된 wrapper component는 Redux store를 구독한다. action이 dispatch 될 때마다, &lt;code class=&quot;language-text&quot;&gt;store.getState()&lt;/code&gt;를 호출하고 &lt;code class=&quot;language-text&quot;&gt;lastState === currentState&lt;/code&gt;인지 확인한다. 만약 2개의 state 참조 값이 같다면 &lt;code class=&quot;language-text&quot;&gt;mapStateToProps&lt;/code&gt; 함수를 재실행 하지 않는다. 왜냐하면 store state의 나머지도 변경되지 않았을거라고 판단하기 때문이다.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;combineReducer&lt;/code&gt; utility 함수는 이것을 최적화하려고 한다. 만약 reducer 조각이 new value를 반환하지 않는다면, combineReducers는 새 object 대신에 old state object를 리턴한다. 이것은 reducer에서 변경이 root state object가 업데이트 되지 않도록 할 수 있다. 그래서 UI는 리렌더링 되지 않는다.&lt;/p&gt;
-&lt;h2 id=&quot;내가-궁금했었던거&quot;&gt;&lt;a href=&quot;#%EB%82%B4%EA%B0%80-%EA%B6%81%EA%B8%88%ED%96%88%EC%97%88%EB%8D%98%EA%B1%B0&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;내가 궁금했었던거&lt;/h2&gt;
-&lt;p&gt;Q. react-redux의 connect에서 퍼포먼스 최적화를 해준다고 했는데 뭘까?
-A. SCU를 내부적으로 구현했다. connect된 컴포넌트에서 리렌더링이 되는 과정을 간단히 살펴보자.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;state 변경 -&gt; mapStateToProps 실행 -&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;summary&quot;&gt;&lt;a href=&quot;#summary&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Summary&lt;/h2&gt;
-&lt;p&gt;react-redux는 SCU를 내부적으로 구현&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;컴포넌트가 필요한 데이터가 변경 될 때 리렌더링 일으킴&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;mapStateToProps에서 데이터 변경 유무를 판단하는 방법&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;리턴된 객체의 각 필드에 대해 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt; 으로 shallow equality 비교&lt;/li&gt;
-&lt;li&gt;여기서 필드가 하나라도 변경되면 리렌더링&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;퍼포먼스&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;동일한 input 값이더라도 .map, .filter .assign 등과 같이 새로운 참조 값을 리턴하는 것은 mapStateToProps가 shallow compare시 값이 달라졌다고 판단&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;불필요한 리렌더링 유발&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;memoized selector 함수를 이용하여 해결&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;transformation은 mapStateToProps에서 하지 않는 것을 권장&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;해당 연산의 input 값이 안바뀌더라도, state가 변경될 때마다 매번 불필요한 연산을 필요로함.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;해결책&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;action creator나 reducer에서 연산하여 store에 유지&lt;/li&gt;
-&lt;li&gt;굳이 mapStateToProps에서 해야한다면 memoized&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;lastState === curentState&lt;/code&gt;를 확인하여 mapStateToProps 실행 여부 판단.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;mapStateToProps가 실행되야 한다면 실행 후에, 리턴된 객체에 대해 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt;으로 shallow equality 비교하여 리렌더링 판단.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/DOM-Level-3-Events/#event-flow&quot;&gt;W3C event flow&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
